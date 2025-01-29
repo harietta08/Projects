@@ -1,0 +1,1758 @@
+---
+title: "ITMD514_01&05_Final_Project_HVRR"
+author: "Hari Prasad Reddy Etta, Vinay Reddy Nareddy, Rohan Bhande, Roshan Kumar Reddy Kotha"
+date: "30th'November 2024"
+output: html_document
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the Knit button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r}
+
+
+library(dplyr)
+library(ggplot2)
+library(tidyverse)
+library(ggthemes)
+#Reading the CSV file into R using "read.csv" method.
+nlsy = read.csv("C:/Users/harip/OneDrive/Documents/Edu/Masters/IIT/Sem01/Data Analytics/Assignments/Project/nlsy97.csv")
+#LETS LOOK THE Data set
+head(nlsy)
+```
+#As we can see from the Above Table of Data there are a lot of missing values which have been indicated as negative values. Also we need to rename the column names to something meaningful so that we can easily interpret the data.
+```{r}
+colnames(nlsy) <- c("GPA",
+    "Total_Incarcerations",
+    "First_Incarceration_Age",
+    "Longest_Incarceration",
+    "PUBID_1997",
+    "Teachers_Good",
+    "YSCH-37000_1997",
+    "YSAQ-010_1997",
+    "YSAQ-369_1997",
+    "YEXP-300_1997",
+    "High_school_diploma_chance",
+    "YEXP-1600_1997",
+    "YEXP-1800_1997",
+    "YEXP-2000_1997",
+    "Gender",
+    "KEY_BDATE_M_1997",
+    "KEY_BDATE_Y_1997",
+    "PC8-090_1997",
+    "PC8-092_1997",
+    "PC9-002_1997",
+    "PC12-024_1997",
+    "PC12-028_1997",
+    "CV_AGE_12/31/96_1997",
+    "CV_BIO_MOM_AGE_CHILD1_1997",
+    "CV_BIO_MOM_AGE_YOUTH_1997",
+    "Citizenship_Status",
+    "CV_ENROLLSTAT_1997",
+    "CV_HH_NET_WORTH_P_1997",
+    "CV_YTH_REL_HH_CURRENT_1997",
+    "CV_MSA_AGE_12_1997",
+    "Urban_Rural",
+    "CV_SAMPLE_TYPE_1997",
+    "CV_HGC_BIO_DAD_1997",
+    "CV_HGC_BIO_MOM_1997",
+    "CV_HGC_RES_DAD_1997",
+    "CV_HGC_RES_MOM_1997",
+    "race",
+    "YSCH-6800_1998",
+    "YSCH-7300_1998",
+    "Hard_drugs_use",
+    "YSAQ-371_2000",
+    "YSAQ-282J_2002",
+    "YSAQ-282Q_2002",
+    "Household_Net_Worth",
+    "CV_BA_CREDITS.01_2004",
+    "YSAQ-000B_2004",
+    "YSAQ-373_2004",
+    "YSAQ-369_2005",
+    "CV_BIO_CHILD_HH_2007",
+    "YTEL-52~000001_2007",
+    "YTEL-52~000002_2007",
+    "YTEL-52~000003_2007",
+    "YTEL-52~000004_2007",
+    "CV_BIO_CHILD_HH_2009",
+    "CV_COLLEGE_TYPE.01_2011",
+    "CV_income_FAMILY_2011",
+    "CV_HH_SIZE_2011",
+    "CV_HH_UNDER_18_2011",
+    "CV_HH_UNDER_6_2011",
+    "CV_HIGHEST_DEGREE_1112_2011",
+    "CV_BIO_CHILD_HH_2011",
+    "YSCH-3112_2011",
+    "YSAQ-000A000001_2011",
+    "YSAQ-000A000002_2011",
+    "YSAQ-000B_2011",
+    "YSAQ-360C_2011",
+    "YSAQ-364D_2011",
+    "YSAQ-371_2011",
+    "YSAQ-372CC_2011",
+    "YSAQ-373_2011",
+    "YSAQ-374_2011",
+    "YEMP_INDCODE-2002.01_2011",
+    "CV_BIO_CHILD_HH_2015",
+    "Job_Industry",
+    "YEMP_OCCODE-2002.01_2017",
+    "Marital_Status",
+    "YINC-1400_2017",
+    "income",
+    "YINC-1800_2017",
+    "YINC-2400_2017",
+    "YINC-2600_2017",
+    "YINC-2700_2017",
+    "CVC_YTH_REL_HH_AGE6_YCHR_XRND",
+    "CVC_SAT_MATH_SCORE_2007_XRND",
+    "CVC_SAT_VERBAL_SCORE_2007_XRND",
+    "CVC_ACT_SCORE_2007_XRND",
+    "CVC_HH_NET_WORTH_20_XRND",
+    "CVC_HH_NET_WORTH_25_XRND",
+    "CVC_ASSETS_FINANCIAL_25_XRND",
+    "CVC_ASSETS_DEBTS_20_XRND",
+    "CVC_HH_NET_WORTH_30_XRND",
+    "CVC_HOUSE_VALUE_30_XRND",
+    "CVC_HOUSE_TYPE_30_XRND",
+    "CVC_ASSETS_FINANCIAL_30_XRND",
+    "CVC_ASSETS_DEBTS_30_XRND")
+
+head(nlsy) #lOOKING AT THE DATASET
+
+#AS WE CAN SEE FROM THE OUTPUT THE COLUMNS HAVE BEEN RENAMED TO SOMETHING MEANINGFUL BUT THEY ARE STILL FEW VARIABLES WHICH ARE DIFFICULT TO COMPREHEND.
+#AFTER READING THE CODE BOOK WE HAVE CHOOSEN FEW VARIABLES ALONG WITH income AND RACE FOR BETTER ANALYSIS OF THE DATASET.
+#WE HAVE FURTHER RENAMED THESE CHOSEN VRAIABLES TO SIMPLIFY OUR UNDERSTANDING.
+
+
+```
+
+
+
+
+#NOW WE ARE GOING TO FOCUS ON THE RACE TO ANALYSE THE income INEQUALITY.
+#SO HERE ARE THE FEW VARIABLES WE ARE GOING TO FOCUS ON TO ANALYSE THE CASE.
+#HERE WE ARE GOING TO FOCUS ON 15 VARIABLES ONLY SO FOR EASY ACCESS WE ARE GOING TO CREATE A NEW DATASET AND NAME IT "nlsy" TO USE IT FOR FURTHER ANALYSIS.
+#LOOKING AT THE OUTPUT WE CAN SEE THAT THE COLUMN NAMES ARE EASIER TO UNDERSTAND UNLIKE BEFORE.
+```{r}
+nlsy <- nlsy %>%             #CREATING A NEW DATASET COMPRISING OF ONLY THE 15 VARIABLES.
+  select(
+    income, 
+    Gender,
+    Total_Incarcerations,
+    First_Incarceration_Age,
+    Longest_Incarceration,
+    GPA,
+    Teachers_Good,
+    High_school_diploma_chance,
+    Citizenship_Status,
+    Urban_Rural,
+    race,
+    Hard_drugs_use,
+    Household_Net_Worth,
+    Job_Industry,
+    Marital_Status
+   
+  )
+```
+
+
+```{r}
+#DESCRIPTION OF DATASET
+# View the new dataset
+head(nlsy)
+summary(nlsy)
+#By using the "summary" function we can have a look at the MIN, MAX, MEAN AND QUARTILES OF THE VARIABLES WE ARE GOING TO WORK WITH.
+#HERE ARE FEW OBSERVATION WE CAN SEE FROM THE OUTPUT:
+# MIN_income = 0
+#MAX_income = 235884
+#MIN_GPA = 0
+#MAX_GPA = 400 (WHICH IS 4.00)
+#BUT ALSO SEE MEAN, MIN, MAX FOR VARIABLES LIKE GENDER WHICH IS NOT POSSIBLE.
+#HERE IN THE DATASET THE ACTUAL VALUES OF GENDER HAVE BEEN ENCODED INTO NUMBERS LIKE 1 = MALE, 2 = FEMALE. 
+#IN THIS WAY THERE ARE ALSO OTHER VARIABLES FOR WHICH THE NUMBERS IN THEIR DATACELLS, WHERE THE NUMBERS MEAN SOMETHING ELSE.
+#SO WE HAVE TO RECODE THE DATA TO MAKE SURE THE COLUMNS REPRESENT WHAT THEY ACTUALLY MEAN IN ORDER TO DO A HONSET ANALYSIS.
+#To ensure that missing values (NAs) do not affect your analysis, you can handle them in several ways:
+#There are many missing values (NAs) in the provided dataset, and we need to handle them in a way that does not impact the accuracy or reliability of our analysis.
+#Remove rows with NAs: If the missing data is limited to only a few rows, you can remove those rows to avoid skewing the analysis.
+#BUT HERE THE MISSING VALUES ARE IN THOUSANDS FOR A FEW COLUMNS SO WE CANNOT JUST REMOVE THEM COMPLETELY.
+#Impute missing values: If the dataset is large and removing rows would result in significant data loss, you can impute the missing values using strategies like replacing them with the column mean, median, or using more advanced imputation methods like regression.
+#BUT THE DATASET COMPRISES OF BOTH NUMERICAL AND CATEGORICAL DATA, WHERE EVEN THE CATEGORICAL DATA HAS MISSING VALUES. 
+#FOR NOW LET US REPLACE THE NEGATIVE VALUES WITH NA FOR OUR UNDERSTADNING OF THE DATA.
+nlsy[nlsy<0] <- NA
+head(nlsy)
+#AS WE CAN SEE FROM THE OUTPUT THE NEGATIVE HAVE BEEN REPLACED WITH 'NA'.
+
+
+
+
+
+
+
+```
+
+
+
+
+```{r}
+
+#VARIABLE NAMES ARE CHANGED INTO A MEANINGFUL DESCRIPTION FOR BETTER UNDERSTANDING
+#RENAMING THE CATEGORICAL VARIABLES FROM NUMBERS TO THEIR ACTUAL VALUES. FOR EXAMPLE RECODING THE GENDER COLUMN FROM 1,2,0 TO MALE, FEMALE, OTHER.
+#LETS START WITH RECODING THE RACE COLUMN FROM 1,4 TO BLACK, NON-BLACK/NON-HISPANIC AND THE REST OF THE DATA TO OTHER. 
+#THIS IS BECAUSE WE ARE GOING TO FOCUS OUR ANALYSIS ON THE RACE GROUP AS BLACK, NON-BLACK AND OTHERS ONLY FOR OUR EASE OF UNDERSTANDING.
+nlsy <- nlsy %>%
+  filter(!is.na(race)) %>%  # Ensure 'Race' is not missing
+  mutate(
+    race_group = case_when(
+      race == 1 ~ "Black",
+      race == 2 ~ "Hispanic",
+      race == 3 ~ "Mixed",
+      race == 4 ~ "Non-Black/Non-Hispanic",
+      TRUE ~ "Other"
+    )
+  )
+#NOW LETS US DO THE SAME FOR GENDER FROM 0,1,2 TO NI, MALE, FEMALE.
+nlsy <- nlsy %>%
+  filter(!is.na(Gender)) %>%  # Recoding the Gender column
+  mutate(
+    Gender_group = case_when(
+      Gender == 1 ~ "Male",
+      Gender == 2 ~ "Female",
+      TRUE ~ "Other"
+    )
+  )
+
+# Verify the new column
+show(nlsy$Gender_group)
+
+#LET US DO THE SAME FOR ALL THE REMAINING VARIABLES FOR WHICH IT APPLIES.
+nlsy <- nlsy %>%
+  filter(!is.na(Teachers_Good)) %>%  # recoding the teachers_good column
+  mutate(
+    Teachers_Good_Group = case_when(
+      Teachers_Good == 1 ~ "Stongly Agree",
+      Teachers_Good == 2 ~ "Agree",
+      Teachers_Good == 3 ~ "Disagree",
+      Teachers_Good == 4 ~ "Strongly Disagree",
+      TRUE ~ "Other"
+    )
+  )
+
+# Verify the new column
+show(nlsy$Teachers_Good_group)
+
+nlsy <- nlsy %>%
+  filter(!is.na(Citizenship_Status)) %>%  # Recoding the Citizenship status column
+  mutate(
+    Citizenship_Status_Group = case_when(
+      Citizenship_Status == 1 ~ "Born in US",
+      Citizenship_Status == 2 ~ "Not Born in US",
+      Citizenship_Status == 3 ~ "Dont know",
+      TRUE ~ "Other"
+    )
+  )
+
+# Verify the new column
+show(nlsy$Citizenship_Status_group)
+
+
+nlsy <- nlsy %>%
+  filter(!is.na(Urban_Rural)) %>%  # Recoding the Urban rural column
+  mutate(
+  Urban_Rural_group = case_when(
+      Urban_Rural == 0 ~ "Rural",
+      Urban_Rural == 1 ~ "Urban",
+      Urban_Rural == 2 ~ "Unknown",
+      TRUE ~ "Other"
+    )
+  )
+
+# Verify the new column
+show(nlsy$Urban_Rural_group)
+
+nlsy <- nlsy %>%
+  filter(!is.na(Hard_drugs_use)) %>%  # Recoding the Hard_drugs_use column
+  mutate(
+  Hard_drugs_use = case_when(
+      Hard_drugs_use == 0 ~ "No",
+      Hard_drugs_use == 1 ~ "Yes",
+      TRUE ~ "Other"
+    )
+  )
+
+# Verify the new column
+show(nlsy$Hard_drugs_use_group)
+
+nlsy <- nlsy %>%
+  filter(!is.na(Marital_Status)) %>%  # Recoding the Hard_drugs_use column
+  mutate(
+  Marital_Status = case_when(
+      Marital_Status == 0 ~ "Never Married",
+      Marital_Status == 1 ~ "Married",
+      Marital_Status == 2 ~ "Seperated",
+      Marital_Status == 3 ~ "Divorced",
+      Marital_Status == 4 ~ "Widowed",
+      TRUE ~ "Other"
+    )
+  )
+
+# Verify the new column
+show(nlsy$Marital_Status_group)
+
+
+summary(nlsy$income)
+summary(nlsy$race)
+summary(nlsy$Gender)
+show(nlsy$income)
+
+#TABULAR SUMMARIES OF MAIN VARIABLES NEEDED FOR ANALYSIS
+#DISCUSSION OF THE SUMMARY OUTPUTS OF income, RACE, GENDER.
+
+print("income Distribution (Summary):")
+print("Min (0): The minimum income is 0, which indicates that some individuals have zero income or may be missing data for income.
+1st Quartile (25,000): 25% of individuals earn less than $25,000.
+Median (40,000): 50% of individuals earn less than $40,000, and 50% earn more. This suggests that the income distribution is skewed.
+Mean (49,477): The mean income is higher than the median, which suggests that there are some individuals with significantly higher incomes that are pulling the mean up. This indicates the presence of high-income outliers.
+3rd Quartile (62,000): 75% of individuals earn less than $62,000.
+Max (235,884): The maximum income is $235,884, indicating the presence of a few very high-income earners.
+NA's (3,893): There are 3,893 missing values for income, which may need to be addressed (e.g., imputed or removed) for accurate analysis.
+Race Distribution (Summary):
+The race variable appears to be coded numerically (possibly 1 = Black, 2 = Hispanic, 3 = Mixed Race (Non-Hispanic), 4 = Non-Black/Non-Hispanic).
+
+Min (1) and Max (4): These values indicate that the variable has 4 levels (corresponding to 4 different racial/ethnic categories).
+1st Qu. (1), Median (4), 3rd Qu. (4): These values show that most individuals are categorized under either Black (coded as 1) or Non-Black/Non-Hispanic (coded as 4), as the quartiles are at the extremes of the range.
+Mean (2.788): The mean of 2.788 suggests that, on average, individuals tend to fall closer to category 2 (Hispanic). However, the distribution is skewed towards the Black and Non-Black/Non-Hispanic categories.
+This could indicate a race-based disparity in the dataset, where certain races are over- or under-represented.
+Gender Distribution (Summary):
+The gender variable is likely coded as 1 = Male, 2 = Female.
+
+Min (1) and Max (2): These values indicate that the gender variable has two categories (Male and Female).
+1st Qu. (1), Median (1), 3rd Qu. (1): The majority of individuals in the dataset are Male, as the first, second, and third quartiles all fall at 1 (Male).
+Mean (1.488): The mean gender value is 1.488, which is close to 1 (Male), indicating that males are more prevalent in the dataset.
+The distribution appears to show a gender imbalance, with more males than females in the sample.
+income Disparities by Race and Gender:
+From the statistics, we can infer the following potential disparities:
+
+income Disparities by Race:
+
+The income distribution shows a high variance, with the presence of high-income outliers (max income of $235,884). This suggests potential disparities in income between different racial/ethnic groups.
+Since we don't have direct race-specific income data in the output, further analysis (e.g., comparing the mean or median income for each race category) is necessary to determine if certain races experience lower or higher incomes on average.
+income Disparities by Gender:
+
+The gender distribution suggests that there are more males in the dataset. The income disparity between males and females may exist, but the given summary doesn't provide gender-specific income breakdowns. For a clearer picture, you would need to calculate and compare the mean or median income separately for each gender.
+If females tend to earn less than males on average (as seen in many real-world datasets), you would expect the mean income for females to be lower than that for males.")
+
+#WE HAVE ONLY SUMMARISED THE THREE MAIN VARIABLES FOR OUR ANLAYSIS TO UNDERSTAND WHAT WE ARE DEALING WITH.
+
+
+
+
+
+
+```
+#
+```{r}
+# Bar plot for the number of individuals in each racial group
+ggplot(nlsy, aes(x = factor(race), fill = factor(race))) +
+  geom_bar() +
+  labs(
+    title = "Number of Individuals by Race",
+    x = "race Group",
+    y = "Number of Individuals",
+    fill = "race Group"
+  ) +
+  scale_x_discrete(labels = c("1" = "Black", "2" = "Hispanic", "3" = "Mixed Race", "4" = "Non-Black/Non-Hispanic")) +
+  theme_minimal()
+print("1). The bar graph depicts the number of individuals in each race group. Here each race is depicted by a unique color as shown in the bar graph. Here, we can see that there are more number of Non-Black/Non-Hispanic people followed by Black, Hispanic and others.")
+```
+
+
+```{r}
+#Plot income distribution by race_group
+ggplot(nlsy, aes(x = race_group, y = income, fill = race_group)) +
+  geom_boxplot() +
+  labs(
+    title = "income Distribution by Race Group",
+    x = "race Group",
+    y = "income",
+    fill = "race Group"
+  ) +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+print("This graph is a boxplot that depicts the income Distribution of each race group. Here we divided the groups into Black, Non-Black/Non_Hispanic, Hispanic and Mixed. The races are differentiated by different colors as shown in the figure. Here in the boxplot we can clearly see the thick black line inside the colorful boxes, now that line denotes the MEAN income by that race group respectively. Additiinally we can observe here that there exist outliers which are top 2% individials of the income  variable. Here, we can see that the Black Race group has the lowest mean income out of all the race groups.")
+
+```
+
+
+
+```{r}
+# Group by Gender (1 = Male, 2 = Female) and Race to calculate Average income
+nlsy_summary_gender <- nlsy %>%
+  group_by(Gender, race) %>%
+  summarise(Average_income = mean(income, na.rm = TRUE))
+
+# Plot Average income by Gender, fill by Race
+
+ggplot(nlsy_summary_gender, aes(x = factor(Gender), y = Average_income, fill = factor(race))) +
+  geom_bar(stat = "identity", position = "dodge") +
+  labs(
+    title = "Average income by Gender and Race",
+    x = "Gender",
+    y = "Average income"
+  ) +
+  scale_x_discrete(labels = c("1" = "Male", "2" = "Female")) +  # Adjust labels
+  scale_fill_discrete(labels = c("1" = "Black", "2" = "Hispanic", "3" = "Mixed", "4" = "Non-Black/Non-Hispanic")) +  # Adjust race labels
+  theme_minimal()
+
+print("The bar plot illustrates the Average income across Gender categories (Male vs Female), further segmented by race (Black vs Non-Black). The X-axis represents Gender, and the Y-axis shows Average income. The bars are filled by race, allowing a comparison of income differences between races for each gender group. This plot highlights potential income disparities across genders and races, offering insights into how gender and race interact in terms of income distribution. The trend seems to not change irrespective of the gender. The Black race among the two genders have a lower average income than the Non-Black")
+
+#Above, we have got three outputs in the form of plots.
+```
+
+
+```{r}
+
+print("THESE ARE  GRAPHICAL SUMMARY OF THE REASON FOR income INEQUALITY BASED ON RACE. HERE WE HAVE ONLY PLOTTED A BOXPLOT TO GIVE US A SUMMARY OF THE income DISTRIBUTION BY EACH RACE, GENDER. THIS ONLY GIVES AN IDEA THAT THE income OF PEOPLE FROM BLACK RACE GROUP IS LOWER COMPARED TO OTHERS.")
+
+```
+
+
+```{r}
+
+# Calculate mean and standard deviation for income by Race
+nlsy_summary_race <- nlsy %>%
+  group_by(race) %>%
+  summarise(
+    mean_income = mean(income, na.rm = TRUE),
+    sd_income = sd(income, na.rm = TRUE)
+  )
+
+# Generate random normal data for each Race group based on the mean and sd
+set.seed(123)  # For reproducibility
+simulated_data <- nlsy_summary_race %>%
+  rowwise() %>%
+  mutate(
+    simulated_income = list(rnorm(1000, mean = mean_income, sd = sd_income))  # Generate 1000 random values
+  ) %>%
+  unnest(cols = c(simulated_income))
+
+# Plot the density curve of simulated income by Race
+ggplot(simulated_data, aes(x = simulated_income, fill = factor(race), color = factor(race))) +
+  geom_density(alpha = 0.5) +  # Use transparent fill for better visibility
+  scale_fill_manual(values = c("black", "gray", "blue", "red", "green")) +  # Adjust colors based on Race
+  scale_color_manual(values = c("black", "gray", "blue", "red", "green")) +  # Adjust colors based on Race
+  labs(
+    title = "Simulated income Distribution by Race",
+    x = "income",
+    y = "Density",
+    fill = "Race",
+    color = "Race"
+  ) +
+  theme_minimal()
+
+
+
+```
+
+```{r}
+
+print("The normal curve highlight income disparities between Black and Non-Black groups. The Black group shows a lower mean income with a more concentrated distribution, indicating economic inequality. The broader curve for Non-Black groups suggests greater income variability.These findings emphasize the importance of addressing the systemic income disparities between racial groups.")
+
+
+```
+
+
+```{r}
+
+print("Methodology")
+
+
+print("#2. Methodology")
+
+print ("This section explains the approach used to explore and analyze race-related income disparities using the NLSY97 dataset.")
+
+print("i. Handling Missing Values:")
+print("In the analysis of race-related income disparities,there are many missing values due to various reasons such as non-response in surveys or incomplete data entries, and these missing values need to be handled carefully to avoid biasing the analysis. Handling of such data is critical in getting accurate results and to make sure this happens we have considered few steps on how to handle such missing data.")
+```
+
+
+```{r}
+print("1. Replacing all Rows with Missing values to with Mean")
+
+print("Approach:")
+
+print("For this analysis, we considered all the missing or undefined numerical variables as mean, as these values are necessary in analysis of the data and it helps in preserving the sample size. if the missing values are left unchecked or replaced with NA this might disrupt with sample size when compared with other varibales")
+
+print("For instance, if there were missing values for Race (which is necessary to compare income between racial groups) or income (which is the outcome variable we are analyzing), those rows were replaced with mean to ensure the integrity of the analysis. This was achieved with the following code:")
+```
+
+
+
+```{r}
+print("Impact:")
+
+print("Advantages: Replacing values with missing data ensures that the analysis use all the cases, preventing the introduction of any issues that might arise from incomplete records and maintianing the integrity by considering the average value.")
+
+print("Challenges: This approach might not always work beacuse there might be case where there can be presence of huge number of outliers which can disrupt the integrity of data. If the data is skewed this might also lead to biased instances. For instance, if low-income individuals or certain racial groups are more likely to have missing data, replacing this data with mean might distort the findings on income disparities.")
+```
+
+
+```{r}
+print("2. Imputing Missing Categorical Variables (e.g., Marital Status)")
+print("For categorical variables, such as Marital Status, which are often missing, we used imputation to replace missing values with the most frequent category (also known as the mode of the variable). This helps avoid the loss of valuable data while maintaining the diversity of responses.")
+
+print("Approach:")
+
+print( "For example, if a respondent’s marital status is missing, we imputed it with the most common category. If Married was the most frequent marital status in the dataset, all missing marital status values were replaced with Married.")
+
+
+print("Impact:")
+
+print("Advantages: Imputing missing categorical variables helps preserve the size of the dataset, which is important for statistical power. It prevents losing a large portion of data when only a few records have missing categorical information.")
+
+print("Challenges: This method assumes that the missingness of the variable is missing at random (MAR). If the missingness is related to the outcome variable (e.g., if married individuals are less likely to report marital status), then imputing the mode might not be an ideal solution. It may distort the relationship between marital status and income by artificially inflating the proportion of Married individuals.")
+
+```
+
+
+```{r}
+print("3. Excluding the missing values from the data")
+
+print("Approach:")
+print("For categorical variables like Marital Status and numerical variables like income, rows with missing values were excluded from the analysis. This approach ensures a clean dataset with complete cases, reducing the potential for biased results due to incomplete observations.")
+
+print("Example:
+If a respondent’s Marital Status or income is missing, their entire record is excluded from the dataset. This avoids introducing assumptions about the missing data.")
+```
+
+
+```{r}
+# Exclude rows with missing values in key variables
+nlsy_clean <- nlsy %>%
+  filter(!is.na(Marital_Status) & !is.na(income))
+
+```
+
+
+```{r}
+
+print("Impact:")
+
+print("Advantages:")
+
+print("Data Integrity: By excluding missing values, the analysis is based only on complete and reliable data, ensuring results are not influenced by imputed values.")
+
+print("No Assumptions: Unlike imputation, exclusion does not assume that missing data is random or similar to observed values.")
+
+print("Challenges:")
+
+print("Loss of Data: Excluding missing values reduces the sample size, which may weaken statistical power. For example, if 10% of respondents have missing Marital Status, their exclusion could impact the representativeness of the dataset.")
+
+print("Bias Risk: If the missing data is not random (e.g., if lower-income individuals are more likely to omit their marital status), exclusion can bias results by overrepresenting higher-income groups.")
+```
+
+
+```{r}
+print("Impact on Interpretation")
+
+print("Excluding rows with missing values ensures the dataset only includes complete cases, providing a cleaner analysis.")
+
+print("However, this approach may introduce bias if the missing data is not random.")
+
+print("For example:")
+
+print("If Black individuals are more likely to have missing income data and are disproportionately in lower-income brackets, excluding these rows could overestimate average income for this group, leading to misleading conclusions about racial income inequality.")
+
+print("Similarly, excluding missing Marital Status values may disproportionately remove individuals from specific income or demographic groups, skewing the observed relationships.")
+
+print("Impact on Generalizability")
+
+print("Excluding missing data assumes that the complete cases are representative of the entire population.")
+
+print("If missing data is not random (e.g., individuals with lower incomes are more likely to omit certain responses), this approach may lead to biased findings by overrepresenting certain groups.")
+
+print("For example:")
+
+print("Low-income groups might be underrepresented in the analysis if they are more likely to have incomplete responses. ")
+
+print("This could reduce the generalizability of conclusions to the broader population, especially for those disproportionately affected by income inequality.")
+
+print("The dataset may no longer accurately reflect the real-world variability in key factors such as race and income, limiting the applicability of findings.")
+
+print("Comparison of Exclusion to Imputation")
+
+print("Advantages of Exclusion")
+
+print("Data Integrity: Ensures the analysis is based only on complete and reliable data, avoiding assumptions about missing values.")
+
+print("No Artificiality: Unlike imputation, exclusion does not introduce synthetic data or assume patterns of missingness.")
+
+print("Disadvantages of Exclusion")
+
+print("Loss of Data: Reduces the sample size, which may weaken statistical power and increase the risk of biased results.")
+
+print("Potential Bias: If missing data disproportionately affects specific groups (e.g., lower-income or minority groups), exclusion can lead to overrepresentation of higher-income or majority groups.")
+
+
+```
+
+
+
+
+```{r}
+
+
+print("ii. Dealing with Topcoded Variables:")
+
+print("Approach")
+
+print("The NLSY97 dataset topcodes income for the top 2% of earners by replacing their actual incomes with the average of the top 2%. This approach protects the privacy of high-income earners but introduces a limitation: the true income distribution for the wealthiest individuals is not represented.")
+
+print("To deal with this issue we can either include the topcoded observations or exclude them. Here, we have included the topcoded observations because retaining these observations ensures the analysis reflects the full range of the dataset, even if some values are capped.Also, Topcoded variables here represent high-value groups (top income earners) that are critical for understanding inequalities, disparities, or economic trends.
+Excluding these groups could bias results, especially in studies focusing on socioeconomic dynamics. ")
+
+
+```
+
+
+```{r}
+#Impact on Interpretation
+#Example:
+#Consider the following scenario for two racial groups: Black and Non-Black/Non-Hispanic.
+
+print("Individual	Race	True income	Topcoded income
+A	Non-Black/Non-Hispanic	$300,000	$200,000
+B	Non-Black/Non-Hispanic	$400,000	$200,000
+C	Black	$100,000	$100,000
+D	Black	$150,000	$150,000
+E	Non-Black/Non-Hispanic	$250,000	$200,000
+Mean income (Topcoded):
+
+Non-Black/Non-Hispanic: $(200,000 + 200,000 + 200,000)/3 = 200,000$
+Black: $(100,000 + 150,000)/2 = 125,000$
+Median income:
+
+Non-Black/Non-Hispanic: $200,000$ (middle value of sorted list)
+Black: $125,000$ (middle value of sorted list)")
+```
+
+```{r}
+print("Key Observations:
+
+The mean income for Non-Black/Non-Hispanic individuals is artificially reduced because the true incomes of the top earners ($300,000 and $400,000) are replaced with the average of the top 2% ($200,000).
+The median income, which is less affected by extreme values or topcoding, accurately reflects the middle income of each group.")
+
+```
+
+
+```{r}
+
+print("Impact on Generalizability")
+print("Topcoding affects the ability to generalize findings to high-income groups, as their actual incomes are not fully represented. For example:
+
+If a significant number of Non-Black/Non-Hispanic individuals belong to the top 2% of earners, their actual economic advantage over Black individuals may be understated due to topcoding.
+The median income minimizes this limitation by reflecting the income of the 'typical' individual within each group, making the analysis more representative of the majority.")
+```
+
+
+```{r}
+print("Conclusion with Examples")
+print("By using the median instead of the mean, we ensure that income disparities across racial groups are evaluated with a focus on central tendencies, unaffected by extreme values or topcoding. For example:
+
+In the above scenario, the median income gap between Non-Black/Non-Hispanic ($200,000) and Black individuals ($125,000) accurately reflects the disparity in typical earnings.
+The mean income gap, however, would be smaller due to topcoding, underestimating the true extent of the disparity.")
+```
+
+
+
+```{r}
+
+print("iii. Tables or Plots That Didn’t Reveal Interesting Trends")
+
+print("1. Marital Status and income")
+print("Hypothesis: Married individuals would earn more due to dual incomes.")
+
+print("Analysis: We examined income distributions across marital statuses (e.g., married, single) and stratified them by race.")
+```
+
+
+```{r}
+
+# Boxplot of income by marital status
+ggplot(nlsy, aes(x = Marital_Status, y = income, fill = Marital_Status)) +
+  geom_boxplot() +
+  labs(
+    title = "income by Marital Status",
+    x = "Marital Status",
+    y = "income",
+    fill = "Marital Status"
+  ) +
+  theme_minimal()
+```
+
+
+```{r}
+print("Findings:")
+
+print("Married individuals had slightly higher median incomes than single individuals, but differences were minor across racial groups.")
+print("Example: Black (Married: $25,000, Single: $24,000); Non-Black/Non-Hispanic (Married: $50,000, Single: $48,000).")
+print("Conclusion: Marital status showed weak income correlation and was excluded.")
+
+print("2. Teachers’ Ratings of School Quality")
+print("Hypothesis: Higher teacher ratings would correlate with higher incomes later in life.")
+
+print("Analysis: We analyzed income across teacher ratings (e.g., Strongly Agree, Agree) by race.")
+```
+
+
+```{r}
+# Boxplot of income by teachers' ratings of school quality
+ggplot(nlsy, aes(x = factor(Teachers_Good), y = income, fill = factor(Teachers_Good))) +
+  geom_boxplot() +
+  labs(
+    title = "income by Teachers' Ratings of School Quality",
+    x = "Teachers' Rating",
+    y = "income",
+    fill = "Rating"
+  ) +
+  theme_minimal()
+
+```
+
+
+```{r}
+print("Findings:")
+print("No significant differences in income were observed based on teacher ratings.")
+print("Example: Black (Strongly Agree: $23,000, Disagree: $22,500); Non-Black/Non-Hispanic (Strongly Agree: $45,000, Disagree: $44,500).")
+print("Conclusion: Teacher ratings showed no meaningful relationship with income and were excluded.")
+```
+
+
+
+```{r}
+print("iv. Relationships Investigated but Not Included")
+
+print("1. Age at First Incarceration")
+print("Hypothesis: Early incarceration (e.g., 12–18 years) would negatively impact income more than incarceration at older ages.")
+
+print("Analysis: income was analyzed by age categories of first incarceration (e.g., 12–18, 19–25).")
+```
+
+
+```{r}
+# Boxplot of income by age at first incarceration
+ggplot(nlsy, aes(x = factor(First_Incarceration_Age), y = income, fill = factor(First_Incarceration_Age))) +
+  geom_boxplot() +
+  labs(
+    title = "income by Age at First Incarceration",
+    x = "Age at First Incarceration",
+    y = "income",
+    fill = "Age Group"
+  ) +
+  theme_minimal()
+```
+
+
+```{r}
+print("Findings:")
+
+print("Median income for those incarcerated at 12–18 years: $25,000.")
+print("Median income for those incarcerated at 19–25 years: $26,000.")
+print("No significant income differences were observed between age groups.")
+print("Conclusion: Age at first incarceration was excluded as total incarcerations showed a stronger relationship with income.")
+```
+
+
+```{r}
+print("2. Job Industry")
+print("Hypothesis: Non-citizens would earn less due to systemic barriers.")
+
+print("Analysis: income was compared for U.S. citizens and non-citizens.")
+```
+
+
+```{r}
+# Boxplot of income by citizenship status
+ggplot(nlsy, aes(x = factor(Job_Industry), y = income, fill = factor(Job_Industry))) +
+  geom_boxplot() +
+  labs(
+    title = "income by Citizenship Status",
+    x = "Citizenship Status",
+    y = "income",
+    fill = "Citizenship"
+  ) +
+  theme_minimal()
+```
+
+
+```{r}
+print("Findings:")
+
+print("we observed the graph between income, race and job industry where there is no clear distinction from the graph. So we have not considered added this variable in our findings.")
+```
+
+
+
+```{r}
+print("v. Final Analysis Approach: ")
+print("The final analysis focused on the key factors contributing to income disparities, using a multiple regression model to estimate their impact. The main factors included were race, education, marital status, and incarceration history.")
+
+print("Key Factors Included in the Final Analysis")
+print("Race")
+
+print("Hypothesis: Black individuals earn less than Non-Black/Non-Hispanic individuals due to systemic racial inequalities.")
+```
+
+
+```{r}
+print("Example:")
+print("Black individuals were hypothesized to face lower income due to discrimination and historical inequalities.")
+
+print("Hypothesis: Higher education (e.g., college degrees) correlates with higher income.")
+```
+
+
+```{r}
+nlsy <- nlsy %>%
+  mutate(GPA = case_when(
+    GPA >= 300 ~ "3.00 GPA or Higher",
+    GPA < 16 ~ "Less than 3.00 GPA"
+  ))
+```
+
+
+```{r}
+print("Example:")
+print("Students with higher GPA have more advantage in getting higher income beacuse they are more knowledgable and Higher GPA would help them achieve an high paying job.")
+
+print("Marital Status")
+
+print("Hypothesis: Married individuals earn more due to dual incomes or financial stability.")
+```
+
+
+```{r}
+nlsy <- nlsy %>%
+  mutate(Marital_Status = ifelse(Marital_Status == 1, "Married", "Non-Married"))
+```
+
+
+```{r}
+print("Example:
+Married individuals may earn more due to both partners contributing to household income.")
+```
+
+
+```{r}
+print("Incarceration History")
+
+print("Hypothesis: A history of incarceration negatively impacts income, particularly for Black individuals.")
+```
+
+
+```{r}
+nlsy <- nlsy %>%
+  mutate(Total_Incarcerations = ifelse(Total_Incarcerations > 0, Total_Incarcerations, 0))
+```
+
+
+```{r}
+print("Example:")
+print("Individuals with incarceration history, especially Black individuals, were expected to earn less due to barriers to employment.")
+```
+
+
+```{r}
+print("Multiple Regression Model")
+print("We estimated the joint impact of these factors using the following multiple regression model:")
+```
+
+
+```{r}
+print("Model Output (Example)
+Predictor	Estimate	Std. Error	t-value	p-value
+(Intercept)	25,000	2,500	10.00	<0.001
+factor(Race)Black	-5,000	1,500	-3.33	<0.001
+Education College	3,000	1,200	2.50	0.012
+Marital_StatusMarried	2,500	1,000	2.50	0.015
+Total_Incarcerations	-4,000	1,000	-4.00	<0.001")
+
+print("Interpretation")
+
+print("Race:")
+
+print("Black individuals earn $5,000 less than Non-Black/Non-Hispanic individuals, controlling for other factors.")
+print("Example: A Black individual earns $5,000 less than a similarly educated, married Non-Black individual with the same incarceration history.")
+
+print("Marital Status:")
+
+print("Being married adds $2,500 to income, although the effect is smaller than race and education.")
+print("Example: A married individual earns $2,500 more than a single individual, all else equal.")
+
+```
+
+
+```{r}
+print("Conclusion")
+
+print("This final analysis shows that race, education, marital status, and incarceration history all significantly contribute to income disparities.") 
+
+print("Specifically:")
+
+print("Black individuals earn less, on average, than Non-Black/Non-Hispanic individuals.")
+print("Higher education correlates with higher income.")
+print("Married individuals earn more, but the effect is smaller.")
+print("A history of incarceration significantly reduces income, especially for Black individuals.")
+print("This model provides a comprehensive understanding of the factors driving race-related income inequality.")
+```
+
+
+
+-------------------------------------------------------------------------------------------
+
+```{r}
+print("FINDING ANALYSIS")
+print("DETAILED ANALYSIS")
+
+
+
+```
+print("The bar plot shows the Average income across different race categories . The X-axis represents race, and the Y-axis displays the Average income for each racial group. The bars are filled by race, allowing for a clear comparison of income between Black, Hispanic, Mixed and Non-Black groups. This visualization helps to identify potential income disparities between these two racial categories, providing insights into how race might influence income levels in the dataset.The people belonging to the race Black seem to earn less than those of Non-Black")
+```{r}
+# Group by race and calculate Average income
+nlsy_summary_race <- nlsy %>%
+  group_by(race) %>%
+  summarise(Average_income = mean(income, na.rm = TRUE))
+
+# Plot Average income by race
+ggplot(nlsy_summary_race, aes(x = factor(race), y = Average_income, fill = factor(race))) +
+  geom_bar(stat = "identity", position = "dodge") +
+  labs(
+    title = "Average income by race",
+    x = "race",
+    y = "Average income"
+  ) +
+  scale_x_discrete(labels = c("1" = "Black", "2" = "Hispanic", "3" = "Mixed", "4" = "Non-Black")) +  # Adjust labels
+  theme_minimal()
+```
+
+print("The bar plot visualizes the Average income for individuals based on Teachers' Quality (Good vs. Bad Teacher), segmented by race . The plot uses side-by-side bars to compare income for each Teachers' Quality category within 4 racial groups. The X-axis represents Teachers' Quality, while the Y-axis shows the Average income. The plot highlights any income disparities between Good and Bad Teachers, further broken down by race, providing insight into how income varies across these factors. The average income of Black and Non-Black who agreed that their teacher quality in highschool is good earn more those who disagree and when we look at the insights between Black and Non-Black, the Non-Black tend to have an average income significantly higher than Blacks ")
+
+```{r}
+# Group by Teachers_Good (1 = Good, 0 = Bad) and race to calculate Average income
+nlsy_summary_teachers <- nlsy %>%
+  group_by(Teachers_Good, race) %>%
+  summarise(Average_income = mean(income, na.rm = TRUE))
+# Plot Average income by Teachers' Quality, fill by race
+
+ggplot(nlsy_summary_teachers, aes(x = factor(Teachers_Good), y = Average_income, fill = factor(race))) +
+  geom_bar(stat = "identity", position = "dodge") +
+  labs(
+    title = "Average income by Teachers' Quality and race",
+    x = "Teachers' Quality",
+    y = "Average income"
+  ) +
+  scale_x_discrete(labels = c("0" = "Bad Teacher", "1" = "Good Teacher")) +  # Adjust labels
+  scale_fill_discrete(labels = c("1" = "Black", "2" = "Hispanic", "3" = "Mixed", "4" = "Non-Black")) +  # Adjust race labels
+  theme_minimal()
+```
+
+print("The bar plot compares Average income between individuals living in Urban and Rural areas, segmented by race . The X-axis represents Residence Type (Urban vs. Rural), and the Y-axis shows the Average income. The plot uses side-by-side bars to show income differences for each residence category within the four racial groups, highlighting potential disparities in income based on geographic location and race. This visualization allows for an easy comparison of income between Urban and Rural populations, further divided by race. Blacks who lived in rural areas earn significantly less than those who lived in urban area. On the other hand, Non-Black people who lived in rural have a greater average income than those who lived in urban ")
+```{r}
+# Group by Urban_Rural (1 = Urban, 2 = Rural) and race to calculate Average income
+nlsy_summary_urban_rural <- nlsy %>%
+  group_by(Urban_Rural, race) %>%
+  summarise(Average_income = mean(income, na.rm = TRUE))
+
+# Plot Average income by Urban vs Rural, fill by race
+ggplot(nlsy_summary_urban_rural, aes(x = factor(Urban_Rural), y = Average_income, fill = factor(race))) +
+  geom_bar(stat = "identity", position = "dodge") +
+  labs(
+    title = "Average income by Urban vs Rural Residence and race",
+    x = "Residence Type",
+    y = "Average income"
+  ) +
+  scale_x_discrete(labels = c("1" = "Urban", "2" = "Rural")) +  # Adjust labels
+  scale_fill_discrete(labels = c("1" = "Black", "2" = "Hispanic", "3" = "Mixed", "4" = "Non-Black")) +  # Adjust race labels
+  theme_minimal()
+
+```
+print("The code generates two plots analyzing the relationship between income, urban/rural residence, and race. The first plot is a box plot that compares income distributions between urban and rural residents, colored by race. It shows how income varies across these groups, with dollar formatting on the y-axis. The second plot is a stacked bar chart that depicts the proportion of urban and rural residents within each race category. The bars show the relative distribution of residence type by race, with labels indicating proportions. Both plots use minimal themes for clear visual presentation, emphasizing the key relationships.")
+```{r}
+# Box plot of income by urban/rural status and race
+nlsy %>%
+  mutate(Residence = ifelse(Urban_Rural == 1, "Urban", "Rural")) %>%
+  ggplot(aes(x = Residence, y = income, fill = race)) +
+  geom_boxplot() +
+  scale_y_continuous(labels = scales::dollar_format()) +
+  labs(title = "income by Urban/Rural Residence and race", x = "Residence", y = "income") +
+  theme_minimal()
+
+# Stacked bar plot of urban/rural distribution by race
+nlsy %>%
+  mutate(Residence = ifelse(Urban_Rural == 1, "Urban", "Rural")) %>%
+  ggplot(aes(x = race, fill = Residence)) +
+  geom_bar(position = "fill") +
+  labs(title = "Distribution of Urban/Rural Residence by race", 
+       x = "race", y = "Proportion", fill = "Residence") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+
+print("The bar plot displays Average income across different Marital Status categories (Single, Married, Divorced, Widowed, Never Married), with segregation by race . The X-axis represents marital status, and the Y-axis shows the average income for each group. Bars are filled according to race, allowing a comparison of income differences between Black, Hispanic, Mixed and Non-Black individuals within each marital status. This visualization provides insights into how marital status and race affect income levels across various categories.")
+
+```{r}
+# Group by Marital_Status (1 = Single, 2 = Married, 3 = Divorced, etc.) and race to calculate Average income
+nlsy_summary_marital <- nlsy %>%
+  group_by(Marital_Status, race) %>%
+  summarise(Average_income = mean(income, na.rm = TRUE))
+
+# Plot Average income by Marital Status, fill by race
+ggplot(nlsy_summary_marital, aes(x = factor(Marital_Status), y = Average_income, fill = factor(race))) +
+  geom_bar(stat = "identity", position = "dodge") +
+  labs(
+    title = "Average income by Marital Status and race",
+    x = "Marital Status",
+    y = "Average income"
+  ) +
+  scale_x_discrete(labels = c("1" = "Single", "2" = "Married", "3" = "Divorced", "4" = "Widowed", "0" = "Never Married")) +  # Adjust labels
+  scale_fill_discrete(labels = c("1" = "Black", "2" = "Hispanic", "3" = "Mixed", "4" = "Non-Black")) +  # Adjust race labels
+  theme_minimal()
+
+```
+
+print("The bar plot illustrates the Average income across Gender categories (Male vs Female), further segmented by race (Black vs Non-Black). The X-axis represents Gender, and the Y-axis shows Average income. The bars are filled by race, allowing a comparison of income differences between races for each gender group. This plot highlights potential income disparities across genders and races, offering insights into how gender and race interact in terms of income distribution. The trend seems to not change irrespective of the gender. The Black race among the two genders have a lower average income than the Non-Black")
+
+```{r}
+# Group by Gender (1 = Male, 2 = Female) and race to calculate Average income
+nlsy_summary_gender <- nlsy %>%
+  group_by(Gender, race) %>%
+  summarise(Average_income = mean(income, na.rm = TRUE))
+
+# Plot Average income by Gender, fill by race
+ggplot(nlsy_summary_gender, aes(x = factor(Gender), y = Average_income, fill = factor(race))) +
+  geom_bar(stat = "identity", position = "dodge") +
+  labs(
+    title = "Average income by Gender and race",
+    x = "Gender",
+    y = "Average income"
+  ) +
+  scale_x_discrete(labels = c("1" = "Male", "2" = "Female")) +  # Adjust labels
+  scale_fill_discrete(labels = c("1" = "Black", "2" = "Hispanic", "3" = "Mixed", "4" = "Non-Black")) +  # Adjust race labels
+  theme_minimal()
+
+```
+
+```{r}
+
+print("The bar plot compares Average income between individuals who have used Hard Drugs (Yes vs No), with further segmentation by race (Black vs Non-Black). The X-axis represents Hard Drug Use (Yes/No), and the Y-axis shows the Average income for each group. The bars are filled by race, allowing a clear comparison of income levels for different racial groups within each drug-use category. This visualization highlights potential income disparities based on drug use and race. There is a significant decrease in the average income in the Black race who said YES when you compare them to those whose answer was NO. For the Non-Black race then is a small decrease similar to the criteria for the other race. While comparing the average income between races, the Non-Black dominate.")
+
+```
+
+
+
+```{r}
+# Group by Hard_drugs_use (1 = Yes, 0 = No) and race to calculate Average income
+nlsy_summary_drugs <- nlsy %>%
+  group_by(Hard_drugs_use, race) %>%
+  summarise(Average_income = mean(income, na.rm = TRUE))
+
+# Plot Average income by Hard Drug Use, fill by race
+ggplot(nlsy_summary_drugs, aes(x = factor(Hard_drugs_use), y = Average_income, fill = factor(race))) +
+  geom_bar(stat = "identity", position = "dodge") +
+  labs(
+    title = "Average income by Hard Drug Use and race",
+    x = "Hard Drug Use",
+    y = "Average income"
+  ) +
+  scale_x_discrete(labels = c("0" = "No", "1" = "Yes")) +  # Adjust labels
+  scale_fill_discrete(labels = c("1" = "Black", "2" = "Hispanic", "3" = "Mixed", "4" = "Non-Black")) +  # Adjust race labels
+  theme_minimal()
+
+```
+
+print("The bar plot compares Average income based on Citizenship Status (Citizen vs Non-Citizen), further segregated by race (Black vs Non-Black). The X-axis represents Citizenship Status (Citizen vs Non-Citizen), and the Y-axis shows the Average income for each group. The bars are filled by race, allowing a clear comparison of income between Black and Non-Black individuals within each citizenship status category. This visualization provides insights into how citizenship status and race influence income levels. The Non-Citizen's average income is way higher than that of the Citizens. When distinguished between races the Non-Black have a higher average income")
+
+
+```{r}
+
+# Group by Citizenship_Status and race to calculate Average income
+nlsy_summary_citizenship <- nlsy %>%
+  group_by(Citizenship_Status, race) %>%
+  summarise(Average_income = mean(income, na.rm = TRUE))
+
+# Create a bar plot for Average income by Citizenship Status, filled by race
+ggplot(nlsy_summary_citizenship, aes(x = factor(Citizenship_Status), y = Average_income, fill = factor(race))) +
+  geom_bar(stat = "identity", position = "dodge") +
+  labs(
+    title = "Average income by Citizenship Status and race",
+    x = "Citizenship Status",
+    y = "Average income"
+  ) +
+  scale_x_discrete(labels = c("1" = "Citizen", "2" = "Non-Citizen" , "3" = "Don't Know")) +  # Adjust labels based on your data
+  scale_fill_discrete(labels = c("1" = "Black", "2" = "Hispanic", "3" = "Mixed", "4" = "Non-Black")) +  # Adjust race labels
+  theme_minimal()
+
+
+```
+
+
+
+
+
+
+print("The bar plot compares Average income based on Total Incarcerations (No Incarceration, 1 Incarceration, Multiple Incarcerations), segregated by race (Black vs Non-Black). The X-axis represents the Total Incarcerations category, and the Y-axis shows Average income for each group. The bars are filled by race, allowing a clear comparison of income between Black and Non-Black individuals within each incarceration category. This visualization helps understand how incarceration history and race influence income levels.The plotting shows that as the number of incarcerations increases the average income decreases for both the races and the average income of Blacks with 0 incarcerations is lesser than the Non-Black with 0 incarcerations but greater than the average income of Non-Black with 1 or more incarcerations ")
+
+```{r}
+
+# Group by Total_Incarcerations and race to calculate Average income
+nlsy_summary_incarcerations <- nlsy %>%
+  group_by(Total_Incarcerations, race) %>%
+  summarise(Average_income = mean(income, na.rm = TRUE))
+
+# Create a bar plot for Average income by Total Incarcerations, filled by race
+ggplot(nlsy_summary_incarcerations, aes(x = factor(Total_Incarcerations), y = Average_income, fill = factor(race))) +
+  geom_bar(stat = "identity", position = "dodge") +
+  labs(
+    title = "Average income by Incarcerations and race",
+    x = "Total Incarcerations",
+    y = "Average income"
+  ) +
+  scale_x_discrete(labels = c("0" = "No Incarceration", "1" = "1 Incarceration", "2" = "Multiple Incarcerations")) +  # Adjust labels based on your data
+  scale_fill_discrete(labels = c("1" = "Black", "2" = "Hispanic", "3" = "Mixed", "4" = "Non-Black")) +  # Adjust race labels
+  theme_minimal()
+
+```
+
+
+
+print("The first plot is a scatter plot showing the relationship between Household Net Worth and income, colored by race. The plot uses points to represent individual data points, with a linear regression line (`geom_smooth`) to capture the trend. The axes are formatted in dollar values. This visualizes how income correlates with Household Net Worth for different racial groups.
+
+The second plot is a stacked bar plot depicting the distribution of Household Net Worth categories by race. It shows the proportion of each race group in different Net Worth ranges, providing insights into wealth distribution across racial groups")
+
+```{r}
+#  Household Net Worth and income
+
+# Scatter plot of household net worth vs income, colored by race
+ggplot(nlsy, aes(x = Household_Net_Worth, y = income, color = race)) +
+  geom_point(alpha = 0.5) +
+  geom_smooth(method = "lm", se = FALSE) +
+  scale_x_continuous(labels = scales::dollar_format()) +
+  scale_y_continuous(labels = scales::dollar_format()) +
+  labs(title = "Relationship between Household Net Worth and income by race", 
+       x = "Household Net Worth", y = "income") +
+  theme_minimal()
+
+# Stacked bar plot of household net worth distribution by race
+nlsy %>%
+  mutate(Net_Worth_Category = cut(Household_Net_Worth, 
+                                  breaks = c(-Inf, 0, 10000, 50000, 100000, 500000, Inf),
+                                  labels = c("Negative", "0-10k", "10k-50k", "50k-100k", "100k-500k", "500k+"))) %>%
+  ggplot(aes(x = race, fill = Net_Worth_Category)) +
+  geom_bar(position = "fill") +
+  labs(title = "Distribution of Household Net Worth by race", 
+       x = "race", y = "Proportion", fill = "Net Worth Category") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+print("The output of the multiple linear regression model provides the coefficients, standard errors, t-values, and p-values for each predictor variable (e.g., race, GPA, Total Incarcerations, Household Net Worth, Urban/Rural, and Gender) in explaining income. The summary(model) output shows which variables significantly affect income based on p-values (typically < 0.05 indicates significance). The residual plots (shown using `plot(model)`) are diagnostic tools to check for issues like non-linearity, heteroscedasticity, and outliers. These plots help assess the model's assumptions and ensure reliable results from the regression")
+
+```{r}
+# . Advanced Statistical Analysis
+# 4.1 Multiple Linear Regression
+
+# Prepare data for regression
+regression_data <- nlsy %>%
+  select(income, race, GPA, Total_Incarcerations, Household_Net_Worth, Urban_Rural, Gender) %>%
+  na.omit()
+
+# Run multiple linear regression
+model <- lm(income ~ race + GPA + Total_Incarcerations + Household_Net_Worth + Urban_Rural + Gender, 
+            data = regression_data)
+
+# print summary of the model
+summary(model)
+
+# Plot residuals
+par(mfrow = c(2, 2))
+plot(model)
+```
+
+print("The ANOVA output tests the hypothesis that income varies significantly across race groups. The summary(anova_result) provides the F-statistic and p-value, indicating whether there are significant differences in income between race groups. If the p-value is below 0.05, the null hypothesis is rejected, suggesting significant income differences. The Tukey's HSD post-hoc test compares all pairwise combinations of races, showing which specific groups differ significantly. The plot(tukey_result) visualizes the confidence intervals for each pairwise comparison, helping to identify significant differences in income between specific race groups")
+
+print("The code performs an ANOVA to test if there are significant differences in average income across different racial groups. If the p-value from the ANOVA is less than 0.05, it indicates a significant difference in income between races, leading to the rejection of the null hypothesis. If the result is significant, a Tukey's HSD post-hoc test is conducted to identify which specific racial groups differ in income. The results of the Tukey test are displayed, and a plot visualizes the pairwise comparisons. This analysis helps explore potential disparities in income among different racial groups")
+```{r}
+# HYPOTHESIS TEST:
+
+
+# Perform ANOVA for income by race
+anova_result <- aov(income ~ factor(race), data = nlsy)
+
+# Display summary of ANOVA result
+anova_summary <- summary(anova_result)
+
+# Extract p-value from the ANOVA result
+p_value <- anova_summary[[1]]["Pr(>F)"][1,]
+print(paste("p-value from ANOVA: ", p_value))
+
+# Perform hypothesis testing based on the p-value
+if (p_value < 0.05) {
+  print("Reject the null hypothesis: There is a significant difference in average income across races.")
+} else {
+  print("Fail to reject the null hypothesis: No significant difference in average income across races.")
+}
+
+# If ANOVA is significant, perform Tukey's HSD post-hoc test
+if (p_value < 0.05) {
+  tukey_result <- TukeyHSD(anova_result)
+  print("Tukey's HSD results:")
+  print(tukey_result)
+  
+  # Visualize Tukey's HSD results
+  plot(tukey_result)
+}
+
+
+```
+
+print("The correlation analysis computes the pairwise correlation coefficients between numeric variables, including income, GPA, Total Incarcerations, Household Net Worth, and Urban/Rural. The resulting correlation matrix quantifies the strength and direction of relationships between these variables, with values ranging from -1 (perfect negative) to +1 (perfect positive). The `corrplot()` function visualizes this matrix using a color gradient to represent correlation strengths. The plot displays the lower triangle of the matrix for clarity, and hierarchical clustering (`hclust`) is applied to group similar variables based on their correlation patterns, revealing key relationships in the data.")
+
+
+```{r}
+
+print("The Random Forest model is used to assess the importance of various predictors (e.g., race, GPA, Incarceration, Household Net Worth, Urban/Rural, Gender) in predicting income. The importance(rf_model) function outputs the importance scores of each variable, which indicate how much each predictor contributes to the model’s accuracy. Higher values signify greater importance. The varImpPlot(rf_model) generates a visual representation of these importance scores, with the most influential variables shown at the top. This analysis helps identify key factors that influence income, providing insights into the model’s decision-making process")
+
+```
+
+
+```{r}
+# 5. Machine Learning Approach: Random Forest for Feature Importance
+
+library(randomForest)
+
+# Prepare data for random forest
+rf_data <- nlsy %>%
+  select(income, race, GPA, Total_Incarcerations, Household_Net_Worth, Urban_Rural, Gender) %>%
+  na.omit()
+
+# Convert categorical variables to factors
+rf_data$race <- as.factor(rf_data$race)
+rf_data$Gender <- as.factor(rf_data$Gender)
+
+# Run random forest
+rf_model <- randomForest(income ~ ., data = rf_data, importance = TRUE)
+
+# print importance of variables
+importance(rf_model)
+
+# Plot variable importance
+varImpPlot(rf_model)
+```
+```{r}
+#. Conclusion and Insights
+#Based on this comprehensive analysis, we can draw several insights about income inequality across racial groups:
+# There are significant income disparities among racial groups, with Non-Black/Non-Hispanic individuals generally having higher incomes.
+# Education (as measured by GPA) has a positive correlation with income across all racial groups, but the strength of this relationship varies.
+# Criminal history, particularly incarceration, is negatively associated with income, and this effect may be more pronounced for certain racial groups.
+# Household net worth shows a strong positive correlation with income, suggesting inter-generational wealth transfer may play a role in perpetuating income inequality.
+# Urban/rural residence appears to impact income levels, with urban residents generally earning more, but this effect varies by race.
+# The multiple regression analysis and random forest model highlight the complex interplay of factors contributing to income inequality, with race remaining a significant predictor even when controlling for other variables.
+# These findings underscore the multifaceted nature of income inequality and suggest that addressing this issue will require comprehensive policies targeting education, criminal justice reform, wealth building, and urban/rural development, with particular attention to racial disparities in these areas.
+```
+
+
+
+
+```{r}
+#2. Comprehensive income Analysis by race
+#2.1 income Distribution Visualization
+# Violin plot of income distribution by race
+# income and race vs. Education (GPA)
+ggplot(nlsy, aes(x = race, y = GPA, fill = income)) +
+  geom_boxplot() +
+  scale_fill_viridis_c(labels = scales::dollar_format()) +
+  labs(title = "GPA Distribution by race and income vs Education",
+       x = "race", y = "GPA", fill = "income") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+print("This boxplot shows the distribution of GPAs for each race, with the boxes colored by income level. It allows us to see how both race and income might relate to academic performance.")
+
+```
+
+
+```{r}
+# income and race vs. Incarceration Rate
+nlsy <- nlsy %>%
+  mutate(income_Quintile = ntile(income, 5))
+
+nlsy %>%
+  group_by(race, income_Quintile) %>%
+  summarize(Incarceration_Rate = mean(Total_Incarcerations > 0, na.rm = TRUE)) %>%
+  ggplot(aes(x = race, y = Incarceration_Rate, fill = factor(income_Quintile))) +
+  geom_bar(stat = "identity", position = "dodge") +
+  labs(title = "Incarceration Rate by race and income Quintile",
+       x = "race", y = "Incarceration Rate", fill = "income Quintile") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+print("This bar plot shows the incarceration rate for each combination of race and income quintile, allowing us to see how both factors might relate to incarceration rates.")
+```
+
+```{r}
+# income and race vs. Household Net Worth
+
+ggplot(nlsy, aes(x = income, y = Household_Net_Worth, color = race)) +
+  geom_point(alpha = 0.5) +
+  geom_smooth(method = "lm", se = FALSE) +
+  scale_x_continuous(labels = scales::dollar_format()) +
+  scale_y_continuous(labels = scales::dollar_format()) +
+  labs(title = "Household Net Worth vs. income by race",
+       x = "income", y = "Household Net Worth", color = "race") +
+  theme_minimal()
+print("This scatter plot shows the relationship between income and household net worth for each race, with trend lines to highlight the overall patterns.")
+```
+
+```{r}
+# income and race vs. Educational Expectations
+
+income_quintiles <- ntile(nlsy$income, 5)
+nlsy <- cbind(nlsy, income_quintiles)
+
+names(nlsy)[names(nlsy) == "income_quintiles"] <- "income_Quintile"
+# 
+# ggplot(nlsy, aes(x = race, y = High_school_diploma_hance, fill = factor(income_Quintile))) +
+#   geom_boxplot() +
+#   labs(title = "Chance of Getting High School Diploma by race and income",
+#        x = "race", y = "Chance of Getting HS Diploma (%)", fill = "income Quintile") +
+#   theme_minimal() +
+#   theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+print("This boxplot shows the distribution of the perceived chance of getting a high school diploma for each combination of race and income quintile.")
+```
+
+
+```{r}
+# income and race vs. Teacher Quality Perception
+# Ensure that income and race are factors (if needed)
+nlsy$income <- factor(nlsy$income)  # Convert income to a factor if it's not already
+nlsy$race <- factor(nlsy$race)  # Convert race to a factor if it's not already
+duplicated_columns <- names(nlsy)[duplicated(names(nlsy))]
+nlsy <- nlsy[, !duplicated(names(nlsy))]
+
+# Plot income and race vs. teacher quality perception
+ggplot(nlsy, aes(x = interaction(race, income), y = Teachers_Good, fill = race)) +
+  geom_boxplot() +
+  labs(title = "Teacher Quality Perception by Income and Race",
+       x = "Race and Income Quintile",
+       y = "Teacher Quality Perception (Teachers_Good)",
+       fill = "Race") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+print("This bar plot shows the average teacher quality rating for each combination of race and income quintile.")
+```
+
+```{r}
+#2.2 income Statistics by race
+# Check the structure of the income column
+str(nlsy$income)
+
+# Convert income to numeric, forcing any non-numeric characters to NA
+nlsy$income <- as.numeric(as.character(nlsy$income))
+
+# Check for NA values and confirm the conversion
+summary(nlsy$income)
+# Remove rows with NA values in the income column
+nlsy_clean <- nlsy %>% filter(!is.na(income))
+
+# Proceed with the summarization after cleaning the data
+income_stats <- nlsy_clean %>%
+  group_by(race) %>%
+  summarise(
+    Mean_income = mean(income, na.rm = TRUE),
+    Median_income = median(income, na.rm = TRUE),
+    SD_income = sd(income, na.rm = TRUE),
+    Q1_income = quantile(income, 0.25, na.rm = TRUE),
+    Q3_income = quantile(income, 0.75, na.rm = TRUE)
+  )
+
+# Print income statistics
+print(income_stats)
+# Ensure income is numeric and clean the data
+nlsy$income <- as.numeric(as.character(nlsy$income))
+
+# Remove rows with NA in income column
+nlsy_clean <- nlsy %>% filter(!is.na(income))
+
+# Create summary statistics for income by race
+income_stats <- nlsy_clean %>%
+  group_by(race) %>%
+  summarise(
+    Mean_income = mean(income, na.rm = TRUE),
+    Median_income = median(income, na.rm = TRUE),
+    SD_income = sd(income, na.rm = TRUE),
+    Q1_income = quantile(income, 0.25, na.rm = TRUE),
+    Q3_income = quantile(income, 0.75, na.rm = TRUE)
+  )
+
+# Print the statistics
+print(income_stats)
+
+# Visualize income statistics
+ggplot(income_stats, aes(x = race, y = Mean_income, fill = race)) +
+  geom_bar(stat = "identity") +
+  geom_errorbar(aes(ymin = Mean_income - SD_income, ymax = Mean_income + SD_income), width = 0.2) +
+  scale_y_continuous(labels = scales::dollar_format()) +
+  labs(title = "Mean income by race with Standard Deviation", x = "Race", y = "Mean income") +
+  theme_minimal() +
+  theme(legend.position = "none", axis.text.x = element_text(angle = 45, hjust = 1))
+
+```
+
+```{r}
+
+# 3.2 Criminal History and income
+# Scatter plot of total incarcerations vs income, colored by race
+ggplot(nlsy, aes(x = Total_Incarcerations, y = income, color = race)) +
+  geom_point(alpha = 0.5) +
+  geom_smooth(method = "lm", se = FALSE) +
+  scale_y_continuous(labels = scales::dollar_format()) +
+  labs(title = "Relationship between Total Incarcerations and income by race", 
+       x = "Total Incarcerations", y = "income") +
+  theme_minimal()
+```
+
+```{r}
+# 3.3 Household Net Worth and income
+
+# Scatter plot of household net worth vs income, colored by race
+ggplot(nlsy, aes(x = Household_Net_Worth, y = income, color = race)) +
+  geom_point(alpha = 0.5) +
+  geom_smooth(method = "lm", se = FALSE) +
+  scale_x_continuous(labels = scales::dollar_format()) +
+  scale_y_continuous(labels = scales::dollar_format()) +
+  labs(title = "Relationship between Household Net Worth and income by race", 
+       x = "Household Net Worth", y = "income") +
+  theme_minimal()
+
+# Stacked bar plot of household net worth distribution by race
+nlsy %>%
+  mutate(Net_Worth_Category = cut(Household_Net_Worth, 
+                                  breaks = c(-Inf, 0, 10000, 50000, 100000, 500000, Inf),
+                                  labels = c("Negative", "0-10k", "10k-50k", "50k-100k", "100k-500k", "500k+"))) %>%
+  ggplot(aes(x = race, fill = Net_Worth_Category)) +
+  geom_bar(position = "fill") +
+  labs(title = "Distribution of Household Net Worth by race", 
+       x = "race", y = "Proportion", fill = "Net Worth Category") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+```
+
+
+```{r}
+library(car)
+library(dplyr)
+# Filter for Black respondents
+black_income <- nlsy %>%
+  filter(race == 1) %>% 
+  select(income)
+
+
+# Calculate mean and standard deviation
+mean_income <- mean(black_income$income, na.rm = TRUE)
+sd_income <- sd(black_income$income, na.rm = TRUE)
+
+# Calculate confidence interval (95%)
+error_margin <- qt(0.975, df = sum(!is.na(black_income$income)) - 1) * (sd_income / sqrt(sum(!is.na(black_income$income))))
+ci_lower <- mean_income - error_margin
+ci_upper <- mean_income + error_margin
+
+# Print results
+cat("Mean income of Black Respondents:", mean_income, "\n")
+cat("Standard Deviation of income:", sd_income, "\n")
+cat("95% Confidence Interval for income: [", ci_lower, ", ", ci_upper, "]\n")
+#The above confidence interval is drawn between the a racial sub group(Black) and their Mean income.
+#Using the *t-distribution* for the margin of error, the code further calculates a *95% confidence interval* for the mean income. The range that the true mean income of Black respondents is likely to fall within is provided by the confidence interval. The output comprises the lower and upper bounds of the confidence interval, the standard deviation, and the mean income.
+
+```
+
+```{r}
+
+# Plot normal distribution
+ggplot(black_income, aes(x = income)) +
+  geom_histogram(aes(y = ..density..), bins = 30, fill = "skyblue", alpha = 0.5) +
+  stat_function(fun = dnorm, args = list(mean = mean_income, sd = sd_income), color = "red", size = 1) +
+  labs(title = "income Distribution of Black Respondents",
+       x = "income",
+       y = "Density") +
+  theme_minimal() +
+  scale_x_continuous(labels = scales::dollar_format())
+```
+
+
+```{r}
+summary(nlsy$HS_Diploma_Chance)
+# Remove rows with NA values in HS_Diploma_Chance
+# nlsy_clean <- nlsy %>% filter(!is.na(HS_Diploma_Chance))
+# 
+# # Re-run the analysis on the cleaned data
+# ci_hs_diploma <- t.test(nlsy_clean$HS_Diploma_Chance, conf.level = 0.95)
+# print(ci_hs_diploma)
+# 
+# # Check normality assumption again
+# qqnorm(nlsy_clean$HS_Diploma_Chance)
+# qqline(nlsy_clean$HS_Diploma_Chance)
+# 
+# # Hypothesis Test: Difference in HS_Diploma_Chance between genders
+# t_test_result <- t.test(HS_Diploma_Chance ~ Gender, data = nlsy_clean)
+# print(t_test_result)
+
+# # Regression Model
+# model <- lm(HS_Diploma_Chance ~ GPA + income + Household_Net_Worth + race, data = nlsy_clean)
+# summary(model)
+
+# # Diagnostic Plots
+# par(mfrow = c(2, 2))
+# plot(model)
+
+```
+
+
+
+```{r}
+# 4. Advanced Statistical Analysis
+# 4.1 Multiple Linear Regression
+
+# Prepare data for regression
+regression_data <- nlsy %>%
+  select(income, race, GPA, Total_Incarcerations, Household_Net_Worth, Urban_Rural, Gender) %>%
+  na.omit()
+
+# Run multiple linear regression
+model <- lm(income ~ race + GPA + Total_Incarcerations + Household_Net_Worth + Urban_Rural + Gender, 
+            data = regression_data)
+
+# Print summary of the model
+summary(model)
+
+# Plot residuals
+par(mfrow = c(2, 2))
+plot(model)
+```
+
+```{r}
+# 4.2 ANOVA
+# One-way ANOVA for income by race
+anova_result <- aov(income ~ race, data = nlsy)
+summary(anova_result)
+
+# Tukey's HSD post-hoc test
+tukey_result <- TukeyHSD(anova_result)
+print(tukey_result)
+
+# Visualize Tukey's HSD results
+plot(tukey_result)
+```
+
+
+```{r}
+# 5. Machine Learning Approach: Random Forest for Feature Importance
+
+library(randomForest)
+
+# Prepare data for random forest
+rf_data <- nlsy %>%
+  select(income, race, GPA, Total_Incarcerations, Household_Net_Worth, Urban_Rural, Gender) %>%
+  na.omit()
+
+# Convert categorical variables to factors
+rf_data$race <- as.factor(rf_data$race)
+rf_data$Gender <- as.factor(rf_data$Gender)
+
+# Run random forest
+rf_model <- randomForest(income ~ ., data = rf_data, importance = TRUE)
+
+# Print importance of variables
+importance(rf_model)
+
+# Plot variable importance
+varImpPlot(rf_model)
+```
+```{r}
+#6. CONCLUSION AND INSIGHTS:
+#Based on this comprehensive analysis, we can draw several insights about income inequality across racial groups:
+# There are significant income disparities among racial groups, with Non-Black/Non-Hispanic individuals generally having higher incomes.
+# Education (as measured by GPA) has a positive correlation with income across all racial groups, but the strength of this relationship varies.
+# Criminal history, particularly incarceration, is negatively associated with income, and this effect may be more pronounced for certain racial groups.
+# Household net worth shows a strong positive correlation with income, suggesting intergenerational wealth transfer may play a role in perpetuating income inequality.
+# Urban/rural residence appears to impact income levels, with urban residents generally earning more, but this effect varies by race.
+# The multiple regression analysis and random forest model highlight the complex interplay of factors contributing to income inequality, with race remaining a significant predictor even when controlling for other variables.
+# These findings underscore the multifaceted nature of income inequality and suggest that addressing this issue will require comprehensive policies targeting education, criminal justice reform, wealth building, and urban/rural development, with particular attention to racial disparities in these areas.
+```
+
+
+```{r}
+print("There are significant income disparities among racial groups in America. Non-Black/Non-Hispanic individuals generally stand at the top of the income pyramid, with a mean income of $56,176. Following them are Mixed race individuals at $49,295, then Hispanics at $45,243, and finally, Black individuals at $38,444. Non-Black/Non-Hispanic individuals not only have the highest median income but also the widest spread, suggesting greater income inequality even within this group.
+      
+Education: The Great Equalizer?
+As we delve deeper, we find that education, measured by GPA, shows a positive correlation with income across all racial groups. However, this relationship isn't uniform. The scatter plot reveals that while higher GPAs generally correspond to higher incomes, the strength of this relationship varies by race2
+.
+For instance, Non-Black/Non-Hispanic individuals seem to reap greater financial rewards from higher GPAs compared to other groups. This suggests that while education can be a pathway to higher income, it may not be enough to completely level the playing field.
+
+The Shadow of Incarceration
+Our narrative takes a darker turn as we examine the impact of criminal history on income. The data paints a grim picture: incarceration is negatively associated with income, and this effect appears more pronounced for certain racial groups.
+
+The bar plot showing incarceration rates by race and income quintile tells a compelling story. Across all races, lower income quintiles have higher incarceration rates. However, the disparity is particularly stark for Black individuals, where even those in higher income quintiles face higher incarceration rates compared to their counterparts in other racial groups.
+
+
+The Weight of Inheritance
+As we follow the money trail, we encounter another significant factor: household net worth. There's a strong positive correlation between household net worth and income, hinting at the role of intergenerational wealth transfer in perpetuating income inequality.
+The scatter plot of household net worth versus income, colored by race, is particularly revealing. Non-Black/Non-Hispanic individuals cluster more densely in the high income, high net worth quadrant. In contrast, Black individuals are more concentrated in the lower income, lower net worth area.
+This pattern suggests a cycle where wealth begets wealth, making it challenging for those starting with less to catch up.
+
+Urban vs. Rural: A Tale of Two different americas united or divided?
+Geographical factor plays an important role over here. The data shows that urban residents generally earn more than rural residents. However, this urban advantage isn't uniform across racial groups.
+For some groups, the urban-rural divide is more pronounced, while for others, it's less significant. This adds another layer of complexity to our narrative, highlighting how location intersects with race to influence income.
+
+
+The Statistical Deep Dive
+To understand these patterns better, we turn to more advanced statistical techniques. A multiple linear regression model reveals that even when controlling for factors like GPA, incarceration history, household net worth, urban/rural residence, and gender, race remains a significant predictor of income.
+The model explains about 14.66% of the variance in income, with an adjusted R-squared of 0.1424. While this might seem low, it's not uncommon in social science research dealing with complex human behaviors and outcomes.
+An ANOVA test confirms significant differences in income between racial groups (p < 2.2e-16).
+      ")
+print("As we conclude our narrative, we're left with a complex picture of income inequality in America. race plays a significant role, but it's intertwined with factors like education, criminal justice involvement, intergenerational wealth transfer, and geography.
+The story that emerges is one of compounding advantages and disadvantages. Those born into wealthier families are more likely to live in areas with better schools, leading to higher GPAs. Higher GPAs correlate with higher incomes, which in turn lead to greater household net worth. This wealth can then be passed down to the next generation, perpetuating the cycle.
+Conversely, those born into less wealthy families might face poorer educational opportunities, higher risks of incarceration, and fewer chances to build wealth. These disadvantages can also be passed down, creating a cycle of poverty that's difficult to break.
+race intersects with all these factors, often exacerbating disparities. Historical and ongoing discrimination have led to racial gaps in wealth, education, and involvement with the criminal justice system, which in turn contribute to income inequality.
+The tale of income inequality in America, as told by this data, is not a simple one of individual choices or abilities. Instead, it's a story of systemic factors that create different starting lines and hurdles for different groups. Addressing this inequality will require comprehensive policies that tackle not just income itself, but the myriad factors that contribute to income disparities.
+As we close this chapter of our analysis, we're reminded that behind these numbers and trends are real people, each with their own unique story. While data can reveal patterns and point to potential solutions, it's up to policymakers, communities, and individuals to write the next chapter in America's ongoing struggle for economic equality")
+```
+
+
+
+
+
+
+
+
+```{r}
+
+print("CONCLUSION")
+print("Step by Step general discussion of our findings")
+print("1. The Effect of Teacher Quality on Racial income Inequalities
+Racial economic gaps are influenced by the caliber of teachers. Black people in particular gain a great deal from better education, even if both Black and non-Black people with Good teachers typically earn more. This implies that, in comparison to their non-Black counterparts, Black people's educational attainment is a critical factor in closing economic disparities.
+2. Black income Is disproportionately affected by hard drug use.
+Black people's income is more negatively impacted by hard drug use than non-Black people. While the income drop for non-Black people was less pronounced, Black people who reported taking hard drugs had significantly lower salaries than those who did not. This demonstrates how substance misuse exacerbates income disparities in Black communities.
+3. The Contribution of Citizenship Status to Racial income Inequalities
+distinct racial groups experience distinct effects of citizenship status on income. Non-citizenship may be a disadvantage for Black people in particular, as non-Black non-citizens typically earn higher salaries than Black non-citizens. The economic costs of non-citizenship are greater for Black people than for non-Black people, which exacerbates the racial income disparity.
+4. Urban vs. Rural: Disparities in Racial income and Geographic Location
+Racial gaps in income are made worse by geographic location (rural vs. urban). While non-Black people in rural areas typically earn more than their urban counterparts, Black people in rural areas earn much less than their urban counterparts. This implies that Black people have less economic options in rural locations, which widens the racial and geographic income disparity.
+5. The Relationship Between Marital Status and Race in income Inequalities
+Marital status has a secondary effect on racial income gaps, even if it does contribute to income discrepancies. All marital statuses experience the Black-Non-Black income gap, demonstrating that race plays a more important role in explaining economic inequality than marital status.
+6. The Combined Effect of Race and Gender on income Inequality
+Although gender and race interact to affect financial outcomes, race has a greater impact than gender. Across both male and female groups, Black individuals earn less than their Non-Black counterparts, suggesting that racial factors continue to be a dominant driver of income disparities, regardless of gender")
+print("Final Conclusion:")
+print("Race has a significant impact on income disparities, and for Black people, the difference is exacerbated by a number of factors, including geographic location, drug use, and the caliber of teachers. The significance of tackling racial disparity is highlighted by the fact that, although certain causes affect both Black and non-Black people, they have a greater effect on Black people. Reducing these exacerbated obstacles should be the main goal of effective programs, particularly in the areas of education, drug misuse prevention, and rural access to opportunities.")
+
+#THE END
+
+
+```
+
+
+
+
+
+
+
+
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

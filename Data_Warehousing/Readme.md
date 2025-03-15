@@ -122,7 +122,7 @@ Execute Analytical Queries at the very end of the code.
 ![Analytics_Quarter_Sales](./Screenshots/Analytics_Quarter_Sales.png "Analytics_Quarter_Sales")
 
 
-![Analytics_Region_Sales](./Screenshots/Analytics_Region_Sales.png "Analytics_Region_Sales")
+![Analytics_Region_sales](./Screenshots/Analytics_Region_sales.png "Analytics_Region_sales")
 
 
 

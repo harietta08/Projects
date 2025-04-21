@@ -1,38 +1,45 @@
-import duckdb
-import pandas as pd
-import matplotlib.pyplot as plt
-from matplotlib.backends.backend_pdf import PdfPages
+import duckdb  # DuckDB connection for local SQL analytics
+import pandas as pd  # Pandas for data manipulation
+import matplotlib.pyplot as plt  # For visualizing charts
+from matplotlib.backends.backend_pdf import PdfPages  # Export charts to a single PDF
 
 # --- Connect to DuckDB and read from Silver Layer ---
-con = duckdb.connect("sales.duckdb")
-silver_count = con.execute("SELECT COUNT(*) FROM silver_sales").fetchone()[0]
+con = duckdb.connect("sales.duckdb")  # Connect to DuckDB database file
+silver_count = con.execute("SELECT COUNT(*) FROM silver_sales").fetchone()[0]  # Count number of records in silver layer
 print(f"\n📊 Silver Layer currently contains: {silver_count} rows\n")
 
 # --- Read cleaned Silver Layer data ---
-df = con.execute("SELECT * FROM silver_sales").fetchdf()
+df = con.execute("SELECT * FROM silver_sales").fetchdf()  # Load silver_sales table into a pandas DataFrame
 
 # --- GOLD LAYER AGGREGATIONS ---
 
 # 1. Total sales per product category
-sales_by_category = df.groupby("product_category")["total_price"].sum().reset_index()
+sales_by_category = df.groupby("product_category")["total_price"].sum().reset_index()  # Aggregate total sales by product category
 
 # 2. Top 5 products by quantity sold
-top_products = df.groupby(["product_id", "product_name"])["quantity_sold"].sum().reset_index()
-top_products = top_products.sort_values(by="quantity_sold", ascending=False).head(5)
+top_products = df.groupby(["product_id", "product_name"])["quantity_sold"].sum().reset_index()  # Aggregate quantity sold per product
+top_products = top_products.sort_values(by="quantity_sold", ascending=False).head(5)  # Sort and get top 5 products
 
 # 3. Total sales by payment method
-sales_by_payment = df.groupby("payment_method")["total_price"].sum().reset_index()
+sales_by_payment = df.groupby("payment_method")["total_price"].sum().reset_index()  # Aggregate total sales by payment method
 
-# 4. Top 5 customers by total spend
-top_customers = df.groupby("cust_id")["total_price"].sum().reset_index()
-top_customers = top_customers.sort_values(by="total_price", ascending=False).head(5)
+# 4. Top 5 customers by total spend (by name)
+top_customers = (
+    df.groupby(["cust_id", "first_name", "last_name"])["total_price"]  # Group by customer details
+    .sum()
+    .reset_index()
+)
+top_customers["customer_name"] = top_customers["first_name"] + " " + top_customers["last_name"]  # Create full name column
+top_customers = top_customers[["customer_name", "total_price"]]  # Select only necessary columns
+top_customers = top_customers.sort_values(by="total_price", ascending=False).head(5)  # Get top 5 customers
 
 # 5. Monthly sales trend
-monthly_sales = df.copy()
-monthly_sales["purchase_month"] = pd.to_datetime(monthly_sales["purchase_date"]).dt.to_period("M").astype(str)
-monthly_sales_trend = monthly_sales.groupby("purchase_month")["total_price"].sum().reset_index()
+monthly_sales = df.copy()  # Make a copy of the dataframe
+monthly_sales["purchase_month"] = pd.to_datetime(monthly_sales["purchase_date"]).dt.to_period("M").astype(str)  # Extract purchase month
+monthly_sales_trend = monthly_sales.groupby("purchase_month")["total_price"].sum().reset_index()  # Group by month and sum total sales
 
 # --- Save to DuckDB Tables ---
+# Drop and create gold summary tables for each KPI
 con.execute("DROP TABLE IF EXISTS gold_sales_by_category;")
 con.execute("CREATE TABLE gold_sales_by_category AS SELECT * FROM sales_by_category")
 
@@ -49,6 +56,7 @@ con.execute("DROP TABLE IF EXISTS gold_monthly_sales_trend;")
 con.execute("CREATE TABLE gold_monthly_sales_trend AS SELECT * FROM monthly_sales_trend")
 
 # ---Visual Analytics ---
+# Create a multi-page PDF containing all charts
 with PdfPages("gold_layer_charts.pdf") as pdf:
     # Total Sales by Product Category
     plt.figure(figsize=(10, 6))
@@ -84,9 +92,9 @@ with PdfPages("gold_layer_charts.pdf") as pdf:
 
     # Top 5 Customers by Total Spend
     plt.figure(figsize=(8, 5))
-    plt.bar(top_customers["cust_id"], top_customers["total_price"], color=plt.cm.Set2.colors[:len(top_customers)])
+    plt.bar(top_customers["customer_name"], top_customers["total_price"], color=plt.cm.Set2.colors[:len(top_customers)])
     plt.title("Top 5 Customers by Total Spend")
-    plt.xlabel("Customer ID")
+    plt.xlabel("Customer Name")
     plt.ylabel("Total Spend")
     plt.tight_layout()
     pdf.savefig()
@@ -105,10 +113,11 @@ with PdfPages("gold_layer_charts.pdf") as pdf:
     plt.close()
 
 # ---Summary ---
+# Print summary outputs for all metrics
 print("Gold Layer Aggregations Complete\n")
 print("Total Sales by Product Category:\n", sales_by_category)
 print("\nTop 5 Products by Quantity Sold:\n", top_products)
 print("\nTotal Sales by Payment Method:\n", sales_by_payment)
 print("\nTop 5 Customers by Total Spend:\n", top_customers)
 print("\nMonthly Sales Trend:\n", monthly_sales_trend)
-print("\n📄 Charts exported to gold_layer_charts.pdf")
+print("Charts exported to gold_layer_charts.pdf")

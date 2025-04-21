@@ -1,0 +1,1001 @@
+cust_id,first_name,last_name,gender,email,product_id,product_name,product_category,product_price,quantity_sold,purchase_date,payment_method,shipping_address,delivery_period,total_price
+C105,Priya,Nair,Female,aoby0@clickbank.net,P050,Dashboard Phone Mount,Automotive,,16,5/9/2021,Apple Pay,503 Monument Park,8,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1
+C101,Alice,Johnson,Female,dgarrod1@intel.com,P024,Almond Butter,Grocery,27.09,20,2/19/2021,cash,3460 Manitowish Court,4,541.8
+C112,Ethan,Wong,Male,gscurman2@apple.com,P027,Wireless Mouse,Office Supplies,34.54,7,4/1/2021,Apple Pay,4354 Portage Parkway,5,241.78
+C113,Aisha,Desai,Female,jdrain3@mit.edu,P045,,Grocery,34.1,18,5/30/2021,Apple Pay,2676 West Alley,8,613.8
+,Aisha,Desai,Female,kbryer4@tripod.com,P004,Electric Kettle,Home & Kitchen,80.3,19,3/1/2021,cash,9 Esch Lane,6,1525.7
+C106,David,,Male,astonbridge5@comsenz.com,P011,"""Atomic Habits""",Books,21.6,4,,Apple Pay,988 Bluestem Terrace,6,86.4
+C111,Sara,Mehta,Female,esergent6@upenn.edu,P016,Yoga Mat,Sports & Outdoors,46.2,9,5/17/2021,Apple Pay,97241 Ilene Road,8,415.8
+C112,Ethan,Wong,Male,bjandera7@hubpages.com,P030,Steering Wheel Cover,Automotive,70.73,15,2/6/2021,cash,1843 Lakewood Crossing,6,1060.95
+C114,Noah,,Male,dtreece8@ow.ly,P045,Breakfast Cereal,,,12,2/23/2021,Apple Pay,10349 6th Center,5,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1
+C111,,Mehta,Female,dkedge9@independent.co.uk,P044,Pasta Sauce,Grocery,80.45,22,4/14/2021,cash,9 Roxbury Plaza,8,1769.9
+C105,Priya,Nair,Female,,P049,USB Car Charger,Automotive,7.8,15,5/13/2021,COD,92961 Porter Center,7,117.0
+C112,Ethan,Wong,Male,,P036,"""Can't Hurt Me""",Books,89.56,13,6/10/2021,COD,5459 Maple Wood Pass,4,1164.28
+C111,Sara,,Female,kabbatuccic@cargocollective.com,P021,Hair Dryer,Health & Personal Care,84.52,6,5/20/2021,COD,1822 Petterle Court,8,507.12
+C101,Alice,Johnson,Female,druskd@dot.gov,P034,Maxi Dress,,76.9,21,5/26/2021,COD,2 Bartelt Court,7,1614.9
+C114,Noah,Shah,Male,fjackwayse@wiley.com,P002,Smartwatch,Electronics,58.97,15,2/7/2021,PayPal,3 Jenifer Alley,4,884.55
+C105,Priya,Nair,Female,fbrunstanf@discovery.com,P014,Lego Creator Set,Toys & Games,41.52,12,5/27/2021,PayPal,3730 Nancy Road,5,498.24
+C111,Sara,Mehta,Female,rbofieldg@economist.com,P011,"""Atomic Habits""",Books,97.72,16,4/2/2021,Apple Pay,,8,1563.52
+C103,Emma,Chen,Female,cwipflerh@walmart.com,P041,Protein Shake Bottle,Sports & Outdoors,19.16,14,3/5/2021,COD,6 Gateway Street,7,268.24
+C112,Ethan,Wong,Male,clabusquierei@reverbnation.com,P026,Ballpoint Pens,Office Supplies,97.68,20,6/29/2021,COD,90 Northfield Street,5,
+C112,Ethan,Wong,Male,ncajklerj@edublogs.org,P003,Bluetooth Speaker,Electronics,62.61,25,4/20/2021,PayPal,09 Pine View Way,5,1565.25
+C102,Raj,Patel,,tbunhillk@cmu.edu,P016,Yoga Mat,Sports & Outdoors,29.78,14,2/17/2021,PayPal,90815 Swallow Point,6,
+C115,Isabella,,Female,jiblel@naver.com,P024,Almond Butter,Grocery,58.7,4,6/2/2021,cash,9 Johnson Junction,7,234.8
+C104,Omar,Ali,Male,glenoirm@flickr.com,P048,Car Air Freshener,Automotive,15.04,22,2/16/2021,PayPal,831 Sullivan Way,6,330.88
+C107,Sophia,Singh,Female,lsancton@ed.gov,P030,Steering Wheel Cover,Automotive,46.76,18,3/15/2021,Credit Card,65440 Rigney Park,7,841.68
+C111,Sara,Mehta,Female,ppinocko@slate.com,P033,Coffee Mug Set,Home & Kitchen,24.25,4,6/21/2021,COD,744 Texas Alley,5,97.0
+C114,Noah,,,nmatasp@is.gd,P004,Electric Kettle,Home & Kitchen,55.57,4,3/16/2021,PayPal,543 Oriole Plaza,4,222.28
+C101,Alice,Johnson,Female,htilneq@facebook.com,P013,Board Game: Codenames,Toys & Games,80.03,20,1/27/2021,Apple Pay,398 Oriole Drive,6,1600.6
+C113,Aisha,Desai,Female,eleylandr@twitter.com,P044,,Grocery,,6,6/17/2021,COD,012 Melvin Circle,6,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1
+C113,Aisha,Desai,Female,isinnockes@discovery.com,P005,,Home & Kitchen,89.51,12,2/5/2021,COD,45308 Esker Circle,8,1074.12
+C107,Sophia,Singh,Female,aferrollit@squarespace.com,P048,Car Air Freshener,Automotive,80.48,16,2/5/2021,COD,2 Shoshone Plaza,5,1287.68
+C110,Liam,Thompson,Male,hcoatu@google.ca,P023,Chocolate Chip Cookies,Grocery,33.54,5,1/27/2021,PayPal,158 Ridgeview Junction,6,167.7
+C110,Liam,Thompson,Male,bwreffordv@yahoo.com,P041,Protein Shake Bottle,Sports & Outdoors,97.69,4,5/3/2021,cash,13 Judy Street,7,390.76
+C115,Isabella,Das,Female,tzoppiew@princeton.edu,P028,Car Vacuum Cleaner,Automotive,34.28,5,2/16/2021,Credit Card,16 Sunnyside Way,4,171.4
+C108,Arjun,Verma,Male,dyushinx@i2i.jp,P025,Notebook (5-pack),Office Supplies,88.37,20,6/1/2021,cash,436 Farragut Road,5,1767.4
+C107,Sophia,Singh,Female,krichensy@cbsnews.com,P007,Men's Running Shoes,Clothing,20.34,,6/28/2021,Apple Pay,5 Fremont Road,7,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1
+C105,Priya,Nair,Female,blarensonz@stumbleupon.com,P038,,Toys & Games,44.28,25,2/7/2021,cash,3 Tennyson Pass,5,1107.0
+C108,Arjun,Verma,Male,lfarquhar10@ucoz.com,P006,Vacuum Cleaner,Home & Kitchen,,8,1/1/2021,PayPal,66445 Dorton Terrace,6,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1
+C109,Maya,Rodriguez,Female,thardison11@opensource.org,P046,Sticky Notes (3x3),Office Supplies,,19,4/22/2021,Apple Pay,93 Raven Court,6,
+C106,David,Kim,Male,bchrismas12@cbc.ca,P015,Plush Teddy Bear,Toys & Games,22.01,13,3/20/2021,Credit Card,7 Monica Plaza,4,286.13
+C104,Omar,Ali,Male,gpoulden13@plala.or.jp,P006,,Home & Kitchen,86.25,5,4/10/2021,Credit Card,82408 Clemons Lane,5,431.25
+C106,David,Kim,Male,sspadeck14@xrea.com,P043,Vitamin C Gummies,Health & Personal Care,12.17,,2/27/2021,Credit Card,461 Dottie Pass,8,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1
+C105,,Nair,Female,cwoodwin15@google.pl,P033,Coffee Mug Set,Home & Kitchen,84.67,22,5/5/2021,COD,16879 Oakridge Lane,6,1862.74
+C102,Raj,Patel,Male,sashborn16@oracle.com,P010,"""The Alchemist""",,6.23,11,3/9/2021,Credit Card,98547 West Way,4,68.53
+C103,Emma,Chen,Female,cbanat17@list-manage.com,P010,"""The Alchemist""",Books,46.34,18,2/16/2021,cash,5 Continental Drive,5,834.12
+C106,David,Kim,Male,dfellos18@home.pl,P008,,Clothing,41.71,8,3/16/2021,COD,0962 Union Hill,6,333.68
+C111,Sara,Mehta,,tcaukill19@artisteer.com,P040,Resistance Bands,Sports & Outdoors,25.01,21,2/13/2021,COD,026 Russell Park,5,525.21
+C115,Isabella,Das,Female,cblewmen1a@bloglovin.com,P001,Wireless Earbuds,Electronics,28.27,12,5/13/2021,COD,1 Novick Alley,7,339.24
+C106,David,Kim,Male,ufretwell1b@microsoft.com,,,,15.44,2,4/29/2021,COD,707 Westport Parkway,4,30.88
+C104,Omar,Ali,Male,rjonin1c@yolasite.com,P043,Vitamin C Gummies,,52.22,12,1/4/2021,PayPal,0662 Oak Drive,5,626.64
+C107,Sophia,Singh,Female,mpfeffle1d@thetimes.co.uk,P038,Rubik’s Cube,,84.67,16,4/20/2021,Apple Pay,3 Hanson Street,,1354.72
+C115,Isabella,Das,Female,cgodly1e@opensource.org,P018,Running Shorts,,92.77,9,2/4/2021,COD,674 Clove Parkway,7,834.93
+C107,Sophia,Singh,Female,ktenniswood1f@illinois.edu,P003,Bluetooth Speaker,Electronics,51.25,17,4/25/2021,Credit Card,31899 Manufacturers Court,4,871.25
+C110,Liam,Thompson,Male,cpawelek1g@histats.com,P045,,Grocery,81.63,7,5/8/2021,Credit Card,03 Thackeray Hill,6,571.41
+C103,Emma,Chen,Female,fradbourne1h@mail.ru,P030,Steering Wheel Cover,Automotive,38.45,2,1/5/2021,PayPal,4 Independence Pass,4,76.9
+C113,Aisha,Desai,Female,oguillou1i@posterous.com,P005,Nonstick Frying Pan,Home & Kitchen,9.64,25,2/15/2021,Credit Card,71 Bobwhite Plaza,4,241.0
+C114,Noah,Shah,,wfilipyev1j@wikispaces.com,P043,Vitamin C Gummies,Health & Personal Care,61.07,3,4/22/2021,cash,192 Clarendon Road,7,183.21
+C108,Arjun,Verma,,dmoney1k@amazon.co.uk,P025,Notebook (5-pack),Office Supplies,21.08,15,1/7/2021,COD,1609 Reindahl Park,8,316.2
+C103,Emma,Chen,Female,edeclerq1l@un.org,P044,Pasta Sauce,Grocery,64.98,6,1/13/2021,COD,03909 Heffernan Lane,4,389.88
+C112,Ethan,Wong,Male,sshreeve1m@cloudflare.com,P035,Winter Scarf,Clothing,76.0,4,1/12/2021,Credit Card,3 Rockefeller Lane,6,304.0
+,Liam,Thompson,Male,btubbs1n@zdnet.com,P041,Protein Shake Bottle,Sports & Outdoors,6.87,9,4/5/2021,PayPal,433 Vernon Crossing,6,61.83
+C113,Aisha,Desai,Female,lmains1o@creativecommons.org,P035,Winter Scarf,Clothing,46.58,21,6/27/2021,Credit Card,3935 Tennessee Road,5,978.18
+C112,Ethan,Wong,Male,,P005,Nonstick Frying Pan,Home & Kitchen,61.07,6,4/15/2021,COD,3 Debs Circle,8,366.42
+C103,Emma,Chen,Female,rkintzel1q@wufoo.com,P040,Resistance Bands,Sports & Outdoors,5.23,14,5/18/2021,PayPal,9405 Schurz Drive,,73.22
+C108,Arjun,Verma,Male,cnolleth1r@state.gov,P003,Bluetooth Speaker,Electronics,63.54,24,4/13/2021,Credit Card,0 Trailsway Trail,8,1524.96
+C102,Raj,Patel,Male,dtessier1s@ifeng.com,P035,Winter Scarf,Clothing,14.62,11,2/14/2021,Credit Card,5421 Bunker Hill Circle,7,160.82
+C113,Aisha,Desai,Female,ltrime1t@foxnews.com,P041,Protein Shake Bottle,Sports & Outdoors,90.49,24,3/25/2021,Credit Card,1542 Mosinee Drive,6,2171.76
+C113,Aisha,Desai,Female,jcrosio1u@adobe.com,P045,Breakfast Cereal,Grocery,83.28,21,,PayPal,390 Portage Place,4,1748.88
+C114,Noah,Shah,Male,vallsup1v@ovh.net,P035,Winter Scarf,Clothing,35.5,8,1/30/2021,cash,45057 Petterle Alley,4,284.0
+C114,Noah,Shah,Male,ebaiden1w@slate.com,P022,Organic Green Tea,Grocery,70.14,23,6/2/2021,PayPal,76 Surrey Way,4,1613.22
+C104,Omar,Ali,,izorn1x@fotki.com,P046,Sticky Notes (3x3),Office Supplies,75.64,7,5/31/2021,Credit Card,21 Holmberg Avenue,4,529.48
+C101,Alice,Johnson,Female,dbalm1y@4shared.com,P011,"""Atomic Habits""",,3.24,10,2/12/2021,Apple Pay,75 Monument Park,5,32.4
+C114,Noah,,Male,lseage1z@addtoany.com,P022,Organic Green Tea,Grocery,56.83,22,2/12/2021,PayPal,47 Sachs Road,6,
+C107,Sophia,Singh,Female,ntoffoloni20@geocities.jp,P023,Chocolate Chip Cookies,Grocery,57.81,22,1/19/2021,COD,2 Summer Ridge Crossing,4,1271.82
+C112,Ethan,Wong,Male,plemarie21@acquirethisname.com,P014,Lego Creator Set,Toys & Games,93.76,5,1/12/2021,Apple Pay,844 Lakewood Junction,5,
+C112,Ethan,Wong,Male,vlonder22@theglobeandmail.com,P035,Winter Scarf,Clothing,11.73,6,4/10/2021,PayPal,88 Ridgeview Parkway,4,70.38
+C103,Emma,Chen,Female,,P046,Sticky Notes (3x3),Office Supplies,47.02,9,5/15/2021,Apple Pay,080 Village Green Place,,423.18
+C101,,Johnson,,bfarguhar24@desdev.cn,P023,Chocolate Chip Cookies,Grocery,52.17,24,2/3/2021,cash,8629 New Castle Street,5,1252.08
+C107,Sophia,Singh,Female,lburgot25@indiegogo.com,,Board Game: Codenames,Toys & Games,97.56,1,1/3/2021,COD,,7,97.56
+C112,Ethan,Wong,Male,mboxill26@ovh.net,P020,Face Moisturizer,Health & Personal Care,,21,3/29/2021,COD,,4,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1
+C111,Sara,Mehta,Female,adurnall27@irs.gov,P029,,Automotive,26.71,18,1/22/2021,Apple Pay,,7,480.78
+C109,Maya,Rodriguez,Female,mbeiderbecke28@cisco.com,P029,,Automotive,77.04,8,2/5/2021,Credit Card,55 Quincy Road,8,616.32
+C107,Sophia,Singh,Female,adubock29@hugedomains.com,P045,Breakfast Cereal,Grocery,45.66,12,1/11/2021,Credit Card,12 Carberry Pass,4,547.92
+C107,Sophia,Singh,Female,jgabites2a@1688.com,P032,LED Desk Lamp,Home & Kitchen,58.32,11,1/3/2021,COD,010 Carberry Point,5,641.52
+,Arjun,Verma,Male,dwindham2b@mozilla.com,P022,Organic Green Tea,,71.62,10,4/23/2021,Apple Pay,08536 Gulseth Avenue,,716.2
+C113,Aisha,Desai,Female,rengland2c@so-net.ne.jp,P040,Resistance Bands,Sports & Outdoors,88.21,22,4/3/2021,COD,87 Golf Course Lane,4,1940.62
+C103,,Chen,,lneno2d@ucsd.edu,P005,,Home & Kitchen,37.78,4,4/18/2021,Credit Card,1 Morning Drive,5,151.12
+C109,,Rodriguez,,hankers2e@posterous.com,P046,Sticky Notes (3x3),Office Supplies,13.21,9,5/16/2021,PayPal,7 Longview Plaza,7,118.89
+C110,Liam,Thompson,Male,zfesby2f@discuz.net,P044,Pasta Sauce,Grocery,77.99,14,6/21/2021,cash,44 Anhalt Street,7,1091.86
+C104,Omar,Ali,Male,bhoggins2g@shop-pro.jp,P006,Vacuum Cleaner,Home & Kitchen,23.01,10,5/21/2021,Apple Pay,762 Park Meadow Court,7,230.1
+,Ethan,Wong,Male,ewoodwind2h@boston.com,P046,,Office Supplies,66.03,25,6/7/2021,COD,560 Calypso Street,8,1650.75
+C107,Sophia,Singh,Female,acongreave2i@so-net.ne.jp,P026,Ballpoint Pens,Office Supplies,82.68,19,3/8/2021,Credit Card,3 Norway Maple Place,5,1570.92
+C111,Sara,Mehta,Female,dhurring2j@networksolutions.com,P005,Nonstick Frying Pan,Home & Kitchen,45.01,20,5/22/2021,PayPal,7 Sachs Alley,6,900.2
+C110,Liam,Thompson,Male,edesport2k@networkadvertising.org,P040,,Sports & Outdoors,49.03,7,5/18/2021,COD,34053 Manufacturers Alley,4,343.21
+C113,Aisha,Desai,Female,jlefeuvre2l@photobucket.com,P029,Windshield Sun Shade,Automotive,15.89,1,3/15/2021,COD,2972 Johnson Drive,7,15.89
+C108,Arjun,,Male,cagronski2m@blogtalkradio.com,P020,,Health & Personal Care,93.78,5,6/21/2021,cash,87 Loomis Parkway,7,468.9
+C110,Liam,Thompson,Male,keccles2n@freewebs.com,P020,Face Moisturizer,Health & Personal Care,26.77,,2/4/2021,PayPal,5514 La Follette Lane,4,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1
+C106,David,Kim,Male,cfilippi2o@geocities.com,P029,Windshield Sun Shade,Automotive,16.72,16,5/12/2021,COD,75 Jenna Pass,8,267.52
+C114,Noah,Shah,Male,abockings2p@chicagotribune.com,P006,Vacuum Cleaner,,38.55,18,3/21/2021,COD,45859 Monica Parkway,8,693.9
+C101,Alice,Johnson,Female,nkevern2q@unesco.org,P031,Noise Cancelling Headphones,Electronics,92.9,10,5/12/2021,PayPal,2 Basil Center,7,929.0
+C106,David,,Male,,P008,Women's Jacket,Clothing,63.21,6,2/25/2021,cash,6052 Packers Plaza,4,379.26
+C107,Sophia,Singh,Female,bcammack2s@umich.edu,P025,,Office Supplies,20.98,8,1/17/2021,PayPal,54 Lunder Pass,6,167.84
+C103,Emma,Chen,Female,gortes2t@soup.io,P042,First Aid Kit,Health & Personal Care,63.61,16,5/3/2021,COD,0 Ronald Regan Lane,8,1017.76
+C105,Priya,Nair,Female,aborris2u@wired.com,P032,LED Desk Lamp,Home & Kitchen,99.61,14,4/15/2021,Apple Pay,08518 Mariners Cove Terrace,8,1394.54
+C101,Alice,Johnson,Female,sbodemeaid2v@army.mil,P012,"""Deep Work""",Books,,13,5/31/2021,Apple Pay,656 Bay Way,7,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1
+C104,,Ali,Male,jwalding2w@etsy.com,P001,Wireless Earbuds,Electronics,26.86,6,3/30/2021,COD,18229 Huxley Lane,7,161.16
+C106,David,Kim,Male,byearnes2x@google.fr,P016,Yoga Mat,Sports & Outdoors,10.92,20,1/21/2021,PayPal,44589 Nancy Terrace,8,218.4
+C111,Sara,Mehta,,acrocket2y@nbcnews.com,P040,Resistance Bands,Sports & Outdoors,12.95,17,3/3/2021,Credit Card,25 Blue Bill Park Alley,4,220.15
+C107,Sophia,Singh,Female,lcoaster2z@java.com,P041,Protein Shake Bottle,Sports & Outdoors,44.78,15,5/24/2021,Credit Card,092 Maple Street,8,671.7
+C102,Raj,Patel,Male,pleyshon30@state.gov,P022,Organic Green Tea,Grocery,23.76,15,1/2/2021,Apple Pay,8075 Moulton Place,6,356.4
+C101,Alice,Johnson,Female,dtollett31@java.com,P039,Jigsaw Puzzle (1000 pcs),Toys & Games,31.16,12,4/10/2021,cash,132 Anthes Junction,7,373.92
+C112,Ethan,Wong,Male,lgannon32@illinois.edu,P038,Rubik’s Cube,Toys & Games,84.06,23,6/9/2021,PayPal,4 Stang Pass,5,1933.38
+,David,Kim,Male,ningley33@google.it,P009,Casual T-Shirt,Clothing,,7,3/29/2021,cash,3 Briar Crest Alley,6,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1
+C115,Isabella,Das,Female,hpimlett34@cpanel.net,P033,Coffee Mug Set,Home & Kitchen,22.54,7,6/14/2021,Credit Card,8467 Rutledge Avenue,7,
+C102,Raj,Patel,Male,fginie35@live.com,P047,Highlighters (6-pack),Office Supplies,59.96,4,6/23/2021,Credit Card,45 Rieder Place,4,239.84
+C107,Sophia,Singh,Female,klaffan36@vkontakte.ru,P046,Sticky Notes (3x3),Office Supplies,80.75,21,6/4/2021,COD,75 Lerdahl Parkway,5,1695.75
+C105,,Nair,Female,ygranger37@about.me,P025,Notebook (5-pack),Office Supplies,71.02,8,3/14/2021,Credit Card,0 Thompson Point,7,568.16
+C113,,Desai,Female,msand38@economist.com,P020,Face Moisturizer,Health & Personal Care,11.9,16,2/23/2021,Apple Pay,8 Welch Place,7,190.4
+C113,Aisha,Desai,Female,plifton39@independent.co.uk,P002,Smartwatch,Electronics,66.97,14,4/25/2021,cash,478 Parkside Road,7,937.58
+C109,Maya,Rodriguez,Female,etreamayne3a@topsy.com,P049,USB Car Charger,Automotive,78.91,3,3/26/2021,Apple Pay,0476 Armistice Point,4,236.73
+C113,Aisha,Desai,Female,nricharz3b@sbwire.com,P046,Sticky Notes (3x3),Office Supplies,39.8,19,1/15/2021,PayPal,3497 Dakota Lane,6,756.2
+C103,Emma,Chen,Female,mhellikes3c@bbb.org,P039,Jigsaw Puzzle (1000 pcs),Toys & Games,63.18,2,3/21/2021,COD,3 Banding Center,8,126.36
+C104,Omar,,,mbryett3d@purevolume.com,P029,Windshield Sun Shade,Automotive,4.57,1,4/18/2021,Apple Pay,745 Browning Avenue,4,
+C101,Alice,Johnson,Female,shunter3e@biblegateway.com,P027,,Office Supplies,48.29,17,1/1/2021,Credit Card,311 Shopko Park,5,820.93
+C109,Maya,Rodriguez,Female,kgodding3f@homestead.com,P020,Face Moisturizer,Health & Personal Care,64.46,16,4/13/2021,PayPal,759 John Wall Parkway,8,1031.36
+C107,Sophia,Singh,Female,mtaggert3g@ed.gov,P020,Face Moisturizer,Health & Personal Care,65.53,25,1/8/2021,PayPal,4991 Manufacturers Court,4,1638.25
+C109,Maya,,Female,apitrollo3h@geocities.com,P038,Rubik’s Cube,Toys & Games,21.0,24,3/3/2021,PayPal,75882 Mallard Way,7,504.0
+C113,Aisha,Desai,,tmeneyer3i@moonfruit.com,P032,LED Desk Lamp,Home & Kitchen,27.45,13,6/6/2021,Credit Card,0704 Mandrake Park,4,356.85
+C115,Isabella,Das,Female,nkezar3j@sohu.com,P024,Almond Butter,Grocery,71.2,8,6/20/2021,cash,1 Sugar Place,8,569.6
+C110,Liam,Thompson,,gyeskov3k@yelp.com,P009,Casual T-Shirt,Clothing,,23,5/29/2021,COD,673 Rockefeller Circle,4,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1
+C106,David,Kim,Male,lpietri3l@apache.org,P027,Wireless Mouse,Office Supplies,95.62,22,6/18/2021,COD,47705 2nd Road,5,2103.64
+C111,Sara,Mehta,Female,,P003,Bluetooth Speaker,Electronics,53.86,21,6/18/2021,cash,5365 Upham Hill,4,1131.06
+C110,Liam,Thompson,Male,vjollye3n@newyorker.com,P015,Plush Teddy Bear,Toys & Games,21.93,2,2/1/2021,cash,303 Victoria Hill,5,43.86
+C101,Alice,Johnson,,wgyver3o@latimes.com,P013,Board Game: Codenames,Toys & Games,31.55,7,4/27/2021,PayPal,274 Summer Ridge Parkway,8,220.85
+C107,Sophia,Singh,Female,aedwins3p@webnode.com,P038,Rubik’s Cube,Toys & Games,4.67,12,2/24/2021,PayPal,6 Nova Point,7,56.04
+C111,Sara,Mehta,Female,cmckendry3q@opensource.org,P009,Casual T-Shirt,Clothing,87.59,10,4/6/2021,cash,6218 John Wall Place,7,
+C107,Sophia,Singh,Female,gscollan3r@theguardian.com,,Electric Kettle,Home & Kitchen,51.23,3,1/11/2021,Credit Card,04 Mendota Trail,4,153.69
+,Aisha,Desai,Female,wrabbet3s@facebook.com,P020,Face Moisturizer,Health & Personal Care,60.16,12,4/23/2021,cash,02 Jana Trail,4,721.92
+C108,Arjun,Verma,,sould3t@scribd.com,P035,Winter Scarf,Clothing,9.3,10,2/25/2021,PayPal,4694 Thackeray Junction,5,
+C103,Emma,Chen,Female,lbellenger3u@spotify.com,P049,USB Car Charger,Automotive,73.95,21,6/28/2021,COD,345 Transport Pass,4,1552.95
+C106,David,Kim,Male,twhibley3v@ca.gov,P016,Yoga Mat,Sports & Outdoors,55.13,,6/17/2021,COD,7 Dawn Junction,8,
+C103,Emma,Chen,Female,,P021,Hair Dryer,Health & Personal Care,98.2,1,2/24/2021,Credit Card,7104 Sugar Trail,8,98.2
+C112,Ethan,Wong,Male,,P030,Steering Wheel Cover,Automotive,91.49,6,3/5/2021,COD,39432 Bunker Hill Point,4,548.94
+C109,Maya,Rodriguez,Female,mmcmeekan3y@cbsnews.com,P011,"""Atomic Habits""",Books,84.5,21,5/12/2021,cash,18258 Reinke Point,8,1774.5
+C111,Sara,Mehta,Female,sgeorgi3z@miibeian.gov.cn,P011,"""Atomic Habits""",Books,16.61,7,2/19/2021,COD,0 Muir Crossing,8,
+C109,Maya,Rodriguez,Female,jfallon40@weibo.com,P005,Nonstick Frying Pan,Home & Kitchen,,14,4/6/2021,Apple Pay,8 Ryan Trail,8,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1
+,Aisha,Desai,Female,tbande41@youku.com,P038,Rubik’s Cube,Toys & Games,36.82,,1/17/2021,cash,28118 Petterle Avenue,,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1
+C111,Sara,Mehta,Female,jmacneachtain42@java.com,P020,Face Moisturizer,Health & Personal Care,74.05,6,3/6/2021,Apple Pay,,6,444.3
+C109,,Rodriguez,Female,wslator43@mozilla.org,P030,Steering Wheel Cover,Automotive,30.76,1,,Apple Pay,21109 Sauthoff Junction,4,30.76
+C101,Alice,Johnson,Female,swhitemarsh44@ehow.com,P042,First Aid Kit,Health & Personal Care,74.09,10,2/6/2021,PayPal,8 Shelley Court,4,740.9
+C102,Raj,Patel,Male,jraspison45@shop-pro.jp,P015,Plush Teddy Bear,Toys & Games,1.69,11,1/17/2021,COD,99 Calypso Way,4,18.59
+C115,Isabella,Das,Female,vbecerro46@drupal.org,P047,Highlighters (6-pack),Office Supplies,65.36,10,1/4/2021,COD,20 Moose Street,4,653.6
+C113,Aisha,Desai,Female,casals47@dion.ne.jp,P018,Running Shorts,Sports & Outdoors,79.04,3,2/10/2021,cash,7 Bluestem Road,6,237.12
+C115,Isabella,Das,Female,mchristal48@plala.or.jp,P041,Protein Shake Bottle,Sports & Outdoors,1.26,21,1/16/2021,Apple Pay,0606 Granby Park,7,26.46
+C113,Aisha,Desai,Female,,P018,Running Shorts,Sports & Outdoors,52.59,13,3/3/2021,COD,147 2nd Plaza,7,683.67
+C108,Arjun,Verma,Male,ekarolowski4a@sphinn.com,P031,Noise Cancelling Headphones,Electronics,37.58,20,5/5/2021,Credit Card,9 Green Ridge Street,5,751.6
+C109,,Rodriguez,Female,hrosewell4b@netlog.com,P004,,Home & Kitchen,97.37,13,1/10/2021,COD,9 Jackson Circle,5,1265.81
+C111,Sara,Mehta,Female,tcallear4c@youtube.com,P036,"""Can't Hurt Me""",Books,53.57,22,4/19/2021,Credit Card,2869 Ridgeway Park,4,1178.54
+C105,Priya,Nair,Female,cwreford4d@nifty.com,P007,Men's Running Shoes,Clothing,69.24,22,4/12/2021,Credit Card,0 Tony Circle,7,1523.28
+C114,Noah,Shah,Male,ahabershon4e@umich.edu,P047,Highlighters (6-pack),Office Supplies,84.04,13,5/25/2021,PayPal,1 Roth Hill,6,1092.52
+C110,Liam,,Male,tskoughman4f@fc2.com,P013,Board Game: Codenames,Toys & Games,10.17,7,1/1/2021,PayPal,0 Lukken Point,5,71.19
+C101,Alice,Johnson,Female,amantione4g@slate.com,P007,Men's Running Shoes,Clothing,98.22,1,6/13/2021,COD,69 Charing Cross Lane,5,98.22
+C102,Raj,Patel,Male,dfidge4h@smugmug.com,P027,,Office Supplies,39.63,22,3/16/2021,COD,62556 Fremont Way,8,871.86
+C114,Noah,Shah,Male,sedger4i@vistaprint.com,P022,Organic Green Tea,Grocery,78.94,22,1/8/2021,Apple Pay,26062 Sommers Point,5,1736.68
+C115,Isabella,Das,,jnoone4j@spotify.com,P009,Casual T-Shirt,Clothing,,21,5/25/2021,cash,,4,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1
+C104,Omar,Ali,Male,mbrogan4k@hugedomains.com,P034,Maxi Dress,Clothing,11.33,9,1/18/2021,cash,3797 Jenifer Crossing,5,101.97
+C112,Ethan,Wong,Male,bgillanders4l@shareasale.com,P035,,Clothing,60.16,3,5/13/2021,COD,281 Upham Junction,6,180.48
+C110,Liam,Thompson,Male,mpeaurt4m@liveinternet.ru,P045,Breakfast Cereal,,65.29,23,5/18/2021,Apple Pay,10 Waxwing Pass,5,1501.67
+C112,Ethan,Wong,Male,dutton4n@google.com,P002,Smartwatch,Electronics,2.2,15,6/6/2021,Apple Pay,2544 Bay Hill,8,33.0
+C114,Noah,Shah,,mjuckes4o@phpbb.com,,Resistance Bands,Sports & Outdoors,26.39,23,2/10/2021,COD,88129 Crescent Oaks Crossing,5,606.97
+C102,Raj,Patel,Male,rfetters4p@so-net.ne.jp,P006,Vacuum Cleaner,Home & Kitchen,64.88,5,6/17/2021,Credit Card,05 Garrison Center,4,324.4
+C110,Liam,Thompson,Male,emancer4q@rambler.ru,P012,"""Deep Work""",Books,81.48,10,1/29/2021,Credit Card,849 Loeprich Trail,8,814.8
+C115,Isabella,Das,Female,kclacey4r@pen.io,P009,Casual T-Shirt,Clothing,,10,2/13/2021,PayPal,37154 Glendale Terrace,6,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1
+C109,Maya,Rodriguez,Female,wchessman4s@t.co,P038,Rubik’s Cube,Toys & Games,75.99,12,2/19/2021,Credit Card,0 Shopko Junction,4,911.88
+,Isabella,Das,Female,darmytage4t@dropbox.com,P025,,Office Supplies,42.3,24,6/5/2021,PayPal,8 Ridgeway Trail,8,1015.2
+C105,Priya,Nair,Female,,P025,Notebook (5-pack),Office Supplies,7.08,9,6/6/2021,cash,99611 Spenser Park,8,63.72
+C110,Liam,Thompson,Male,cdemicoli4v@ow.ly,P041,Protein Shake Bottle,Sports & Outdoors,89.62,22,5/12/2021,cash,07 Springs Lane,5,1971.64
+C105,Priya,Nair,Female,ncrotty4w@quantcast.com,P043,Vitamin C Gummies,Health & Personal Care,53.75,4,3/4/2021,Apple Pay,34 Daystar Hill,6,215.0
+C113,,Desai,Female,ayeomans4x@msn.com,P012,"""Deep Work""",,41.63,5,4/12/2021,Credit Card,,7,208.15
+C111,Sara,Mehta,Female,fdumingos4y@zimbio.com,P043,Vitamin C Gummies,Health & Personal Care,11.28,5,6/19/2021,Credit Card,,6,56.4
+C101,Alice,,Female,bpuzey4z@gizmodo.com,,Smartwatch,Electronics,60.27,25,3/8/2021,Apple Pay,3293 School Lane,4,1506.75
+C107,Sophia,Singh,Female,yloins50@themeforest.net,P028,Car Vacuum Cleaner,Automotive,75.3,12,1/4/2021,Credit Card,288 Gulseth Terrace,5,
+C107,,Singh,Female,sscreech51@timesonline.co.uk,P003,Bluetooth Speaker,Electronics,81.8,21,1/4/2021,Credit Card,19 Iowa Trail,6,1717.8
+C115,,Das,Female,gmcelree52@pbs.org,P005,Nonstick Frying Pan,Home & Kitchen,38.35,18,3/24/2021,cash,8794 Northport Point,,690.3
+C110,Liam,Thompson,,drival53@t.co,P029,Windshield Sun Shade,Automotive,8.22,14,5/20/2021,COD,6 Carberry Pass,4,115.08
+C107,Sophia,Singh,Female,lkasman54@hc360.com,P019,Toothbrush Set,Health & Personal Care,2.72,1,3/13/2021,Apple Pay,004 Sachtjen Crossing,7,2.72
+C109,,Rodriguez,Female,sburkert55@histats.com,P047,Highlighters (6-pack),Office Supplies,28.61,13,2/7/2021,PayPal,6997 Ludington Lane,7,371.93
+C109,Maya,Rodriguez,Female,sgrey56@microsoft.com,P046,Sticky Notes (3x3),Office Supplies,33.64,7,5/15/2021,Credit Card,,,235.48
+C102,Raj,Patel,Male,edible57@51.la,P032,LED Desk Lamp,Home & Kitchen,89.72,10,4/12/2021,PayPal,8 Lighthouse Bay Park,6,897.2
+C113,Aisha,Desai,,wwardle58@networkadvertising.org,P042,,Health & Personal Care,65.13,12,2/13/2021,PayPal,1872 Walton Parkway,4,781.56
+C110,Liam,Thompson,Male,tfurzer59@nsw.gov.au,P018,Running Shorts,Sports & Outdoors,69.86,11,6/9/2021,PayPal,35 Tennessee Lane,8,768.46
+C105,Priya,Nair,Female,wmaymand5a@ezinearticles.com,P038,,Toys & Games,20.87,21,3/9/2021,COD,2 New Castle Park,4,438.27
+C107,,Singh,Female,glivingston5b@independent.co.uk,P005,Nonstick Frying Pan,Home & Kitchen,47.22,21,4/20/2021,PayPal,80 Nova Crossing,4,991.62
+C108,Arjun,Verma,Male,dpengilley5c@goodreads.com,P001,Wireless Earbuds,Electronics,69.54,10,5/28/2021,PayPal,45178 Beilfuss Crossing,7,695.4
+C106,David,Kim,Male,chain5d@marriott.com,P050,Dashboard Phone Mount,Automotive,67.73,25,3/26/2021,COD,832 Cottonwood Lane,4,1693.25
+C110,Liam,Thompson,Male,,P036,"""Can't Hurt Me""",Books,66.67,1,,cash,996 Rusk Trail,8,66.67
+C103,Emma,Chen,Female,rhazel5f@google.co.uk,P017,Dumbbell Set (15lb),Sports & Outdoors,34.15,9,3/1/2021,COD,58477 Riverside Pass,8,307.35
+C101,Alice,Johnson,Female,kliggons5g@4shared.com,P040,Resistance Bands,Sports & Outdoors,45.2,11,2/23/2021,PayPal,85803 Londonderry Pass,6,497.2
+C113,Aisha,,Female,aalpine5h@smh.com.au,P047,Highlighters (6-pack),Office Supplies,98.26,2,1/9/2021,Credit Card,7 Armistice Hill,7,196.52
+C112,Ethan,Wong,Male,aligoe5i@google.ru,P035,Winter Scarf,Clothing,97.67,10,5/22/2021,cash,8 Glacier Hill Terrace,6,976.7
+C111,Sara,Mehta,Female,akemet5j@archive.org,P034,Maxi Dress,Clothing,44.86,4,,cash,602 Annamark Terrace,7,179.44
+C114,,,Male,fdannell5k@virginia.edu,P049,USB Car Charger,Automotive,94.08,18,6/23/2021,Apple Pay,3831 Fallview Point,5,1693.44
+C106,David,Kim,,jsorton5l@sohu.com,P020,Face Moisturizer,Health & Personal Care,42.25,9,,COD,32495 Spohn Place,8,380.25
+C112,Ethan,Wong,Male,ajouhandeau5m@independent.co.uk,P026,Ballpoint Pens,Office Supplies,64.96,20,6/10/2021,PayPal,29381 Arkansas Alley,5,1299.2
+C112,,Wong,Male,kodom5n@purevolume.com,P050,Dashboard Phone Mount,,29.9,6,4/6/2021,Credit Card,4 Ridge Oak Circle,8,179.4
+C115,Isabella,Das,Female,bwornham5o@theglobeandmail.com,P013,Board Game: Codenames,Toys & Games,,10,4/9/2021,COD,,6,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1
+C106,David,Kim,Male,,P019,,Health & Personal Care,22.28,12,1/23/2021,Credit Card,3 Warner Hill,8,267.36
+C110,Liam,Thompson,,eheamus5q@cornell.edu,P034,Maxi Dress,Clothing,81.28,8,3/26/2021,PayPal,88 Ludington Way,5,650.24
+C105,Priya,Nair,Female,mimm5r@purevolume.com,P047,,Office Supplies,94.29,17,6/8/2021,cash,9928 Vidon Plaza,4,1602.93
+C108,Arjun,Verma,Male,kbulter5s@umn.edu,P016,Yoga Mat,Sports & Outdoors,22.65,6,4/28/2021,PayPal,,4,135.9
+C112,Ethan,,Male,tducarne5t@jiathis.com,P017,Dumbbell Set (15lb),Sports & Outdoors,26.18,23,3/13/2021,Credit Card,20467 Heath Court,,602.14
+C108,Arjun,Verma,Male,jhutcheon5u@123-reg.co.uk,P044,Pasta Sauce,Grocery,53.0,21,5/14/2021,cash,83272 Steensland Circle,7,1113.0
+C109,Maya,Rodriguez,Female,rbeevens5v@free.fr,P030,Steering Wheel Cover,Automotive,62.15,7,5/6/2021,COD,7 Sloan Road,7,435.05
+C101,Alice,Johnson,Female,ndibdin5w@dagondesign.com,P045,,Grocery,34.68,6,2/28/2021,PayPal,8 Ryan Avenue,7,208.08
+C102,Raj,Patel,Male,bbiffin5x@123-reg.co.uk,P031,,Electronics,95.36,19,2/20/2021,Apple Pay,999 Sachs Terrace,4,1811.84
+,Sophia,Singh,Female,ckilby5y@sciencedaily.com,P020,Face Moisturizer,Health & Personal Care,,4,2/26/2021,Apple Pay,16004 Caliangt Alley,5,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1
+C115,Isabella,Das,Female,mtuny5z@wiley.com,P028,Car Vacuum Cleaner,Automotive,4.98,14,4/30/2021,cash,9 East Center,,69.72
+C103,Emma,Chen,Female,abilyard60@hc360.com,P007,Men's Running Shoes,Clothing,53.1,11,3/8/2021,Credit Card,459 Portage Park,4,584.1
+C109,Maya,Rodriguez,Female,ritter61@accuweather.com,P037,Coloring Book for Adults,Books,20.92,23,1/24/2021,COD,11625 Buell Hill,8,481.16
+C113,Aisha,Desai,Female,jmaudlin62@google.pl,P030,Steering Wheel Cover,Automotive,89.97,22,2/26/2021,Credit Card,3 Hoffman Trail,4,1979.34
+C101,Alice,Johnson,Female,,P020,Face Moisturizer,Health & Personal Care,13.19,5,6/13/2021,PayPal,9 4th Parkway,4,65.95
+C105,Priya,Nair,Female,hmorstatt64@sun.com,P045,Breakfast Cereal,Grocery,23.12,6,2/8/2021,cash,7 Gina Alley,4,138.72
+C107,Sophia,Singh,Female,mtrelevan65@rambler.ru,P017,Dumbbell Set (15lb),Sports & Outdoors,11.17,13,1/3/2021,COD,,4,145.21
+C112,Ethan,Wong,Male,sgentil66@quantcast.com,P035,Winter Scarf,Clothing,43.99,8,1/9/2021,Credit Card,4 Sutherland Lane,8,351.92
+C105,Priya,Nair,Female,ehurl67@engadget.com,P018,,Sports & Outdoors,41.67,11,1/18/2021,Apple Pay,16960 Homewood Lane,7,458.37
+C105,Priya,Nair,Female,bclowes68@smh.com.au,P003,Bluetooth Speaker,Electronics,40.41,22,5/26/2021,Credit Card,89933 Grim Street,4,889.02
+C111,Sara,Mehta,Female,medelman69@princeton.edu,P048,Car Air Freshener,Automotive,4.9,9,3/18/2021,PayPal,0499 Oneill Hill,6,44.1
+C114,Noah,Shah,Male,glerhinan6a@wikia.com,P015,Plush Teddy Bear,Toys & Games,10.47,8,3/6/2021,Apple Pay,5447 Arizona Park,4,83.76
+C106,David,Kim,Male,mabthorpe6b@cdc.gov,P050,Dashboard Phone Mount,Automotive,68.43,17,4/13/2021,COD,317 Summerview Lane,6,1163.31
+C111,Sara,Mehta,Female,nmerigeau6c@sphinn.com,P040,Resistance Bands,Sports & Outdoors,94.59,7,5/12/2021,cash,50 Monument Trail,5,662.13
+C109,,Rodriguez,,crheaume6d@google.com,P022,Organic Green Tea,Grocery,58.4,24,1/16/2021,Apple Pay,09094 Gateway Trail,6,1401.6
+C104,Omar,Ali,Male,ekupis6e@yellowbook.com,P042,,,31.79,10,6/15/2021,Apple Pay,8735 Rigney Junction,6,317.9
+C109,Maya,Rodriguez,Female,,P039,Jigsaw Puzzle (1000 pcs),Toys & Games,67.42,1,5/8/2021,Credit Card,629 Superior Way,7,67.42
+C101,Alice,Johnson,Female,xhoulton6g@cpanel.net,P038,Rubik’s Cube,Toys & Games,6.06,21,4/16/2021,Credit Card,,8,127.26
+C105,Priya,Nair,Female,gtitchener6h@apache.org,P043,Vitamin C Gummies,Health & Personal Care,78.66,20,4/5/2021,COD,,8,1573.2
+C113,Aisha,Desai,Female,rstarkey6i@networksolutions.com,P039,Jigsaw Puzzle (1000 pcs),Toys & Games,69.28,22,4/2/2021,cash,8207 Straubel Drive,7,1524.16
+C113,Aisha,Desai,Female,mbales6j@twitter.com,P042,First Aid Kit,Health & Personal Care,15.09,15,5/28/2021,Credit Card,,7,226.35
+C111,Sara,Mehta,Female,nvaissiere6k@tinyurl.com,P034,Maxi Dress,Clothing,17.31,12,4/23/2021,cash,69017 Veith Drive,5,207.72
+C111,Sara,Mehta,Female,rmartynov6l@dmoz.org,P041,Protein Shake Bottle,Sports & Outdoors,72.8,6,6/15/2021,COD,28455 Coleman Park,5,436.8
+C102,Raj,Patel,Male,pcaramuscia6m@businesswire.com,P037,Coloring Book for Adults,Books,86.71,17,5/12/2021,Credit Card,17393 Kedzie Parkway,7,1474.07
+C109,,Rodriguez,Female,bhanbidge6n@blogs.com,P050,Dashboard Phone Mount,,57.72,24,5/7/2021,cash,2 Dixon Way,4,
+C101,Alice,Johnson,,,P012,"""Deep Work""",Books,63.02,3,6/2/2021,Apple Pay,8606 Eagan Parkway,7,189.06
+C104,Omar,Ali,Male,aatton6p@digg.com,P040,,Sports & Outdoors,52.45,19,2/11/2021,PayPal,4306 Warner Avenue,5,996.55
+C107,Sophia,Singh,Female,ahabbert6q@purevolume.com,P023,Chocolate Chip Cookies,Grocery,60.38,16,5/12/2021,PayPal,30729 Sunbrook Parkway,7,966.08
+C105,Priya,Nair,,brobker6r@canalblog.com,P034,Maxi Dress,Clothing,43.46,,5/19/2021,Credit Card,75 Fairfield Pass,5,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1
+C110,Liam,Thompson,Male,rcriag6s@ucoz.ru,P017,Dumbbell Set (15lb),Sports & Outdoors,,7,5/28/2021,cash,66758 Shasta Trail,5,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1
+C107,Sophia,Singh,Female,rbraven6t@twitpic.com,P014,Lego Creator Set,Toys & Games,37.75,18,5/5/2021,PayPal,81139 Raven Circle,8,679.5
+C115,Isabella,Das,Female,dtwinborne6u@newyorker.com,P012,"""Deep Work""",Books,4.08,23,1/21/2021,cash,21 6th Park,8,93.84
+C113,Aisha,Desai,Female,scutting6v@uiuc.edu,P010,"""The Alchemist""",Books,99.2,2,3/3/2021,Apple Pay,67 Troy Terrace,7,198.4
+C114,Noah,Shah,Male,cblackborow6w@usnews.com,P014,Lego Creator Set,Toys & Games,59.03,13,1/15/2021,cash,89 Lindbergh Pass,6,767.39
+C106,David,Kim,,lshewsmith6x@clickbank.net,P014,Lego Creator Set,Toys & Games,90.81,6,5/18/2021,cash,467 Swallow Plaza,8,
+C115,Isabella,Das,Female,gbiggans6y@wsj.com,P014,,Toys & Games,90.54,7,4/28/2021,cash,42493 Monterey Road,5,633.78
+C101,Alice,Johnson,Female,stoller6z@aboutads.info,P013,Board Game: Codenames,Toys & Games,60.57,2,2/25/2021,PayPal,80804 Lake View Pass,8,121.14
+C107,Sophia,Singh,,jcreese70@technorati.com,P003,Bluetooth Speaker,Electronics,70.9,1,6/8/2021,PayPal,59369 Wayridge Place,4,70.9
+C106,David,Kim,Male,pbeadnall71@guardian.co.uk,,Vacuum Cleaner,Home & Kitchen,34.48,18,4/27/2021,cash,3 Crescent Oaks Street,6,620.64
+C102,Raj,Patel,Male,htoffts72@fc2.com,P042,First Aid Kit,Health & Personal Care,37.53,17,3/8/2021,COD,2948 Graedel Point,8,638.01
+C101,Alice,Johnson,Female,jcranstone73@mail.ru,P009,Casual T-Shirt,Clothing,15.61,24,2/1/2021,COD,616 Mariners Cove Pass,6,374.64
+C114,Noah,Shah,Male,tmulqueen74@globo.com,P036,"""Can't Hurt Me""",Books,16.95,,2/18/2021,cash,6822 School Park,7,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1
+C110,Liam,Thompson,Male,eupham75@mapquest.com,P008,Women's Jacket,Clothing,93.84,18,3/1/2021,cash,01 Anhalt Avenue,5,1689.12
+C105,Priya,Nair,Female,rlampbrecht76@qq.com,P003,Bluetooth Speaker,Electronics,87.82,20,6/1/2021,cash,11375 Stoughton Road,6,
+C110,,Thompson,Male,rpoetz77@ycombinator.com,P046,Sticky Notes (3x3),Office Supplies,68.14,15,2/2/2021,COD,9 Mandrake Trail,7,1022.1
+C112,Ethan,Wong,Male,hloveredge78@tripadvisor.com,P032,LED Desk Lamp,Home & Kitchen,52.55,14,5/23/2021,cash,95 Lunder Trail,,735.7
+C110,Liam,Thompson,Male,vlobley79@pen.io,P027,Wireless Mouse,Office Supplies,44.47,20,5/31/2021,PayPal,74 Red Cloud Center,4,889.4
+C101,Alice,Johnson,Female,ccudd7a@bloglines.com,P017,Dumbbell Set (15lb),Sports & Outdoors,16.55,2,3/19/2021,PayPal,5850 Arkansas Way,8,33.1
+C106,David,Kim,,gwiddowfield7b@admin.ch,P026,Ballpoint Pens,Office Supplies,57.6,3,3/20/2021,Apple Pay,50 Washington Avenue,6,172.8
+C104,Omar,Ali,Male,vashling7c@time.com,P039,Jigsaw Puzzle (1000 pcs),Toys & Games,26.45,18,5/6/2021,PayPal,481 Dennis Crossing,6,476.1
+C103,Emma,Chen,Female,fgreep7d@google.ca,P037,Coloring Book for Adults,Books,72.02,12,4/9/2021,COD,583 Anhalt Alley,7,864.24
+C107,Sophia,Singh,Female,mcorain7e@typepad.com,P017,Dumbbell Set (15lb),Sports & Outdoors,4.17,4,5/16/2021,COD,0780 Starling Point,,16.68
+C110,Liam,Thompson,Male,osherlaw7f@examiner.com,P001,Wireless Earbuds,Electronics,13.99,4,2/4/2021,cash,7 Ridge Oak Trail,8,55.96
+C114,Noah,Shah,Male,dgrayson7g@google.it,P048,Car Air Freshener,Automotive,2.26,9,3/17/2021,Credit Card,5748 Caliangt Lane,7,20.34
+C111,Sara,Mehta,,,P027,Wireless Mouse,Office Supplies,,20,2/10/2021,Apple Pay,0636 Lakeland Place,8,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1
+C103,Emma,Chen,Female,gsercombe7i@nasa.gov,P032,LED Desk Lamp,Home & Kitchen,32.14,25,1/30/2021,COD,695 Nancy Plaza,8,803.5
+C104,Omar,Ali,Male,ktunnah7j@wikia.com,P036,"""Can't Hurt Me""",,94.35,12,3/23/2021,Credit Card,0818 Cascade Way,6,1132.2
+C106,David,Kim,Male,mlefwich7k@photobucket.com,P022,,Grocery,27.67,1,1/8/2021,Credit Card,738 Karstens Road,4,
+C106,David,Kim,Male,dmahaddie7l@dagondesign.com,P021,Hair Dryer,Health & Personal Care,5.4,17,5/12/2021,COD,4952 Kropf Lane,6,91.8
+C108,Arjun,Verma,Male,rbertelsen7m@goo.ne.jp,P019,Toothbrush Set,Health & Personal Care,51.96,,1/12/2021,cash,97 Garrison Center,5,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1
+C110,Liam,,Male,bpinock7n@go.com,P036,"""Can't Hurt Me""",Books,91.17,1,1/17/2021,Apple Pay,338 Loeprich Way,7,91.17
+C105,Priya,Nair,Female,capthorpe7o@microsoft.com,P013,Board Game: Codenames,Toys & Games,21.07,7,1/30/2021,Credit Card,56287 Hoffman Street,5,147.49
+C114,Noah,Shah,Male,iivermee7p@lycos.com,P004,Electric Kettle,Home & Kitchen,16.49,14,1/12/2021,Apple Pay,505 Messerschmidt Pass,7,
+C108,Arjun,Verma,Male,ckornacki7q@nba.com,P037,Coloring Book for Adults,Books,86.34,10,6/19/2021,COD,48 Caliangt Alley,8,863.4
+C104,Omar,Ali,Male,mmacgillivray7r@admin.ch,P006,,Home & Kitchen,7.45,14,5/18/2021,COD,70 Shoshone Avenue,8,104.3
+C104,Omar,Ali,Male,eleinster7s@typepad.com,P019,Toothbrush Set,Health & Personal Care,54.15,17,5/12/2021,Apple Pay,8 Gale Drive,8,920.55
+C115,Isabella,Das,Female,fsheen7t@bizjournals.com,P012,"""Deep Work""",Books,4.03,25,4/19/2021,COD,635 Dixon Drive,8,100.75
+C104,Omar,Ali,Male,kfeatherbie7u@com.com,P027,Wireless Mouse,Office Supplies,26.2,22,6/17/2021,Apple Pay,18 Vernon Lane,7,576.4
+C109,Maya,Rodriguez,Female,vblazejewski7v@home.pl,P023,,Grocery,53.22,17,3/14/2021,Apple Pay,69 Dunning Hill,5,904.74
+C102,Raj,Patel,Male,lmckeeman7w@buzzfeed.com,P047,Highlighters (6-pack),Office Supplies,30.76,12,5/23/2021,Credit Card,8 Darwin Crossing,8,369.12
+C102,Raj,Patel,Male,cdutch7x@google.cn,P039,Jigsaw Puzzle (1000 pcs),Toys & Games,17.44,10,6/2/2021,PayPal,50 Mayer Hill,8,174.4
+C107,Sophia,Singh,,abryan7y@who.int,P048,Car Air Freshener,Automotive,40.33,13,5/2/2021,Apple Pay,80315 Dorton Pass,8,524.29
+C110,,Thompson,Male,iyeldon7z@fotki.com,P032,LED Desk Lamp,Home & Kitchen,43.6,1,3/23/2021,Credit Card,6 Mesta Plaza,5,43.6
+C112,Ethan,Wong,Male,dbampton80@virginia.edu,P033,Coffee Mug Set,Home & Kitchen,,13,1/6/2021,PayPal,355 Anthes Court,7,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1
+C115,Isabella,Das,Female,kdunkley81@time.com,P045,Breakfast Cereal,Grocery,12.19,18,2/8/2021,COD,347 Beilfuss Road,5,219.42
+C111,Sara,Mehta,Female,rgoldin82@google.com.hk,P046,Sticky Notes (3x3),Office Supplies,44.91,12,1/13/2021,Apple Pay,4723 Thierer Road,5,
+C101,Alice,Johnson,Female,gsedgmond83@twitter.com,P034,Maxi Dress,Clothing,63.2,22,5/25/2021,COD,21896 Tennessee Avenue,4,1390.4
+C112,Ethan,Wong,,mhatchette84@chronoengine.com,P027,Wireless Mouse,Office Supplies,35.43,25,4/12/2021,cash,397 Tennyson Road,6,885.75
+C101,Alice,Johnson,Female,ariepl85@fema.gov,P039,Jigsaw Puzzle (1000 pcs),Toys & Games,3.89,5,3/1/2021,Credit Card,87 Commercial Crossing,,
+C101,Alice,Johnson,,rmarkie86@army.mil,P012,"""Deep Work""",,49.85,9,5/30/2021,COD,9891 Mendota Plaza,6,448.65
+C113,Aisha,Desai,,rpoynter87@php.net,P023,Chocolate Chip Cookies,Grocery,42.17,6,4/5/2021,Credit Card,31825 Elmside Point,4,253.02
+C108,Arjun,Verma,,fdaal88@wunderground.com,P043,Vitamin C Gummies,Health & Personal Care,44.65,15,2/9/2021,PayPal,32057 Boyd Avenue,8,669.75
+C109,Maya,Rodriguez,Female,epetteford89@lycos.com,P048,Car Air Freshener,Automotive,51.36,3,3/17/2021,Apple Pay,3935 Porter Street,5,154.08
+C111,Sara,Mehta,Female,ckubanek8a@lulu.com,P050,Dashboard Phone Mount,Automotive,42.25,16,6/2/2021,PayPal,25769 Evergreen Circle,5,676.0
+C115,Isabella,Das,Female,ltippler8b@nytimes.com,P050,Dashboard Phone Mount,Automotive,24.94,18,4/29/2021,PayPal,819 Vernon Road,7,448.92
+C101,Alice,Johnson,Female,pthirlwell8c@ox.ac.uk,P031,Noise Cancelling Headphones,Electronics,90.02,14,5/10/2021,PayPal,,5,1260.28
+C107,Sophia,Singh,Female,edaffey8d@instagram.com,P050,Dashboard Phone Mount,Automotive,,5,6/17/2021,Credit Card,100 Butterfield Terrace,5,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1
+C108,Arjun,Verma,Male,clozano8e@posterous.com,P001,,Electronics,26.67,16,1/25/2021,COD,473 Pierstorff Street,5,
+C101,Alice,,Female,dschohier8f@theglobeandmail.com,P044,Pasta Sauce,Grocery,25.12,,3/24/2021,cash,45 Michigan Avenue,4,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1
+C102,Raj,Patel,Male,dwilloughby8g@furl.net,P011,"""Atomic Habits""",Books,24.84,13,5/8/2021,Apple Pay,76551 Fremont Place,,322.92
+C106,David,Kim,Male,brickards8h@vinaora.com,P029,Windshield Sun Shade,Automotive,76.25,6,3/23/2021,COD,354 Annamark Terrace,8,457.5
+C106,David,Kim,Male,djendrys8i@mac.com,P027,Wireless Mouse,Office Supplies,78.91,20,4/18/2021,Apple Pay,334 Fairview Point,4,1578.2
+C101,Alice,Johnson,Female,hhopfner8j@microsoft.com,P049,USB Car Charger,Automotive,48.95,17,5/8/2021,cash,7 Charing Cross Plaza,5,832.15
+C115,Isabella,Das,Female,wsymonds8k@disqus.com,P046,Sticky Notes (3x3),Office Supplies,7.83,10,4/18/2021,cash,49954 Glendale Court,5,78.3
+C109,Maya,Rodriguez,Female,avincent8l@blogs.com,P015,Plush Teddy Bear,Toys & Games,32.27,4,2/7/2021,Credit Card,0 Kingsford Street,4,129.08
+,Raj,Patel,Male,aputtergill8m@4shared.com,P036,"""Can't Hurt Me""",Books,65.44,6,1/30/2021,COD,8809 Green Ridge Plaza,6,392.64
+C110,Liam,Thompson,Male,bdolohunty8n@a8.net,P014,Lego Creator Set,Toys & Games,14.04,1,4/12/2021,cash,5435 Sugar Alley,4,14.04
+C103,Emma,Chen,Female,rgerrelt8o@phpbb.com,P021,,Health & Personal Care,33.74,14,5/4/2021,PayPal,082 Old Gate Parkway,4,
+C109,Maya,Rodriguez,Female,jburg8p@disqus.com,P014,Lego Creator Set,Toys & Games,15.95,10,3/6/2021,Apple Pay,37 Everett Park,5,159.5
+C103,,Chen,Female,amilton8q@github.com,P038,Rubik’s Cube,Toys & Games,62.95,,6/18/2021,Apple Pay,67200 Farragut Avenue,6,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1
+C109,Maya,Rodriguez,Female,ayearron8r@harvard.edu,P042,First Aid Kit,Health & Personal Care,72.04,20,4/15/2021,PayPal,47 Fremont Place,,1440.8
+C107,Sophia,Singh,,sscanderet8s@trellian.com,P045,Breakfast Cereal,Grocery,59.65,23,1/20/2021,COD,5665 Old Gate Trail,7,1371.95
+C115,Isabella,Das,Female,brallin8t@exblog.jp,P022,Organic Green Tea,Grocery,39.22,18,4/12/2021,PayPal,34 Tony Trail,5,705.96
+C112,Ethan,Wong,,lubee8u@qq.com,P009,Casual T-Shirt,Clothing,,1,6/15/2021,PayPal,4560 Dawn Park,5,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1
+C111,Sara,Mehta,Female,ihallan8v@quantcast.com,P020,Face Moisturizer,Health & Personal Care,58.31,1,1/13/2021,PayPal,4204 Chive Hill,8,58.31
+C109,Maya,Rodriguez,Female,ralenin8w@arizona.edu,P047,Highlighters (6-pack),Office Supplies,48.09,1,4/10/2021,COD,640 Buena Vista Alley,7,48.09
+C112,Ethan,Wong,Male,mrodriguez8x@cnet.com,P028,Car Vacuum Cleaner,Automotive,37.23,17,1/15/2021,PayPal,41 Sundown Hill,4,632.91
+C115,Isabella,Das,,utillard8y@wsj.com,P039,Jigsaw Puzzle (1000 pcs),Toys & Games,20.58,8,6/7/2021,COD,9658 Sachs Drive,6,164.64
+C105,Priya,Nair,Female,apippin8z@yahoo.com,P047,Highlighters (6-pack),Office Supplies,5.09,22,2/26/2021,Apple Pay,140 Commercial Drive,4,111.98
+C108,Arjun,Verma,Male,drafferty90@netlog.com,P008,,Clothing,17.76,13,4/28/2021,Credit Card,10319 Mosinee Plaza,7,230.88
+C112,Ethan,Wong,Male,wsiveyer91@guardian.co.uk,,Vitamin C Gummies,Health & Personal Care,45.03,8,6/21/2021,PayPal,396 Oak Crossing,7,360.24
+C111,Sara,Mehta,Female,acatterill92@abc.net.au,P045,Breakfast Cereal,Grocery,89.59,25,1/4/2021,PayPal,258 Linden Terrace,5,2239.75
+,Sara,Mehta,Female,bchippindale93@archive.org,P042,First Aid Kit,Health & Personal Care,10.14,1,2/3/2021,cash,72 Melvin Junction,5,10.14
+C113,Aisha,Desai,Female,afeatherstonhaugh94@behance.net,P015,Plush Teddy Bear,,19.64,12,5/17/2021,Apple Pay,7483 Carberry Park,4,235.68
+C113,Aisha,Desai,Female,mconti95@joomla.org,P037,Coloring Book for Adults,Books,31.96,5,4/16/2021,Apple Pay,64363 Fairview Circle,7,159.8
+C114,Noah,Shah,Male,kholdren96@cnn.com,P049,USB Car Charger,Automotive,86.43,25,5/5/2021,COD,8 Kipling Crossing,4,2160.75
+C115,Isabella,Das,Female,wmapam97@sciencedirect.com,P024,Almond Butter,Grocery,30.7,3,1/6/2021,Apple Pay,0648 Menomonie Court,,92.1
+C112,,Wong,Male,bmacfall98@uol.com.br,P048,,Automotive,33.23,21,2/4/2021,Apple Pay,4989 Reindahl Junction,8,697.83
+C102,Raj,Patel,Male,,P011,"""Atomic Habits""",Books,19.21,,,COD,4 Golf Course Hill,6,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1
+C114,Noah,Shah,,dcardus9a@webs.com,P027,Wireless Mouse,Office Supplies,17.84,4,1/20/2021,PayPal,1917 Comanche Junction,5,71.36
+C102,Raj,Patel,Male,,P039,Jigsaw Puzzle (1000 pcs),Toys & Games,20.27,8,1/11/2021,Credit Card,93 Utah Pass,8,162.16
+C112,Ethan,,Male,twoodall9c@printfriendly.com,P046,Sticky Notes (3x3),Office Supplies,96.3,4,4/10/2021,Apple Pay,58 Summerview Street,8,385.2
+C113,Aisha,Desai,,reykelbosch9d@fc2.com,P050,Dashboard Phone Mount,Automotive,98.61,25,6/29/2021,PayPal,,,2465.25
+,Noah,Shah,Male,trowston9e@dell.com,P022,Organic Green Tea,Grocery,89.82,7,4/16/2021,Apple Pay,87 Lerdahl Circle,4,628.74
+C108,Arjun,Verma,,cbeautyman9f@i2i.jp,P021,Hair Dryer,Health & Personal Care,46.96,14,1/12/2021,Credit Card,738 Jackson Lane,7,657.44
+C102,Raj,,Male,iklimontovich9g@baidu.com,P024,Almond Butter,Grocery,89.05,10,2/22/2021,PayPal,5279 Kedzie Trail,8,890.5
+C110,Liam,Thompson,Male,jeglese9h@msn.com,P041,Protein Shake Bottle,Sports & Outdoors,46.49,16,2/7/2021,Apple Pay,4 Talmadge Center,8,743.84
+C114,Noah,Shah,Male,dgreenroa9i@ihg.com,P018,Running Shorts,Sports & Outdoors,71.45,4,3/26/2021,PayPal,05277 Clarendon Alley,6,285.8
+C110,Liam,Thompson,Male,mclayfield9j@weather.com,P009,Casual T-Shirt,Clothing,41.64,21,5/11/2021,PayPal,3 Hoffman Street,7,874.44
+C104,,Ali,Male,mpierson9k@shop-pro.jp,P010,"""The Alchemist""",Books,20.34,17,2/14/2021,Credit Card,11701 Evergreen Point,4,345.78
+C102,Raj,Patel,Male,jkrebs9l@ycombinator.com,,Notebook (5-pack),Office Supplies,19.28,5,1/9/2021,Credit Card,775 Fieldstone Place,6,
+C113,Aisha,Desai,,wbutfield9m@vistaprint.com,P043,Vitamin C Gummies,,68.46,8,2/23/2021,Apple Pay,5 New Castle Place,6,547.68
+C102,Raj,Patel,Male,bdybell9n@hibu.com,P014,Lego Creator Set,Toys & Games,3.27,9,3/1/2021,cash,11420 Pond Drive,8,29.43
+,Alice,Johnson,Female,fdarker9o@cnbc.com,P030,Steering Wheel Cover,Automotive,,4,4/30/2021,Credit Card,921 Pine View Trail,7,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1
+C104,Omar,,Male,gbrodest9p@china.com.cn,P033,Coffee Mug Set,Home & Kitchen,55.07,23,4/24/2021,COD,76403 Delladonna Road,6,1266.61
+C105,Priya,Nair,,csanbrooke9q@parallels.com,P031,Noise Cancelling Headphones,Electronics,10.51,22,4/26/2021,cash,5 Helena Trail,6,231.22
+C103,Emma,Chen,Female,,P035,Winter Scarf,Clothing,8.77,24,6/21/2021,PayPal,178 Dixon Junction,,210.48
+C110,Liam,Thompson,Male,mhatherleigh9s@sakura.ne.jp,P047,Highlighters (6-pack),Office Supplies,46.86,13,1/15/2021,Credit Card,921 Ronald Regan Circle,,609.18
+C112,Ethan,Wong,,,P017,Dumbbell Set (15lb),Sports & Outdoors,30.68,8,4/21/2021,Apple Pay,,5,245.44
+C103,Emma,Chen,Female,ayanele9u@washington.edu,P003,Bluetooth Speaker,Electronics,15.02,10,5/24/2021,cash,14 Esch Junction,6,150.2
+C114,Noah,Shah,Male,dmckinnell9v@mit.edu,P039,Jigsaw Puzzle (1000 pcs),Toys & Games,59.25,13,4/26/2021,cash,319 Green Ridge Parkway,5,770.25
+C105,Priya,Nair,Female,dberrisford9w@guardian.co.uk,P033,Coffee Mug Set,Home & Kitchen,88.13,19,6/11/2021,Apple Pay,57 West Circle,6,1674.47
+C104,Omar,Ali,Male,raynsley9x@dailymail.co.uk,P018,Running Shorts,Sports & Outdoors,67.17,18,2/12/2021,Credit Card,47226 Walton Junction,7,1209.06
+C114,Noah,Shah,Male,jsteels9y@elpais.com,P039,Jigsaw Puzzle (1000 pcs),Toys & Games,39.18,2,1/18/2021,Credit Card,5387 Macpherson Street,7,78.36
+C101,Alice,Johnson,Female,rberndsen9z@latimes.com,P050,Dashboard Phone Mount,Automotive,3.76,14,6/15/2021,Apple Pay,1071 Pond Drive,8,52.64
+C102,Raj,Patel,Male,vmalimoea0@accuweather.com,P014,Lego Creator Set,Toys & Games,43.78,18,6/19/2021,cash,15 Glendale Road,4,788.04
+C101,Alice,Johnson,Female,ahelea1@usnews.com,P036,"""Can't Hurt Me""",Books,47.31,24,1/31/2021,COD,64061 Johnson Road,7,1135.44
+C108,Arjun,Verma,,elambertinia2@sfgate.com,P026,Ballpoint Pens,Office Supplies,29.59,9,5/12/2021,cash,5284 Claremont Trail,7,266.31
+C106,David,Kim,Male,imilnea3@ehow.com,P009,Casual T-Shirt,Clothing,91.22,14,4/14/2021,COD,12 Doe Crossing Alley,4,1277.08
+C106,David,Kim,Male,rwhistlecrofta4@livejournal.com,P050,Dashboard Phone Mount,Automotive,73.63,21,3/3/2021,PayPal,83 New Castle Pass,7,1546.23
+C112,Ethan,Wong,Male,khullya5@goodreads.com,P012,"""Deep Work""",Books,30.84,17,6/19/2021,PayPal,95 Debra Avenue,6,524.28
+,Maya,Rodriguez,Female,llongstreeta6@shareasale.com,P026,Ballpoint Pens,Office Supplies,16.9,6,6/15/2021,PayPal,2 Union Crossing,7,101.4
+C107,Sophia,Singh,,growtha7@umn.edu,P020,Face Moisturizer,Health & Personal Care,5.15,18,5/13/2021,Credit Card,88 Garrison Lane,8,92.7
+C109,Maya,Rodriguez,Female,,,Coffee Mug Set,Home & Kitchen,27.44,14,3/7/2021,COD,89544 Mccormick Park,4,384.16
+C109,,Rodriguez,Female,flanneya9@wordpress.com,P002,Smartwatch,Electronics,41.87,21,3/7/2021,Apple Pay,77771 Onsgard Avenue,7,879.27
+C109,Maya,Rodriguez,Female,ssillitoaa@comsenz.com,P046,Sticky Notes (3x3),Office Supplies,44.36,20,3/9/2021,Credit Card,66354 Quincy Crossing,5,887.2
+C103,Emma,Chen,Female,arobertetab@cbslocal.com,P034,Maxi Dress,Clothing,19.87,16,5/8/2021,PayPal,00 Merry Lane,8,317.92
+C113,Aisha,Desai,Female,bearngyac@eepurl.com,P032,LED Desk Lamp,Home & Kitchen,89.02,6,1/22/2021,cash,7 Corben Parkway,6,534.12
+C112,Ethan,Wong,Male,tcastagneriad@constantcontact.com,P025,Notebook (5-pack),Office Supplies,77.65,16,5/10/2021,Apple Pay,839 Vera Junction,4,1242.4
+C107,Sophia,Singh,Female,ywaisae@wunderground.com,P047,Highlighters (6-pack),Office Supplies,98.09,18,5/10/2021,Apple Pay,97117 Londonderry Hill,7,1765.62
+C114,,Shah,Male,cdurwardaf@buzzfeed.com,P006,Vacuum Cleaner,Home & Kitchen,,16,1/6/2021,Credit Card,3013 Maryland Avenue,,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1
+C112,Ethan,Wong,Male,abringloeag@ucoz.ru,P037,Coloring Book for Adults,Books,16.28,13,4/3/2021,Credit Card,670 Buena Vista Hill,5,211.64
+C110,Liam,Thompson,Male,jbeallah@bizjournals.com,P038,Rubik’s Cube,Toys & Games,28.62,11,3/30/2021,cash,06842 Mockingbird Circle,6,314.82
+C115,Isabella,Das,Female,blaingai@netlog.com,P043,Vitamin C Gummies,Health & Personal Care,13.53,9,4/1/2021,cash,8 Daystar Center,5,121.77
+C108,Arjun,Verma,Male,gdebneyaj@yelp.com,P043,Vitamin C Gummies,Health & Personal Care,12.11,21,4/30/2021,Credit Card,99368 Golf View Alley,6,254.31
+C102,Raj,,Male,bmoritak@360.cn,P043,Vitamin C Gummies,Health & Personal Care,3.79,12,2/9/2021,PayPal,80311 Merrick Street,5,45.48
+C115,,Das,,astanlackal@clickbank.net,P036,"""Can't Hurt Me""",Books,60.23,5,5/2/2021,cash,6655 Hoard Point,6,301.15
+,Raj,Patel,Male,abalazotam@etsy.com,P038,Rubik’s Cube,Toys & Games,3.17,12,2/24/2021,Apple Pay,44929 Mayer Junction,7,38.04
+C110,Liam,Thompson,Male,gmarkwelleyan@hc360.com,P042,First Aid Kit,Health & Personal Care,5.06,4,3/16/2021,COD,4802 Milwaukee Place,8,20.24
+C115,Isabella,Das,,rsearao@accuweather.com,P047,Highlighters (6-pack),,38.28,19,3/8/2021,Credit Card,7938 Glacier Hill Parkway,5,727.32
+C113,,Desai,,ccrushap@ucla.edu,P049,USB Car Charger,Automotive,74.5,11,6/4/2021,COD,2741 Golden Leaf Crossing,5,819.5
+C106,David,Kim,Male,kcromblehomeaq@imdb.com,P032,LED Desk Lamp,Home & Kitchen,63.88,15,4/23/2021,Credit Card,67314 Ilene Pass,4,958.2
+C105,,Nair,,ebertiear@economist.com,P003,Bluetooth Speaker,Electronics,61.67,20,4/1/2021,PayPal,,5,1233.4
+C115,Isabella,Das,Female,riacivellias@people.com.cn,P004,Electric Kettle,Home & Kitchen,73.96,6,3/5/2021,COD,383 Blaine Circle,6,443.76
+C109,Maya,Rodriguez,Female,isyerat@google.com.au,P001,Wireless Earbuds,Electronics,99.97,17,6/13/2021,PayPal,23 Hauk Terrace,7,1699.49
+C106,David,Kim,Male,aanstissau@miibeian.gov.cn,P036,"""Can't Hurt Me""",Books,31.38,15,2/15/2021,cash,82435 Loeprich Point,6,470.7
+C115,Isabella,Das,Female,tgrolleav@w3.org,P007,,Clothing,45.96,1,4/19/2021,COD,40 Clemons Pass,6,
+C114,Noah,Shah,Male,charmeaw@nhs.uk,P002,Smartwatch,Electronics,13.89,21,5/31/2021,PayPal,659 Melby Trail,4,291.69
+C110,Liam,,,theynsax@who.int,P039,Jigsaw Puzzle (1000 pcs),Toys & Games,2.35,4,6/1/2021,COD,02 Nova Junction,6,9.4
+C115,Isabella,Das,Female,msobczakay@unesco.org,P041,Protein Shake Bottle,Sports & Outdoors,45.01,8,3/10/2021,PayPal,20197 Schurz Road,7,360.08
+C109,Maya,Rodriguez,Female,hfairbardaz@dedecms.com,P021,Hair Dryer,Health & Personal Care,75.22,2,5/3/2021,Credit Card,389 Di Loreto Lane,8,150.44
+C108,Arjun,Verma,Male,rlabrumb0@artisteer.com,P033,Coffee Mug Set,Home & Kitchen,77.77,23,3/11/2021,COD,64 Mifflin Lane,8,1788.71
+C110,Liam,Thompson,Male,atwycrossb1@illinois.edu,P004,Electric Kettle,Home & Kitchen,5.23,22,4/9/2021,Apple Pay,42 Charing Cross Drive,4,115.06
+C101,Alice,Johnson,Female,swarkupb2@goo.ne.jp,P007,Men's Running Shoes,Clothing,1.92,13,3/7/2021,PayPal,948 7th Drive,5,24.96
+C109,Maya,,Female,mkitchinghanb3@last.fm,,Women's Jacket,Clothing,98.12,23,3/4/2021,cash,96572 Hoepker Place,5,2256.76
+C102,Raj,Patel,Male,creichertb4@pinterest.com,P021,Hair Dryer,Health & Personal Care,22.82,24,2/1/2021,Apple Pay,3 Red Cloud Parkway,7,547.68
+C103,Emma,Chen,,ecasseldineb5@moonfruit.com,P004,,Home & Kitchen,73.69,20,5/2/2021,Credit Card,5 Chinook Center,6,1473.8
+C106,,Kim,Male,dcreamb6@weebly.com,P031,Noise Cancelling Headphones,Electronics,68.86,14,4/5/2021,Credit Card,764 Weeping Birch Drive,5,964.04
+C107,Sophia,,Female,rsteedb7@angelfire.com,P009,Casual T-Shirt,Clothing,3.09,18,1/26/2021,cash,3150 Badeau Hill,5,55.62
+C108,Arjun,Verma,Male,carrowb8@jugem.jp,P042,First Aid Kit,Health & Personal Care,54.96,16,3/2/2021,PayPal,5 Kenwood Road,5,879.36
+C102,Raj,Patel,,taupolb9@microsoft.com,P029,Windshield Sun Shade,Automotive,20.03,7,5/26/2021,Credit Card,4 Claremont Alley,6,140.21
+C102,Raj,,Male,bclimerba@blogtalkradio.com,P048,,Automotive,15.42,19,5/28/2021,COD,7 Southridge Way,7,292.98
+C105,Priya,Nair,Female,jsurmeirbb@sbwire.com,P031,Noise Cancelling Headphones,,81.5,25,1/1/2021,COD,1 Jenifer Alley,8,2037.5
+C102,Raj,Patel,Male,kkenwortheybc@miitbeian.gov.cn,P009,Casual T-Shirt,Clothing,86.51,8,5/14/2021,Credit Card,918 Hudson Parkway,5,692.08
+C107,Sophia,Singh,,btwidellbd@dailymotion.com,P011,"""Atomic Habits""",Books,93.98,12,5/16/2021,Apple Pay,5 Vera Hill,6,1127.76
+C115,Isabella,Das,Female,llaxenbe@globo.com,P036,,Books,30.35,9,5/8/2021,COD,74 Pleasure Hill,6,273.15
+C108,Arjun,Verma,Male,,P037,Coloring Book for Adults,Books,40.93,12,5/30/2021,Credit Card,968 Havey Drive,7,491.16
+C108,Arjun,Verma,Male,mtingeybg@cdc.gov,P023,Chocolate Chip Cookies,Grocery,87.64,3,4/17/2021,COD,,7,262.92
+C114,Noah,Shah,Male,mwestmorelandbh@sakura.ne.jp,P007,Men's Running Shoes,Clothing,7.54,19,6/27/2021,cash,25282 Summerview Point,5,143.26
+C109,Maya,Rodriguez,Female,gdearellbi@dion.ne.jp,P037,Coloring Book for Adults,,99.14,21,2/27/2021,cash,8 Sutteridge Parkway,5,2081.94
+C109,Maya,Rodriguez,Female,,P009,Casual T-Shirt,Clothing,81.74,6,4/25/2021,COD,31330 Rusk Drive,5,490.44
+C110,Liam,Thompson,Male,grollesbk@ftc.gov,P048,Car Air Freshener,Automotive,75.26,7,1/14/2021,Credit Card,8 Victoria Street,7,526.82
+C110,Liam,Thompson,Male,shebblethwaitebl@topsy.com,P050,Dashboard Phone Mount,Automotive,53.0,6,2/23/2021,Apple Pay,,7,318.0
+C112,Ethan,Wong,Male,,P039,Jigsaw Puzzle (1000 pcs),Toys & Games,50.86,2,2/5/2021,cash,03 Leroy Circle,7,101.72
+C103,Emma,Chen,,creddingbn@seattletimes.com,P030,Steering Wheel Cover,Automotive,93.01,14,3/12/2021,Apple Pay,44 Warner Way,6,1302.14
+C101,Alice,Johnson,Female,crealffbo@spiegel.de,P015,Plush Teddy Bear,Toys & Games,44.73,17,4/8/2021,PayPal,7 Hansons Point,4,760.41
+C114,Noah,Shah,Male,vfleetbp@indiegogo.com,P028,,Automotive,71.89,20,4/16/2021,cash,96 Steensland Trail,7,1437.8
+C112,Ethan,Wong,Male,cbrollybq@state.tx.us,P016,,Sports & Outdoors,99.66,25,2/19/2021,Credit Card,5 Division Park,6,
+C107,Sophia,Singh,Female,sbrinsdenbr@geocities.jp,P037,Coloring Book for Adults,Books,69.46,7,2/4/2021,COD,781 Northridge Place,6,486.22
+C107,Sophia,Singh,Female,rbushawaybs@scribd.com,P050,,Automotive,52.26,12,5/24/2021,Credit Card,19869 Jana Place,6,627.12
+C108,Arjun,Verma,Male,cwainwrightbt@zdnet.com,P012,"""Deep Work""",Books,40.49,16,3/22/2021,Apple Pay,9421 Main Center,7,
+C108,Arjun,Verma,Male,lolliffebu@wordpress.org,P050,Dashboard Phone Mount,Automotive,19.61,4,5/31/2021,PayPal,98 Amoth Avenue,7,
+C105,Priya,,Female,sflattmanbv@examiner.com,P022,Organic Green Tea,Grocery,83.26,16,3/25/2021,Apple Pay,48306 Marcy Trail,8,1332.16
+C111,Sara,Mehta,Female,gwalshbw@marriott.com,P019,Toothbrush Set,Health & Personal Care,37.83,6,4/14/2021,cash,06 Mcbride Crossing,6,226.98
+C110,,Thompson,Male,browntreebx@washingtonpost.com,P022,Organic Green Tea,Grocery,65.02,21,3/5/2021,Apple Pay,52206 Crescent Oaks Park,5,1365.42
+C110,Liam,Thompson,Male,emallalieuby@umich.edu,P027,Wireless Mouse,Office Supplies,57.88,21,4/26/2021,Credit Card,3293 Chinook Circle,5,1215.48
+C113,,Desai,Female,epalmbybz@arizona.edu,P043,Vitamin C Gummies,Health & Personal Care,23.93,9,4/8/2021,cash,756 Washington Drive,6,215.37
+C109,Maya,Rodriguez,Female,kdykac0@vk.com,P028,,Automotive,4.55,2,6/15/2021,cash,,5,9.1
+C107,Sophia,Singh,Female,hmunksc1@macromedia.com,P022,Organic Green Tea,Grocery,40.82,12,2/19/2021,PayPal,4 North Circle,5,489.84
+C104,Omar,Ali,Male,lgianielloc2@tamu.edu,P020,,Health & Personal Care,22.98,7,2/28/2021,Credit Card,2 Fremont Lane,4,160.86
+C107,Sophia,Singh,Female,ahelbeckc3@t.co,P027,Wireless Mouse,Office Supplies,12.55,10,1/14/2021,PayPal,446 Ronald Regan Street,7,125.5
+C113,Aisha,Desai,Female,pparnbyc4@washington.edu,P036,,Books,11.95,,4/15/2021,COD,,8,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1
+C101,Alice,Johnson,Female,mballaamc5@zdnet.com,P043,Vitamin C Gummies,Health & Personal Care,21.43,23,4/12/2021,Credit Card,938 5th Drive,8,492.89
+C110,Liam,Thompson,Male,,P020,,Health & Personal Care,78.7,16,3/17/2021,COD,8 Susan Road,6,1259.2
+C114,Noah,Shah,Male,,P035,Winter Scarf,Clothing,43.08,13,5/7/2021,Apple Pay,14 Surrey Point,5,560.04
+C115,Isabella,Das,Female,dmargaretc8@pbs.org,P040,Resistance Bands,Sports & Outdoors,50.79,24,2/20/2021,Apple Pay,,4,1218.96
+C101,Alice,Johnson,Female,,P009,Casual T-Shirt,Clothing,62.58,23,1/28/2021,Apple Pay,6417 Blue Bill Park Point,4,1439.34
+C110,Liam,Thompson,Male,opeetersca@chronoengine.com,P006,Vacuum Cleaner,Home & Kitchen,96.51,22,3/3/2021,cash,037 Derek Hill,7,2123.22
+C102,Raj,Patel,Male,uramsbothamcb@scientificamerican.com,,Chocolate Chip Cookies,Grocery,80.71,17,,COD,32 Tennyson Junction,4,1372.07
+C101,Alice,,Female,lcahillcc@comcast.net,P047,Highlighters (6-pack),,58.01,,2/11/2021,PayPal,181 Buell Hill,8,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1
+C108,Arjun,Verma,Male,dferrotticd@is.gd,P048,Car Air Freshener,Automotive,11.89,19,4/2/2021,COD,84 Logan Plaza,6,225.91
+C111,Sara,Mehta,Female,gpedrazzice@xinhuanet.com,P030,Steering Wheel Cover,Automotive,58.42,18,4/26/2021,PayPal,576 Ruskin Point,6,1051.56
+C113,Aisha,Desai,Female,abowrycf@sakura.ne.jp,P037,Coloring Book for Adults,Books,29.35,3,1/25/2021,Apple Pay,5286 Carey Alley,8,88.05
+C102,Raj,,,jamburgycg@wiley.com,P024,Almond Butter,Grocery,23.84,17,2/9/2021,cash,87 Surrey Road,7,405.28
+C112,Ethan,Wong,Male,pcaldwallch@uol.com.br,P002,Smartwatch,Electronics,91.42,16,4/15/2021,Credit Card,3406 Golf Center,5,1462.72
+C104,Omar,Ali,Male,shayhurstci@bigcartel.com,P015,Plush Teddy Bear,Toys & Games,79.15,19,3/5/2021,Apple Pay,71283 Pine View Park,5,1503.85
+C108,Arjun,Verma,Male,,P040,Resistance Bands,Sports & Outdoors,56.43,3,3/6/2021,Credit Card,994 Debs Lane,,169.29
+C115,Isabella,Das,Female,mmishawck@discuz.net,P038,Rubik’s Cube,Toys & Games,81.64,4,6/16/2021,cash,20 Prentice Lane,5,326.56
+C103,Emma,Chen,Female,kspilsburiecl@g.co,P041,Protein Shake Bottle,Sports & Outdoors,26.35,8,1/26/2021,Credit Card,6 Dryden Road,5,210.8
+C113,,Desai,Female,ktristramcm@mayoclinic.com,P014,Lego Creator Set,,18.81,17,4/20/2021,cash,27 Delaware Hill,5,319.77
+C102,Raj,Patel,Male,hwisbycn@alexa.com,P031,Noise Cancelling Headphones,Electronics,,23,4/28/2021,PayPal,66289 Bluejay Way,7,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1
+C114,Noah,Shah,Male,jkanwellco@reuters.com,P049,USB Car Charger,Automotive,28.58,14,4/12/2021,cash,7 Springs Way,7,400.12
+C108,Arjun,Verma,Male,kfieldencp@hud.gov,P022,Organic Green Tea,Grocery,94.74,17,4/15/2021,PayPal,1383 Roth Parkway,7,1610.58
+C104,Omar,Ali,Male,bkabischcq@acquirethisname.com,P014,Lego Creator Set,Toys & Games,1.04,15,4/3/2021,PayPal,12266 Thierer Street,,15.6
+C111,Sara,Mehta,,dtapendencr@go.com,P005,Nonstick Frying Pan,Home & Kitchen,67.91,9,6/16/2021,Credit Card,724 Mitchell Plaza,7,611.19
+C106,David,Kim,Male,blambersencs@wordpress.com,P036,,Books,4.43,24,5/17/2021,PayPal,1 Lighthouse Bay Drive,4,106.32
+C112,Ethan,Wong,Male,asambellsct@adobe.com,P022,Organic Green Tea,,59.55,10,6/8/2021,Apple Pay,53 Manitowish Point,6,595.5
+C110,Liam,Thompson,Male,barckollcu@omniture.com,P009,Casual T-Shirt,Clothing,96.33,22,3/28/2021,Apple Pay,4225 Prairieview Hill,5,2119.26
+C112,,Wong,Male,,,,Sports & Outdoors,90.7,2,6/19/2021,Apple Pay,278 Vera Hill,6,181.4
+C105,Priya,Nair,Female,hfrancescw@timesonline.co.uk,P037,Coloring Book for Adults,Books,69.95,4,2/13/2021,Credit Card,42 Scoville Place,,
+C111,Sara,Mehta,Female,gcouchacx@oaic.gov.au,P014,Lego Creator Set,Toys & Games,77.07,15,4/8/2021,Apple Pay,3 Londonderry Plaza,8,1156.05
+C111,,Mehta,Female,hmcallcy@hud.gov,P026,Ballpoint Pens,Office Supplies,85.99,22,1/31/2021,COD,2 Tennessee Alley,8,1891.78
+C104,Omar,Ali,Male,scannamcz@home.pl,P005,Nonstick Frying Pan,Home & Kitchen,30.13,2,1/15/2021,Apple Pay,40 Mandrake Parkway,6,60.26
+C110,Liam,Thompson,Male,cseyersd0@miibeian.gov.cn,P039,Jigsaw Puzzle (1000 pcs),,83.07,17,6/13/2021,Credit Card,69 Loomis Center,4,1412.19
+C103,Emma,Chen,Female,jheathfieldd1@phpbb.com,P041,,Sports & Outdoors,,5,3/3/2021,Apple Pay,26624 Mockingbird Avenue,6,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1
+C111,Sara,Mehta,Female,fobrogand2@rambler.ru,P005,Nonstick Frying Pan,Home & Kitchen,8.85,1,4/27/2021,Apple Pay,1 Welch Pass,6,8.85
+C107,Sophia,Singh,Female,ttemplmand3@github.io,P035,Winter Scarf,Clothing,44.58,23,3/14/2021,Credit Card,82430 Gerald Plaza,5,1025.34
+C114,Noah,Shah,Male,vnickelsd4@github.io,P014,Lego Creator Set,Toys & Games,5.89,23,4/2/2021,PayPal,,6,135.47
+C106,David,Kim,Male,kgushd5@miibeian.gov.cn,P002,Smartwatch,Electronics,24.95,18,3/25/2021,Credit Card,4 Norway Maple Plaza,8,449.1
+C103,Emma,Chen,Female,imcboyled6@behance.net,,Vitamin C Gummies,Health & Personal Care,85.18,15,4/9/2021,PayPal,2 Forest Dale Hill,6,1277.7
+,Liam,Thompson,Male,cainsworthd7@netlog.com,P004,Electric Kettle,Home & Kitchen,,13,2/11/2021,cash,3163 Grayhawk Circle,8,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1
+C106,David,Kim,Male,wbreemd8@disqus.com,P048,,Automotive,21.31,16,5/2/2021,COD,92 Amoth Crossing,8,
+C112,Ethan,Wong,Male,alambirdd9@infoseek.co.jp,P013,Board Game: Codenames,Toys & Games,26.23,10,4/18/2021,PayPal,96 Warner Road,7,262.3
+C110,Liam,Thompson,Male,osmorfitda@sourceforge.net,P012,"""Deep Work""",Books,36.75,7,4/9/2021,COD,52778 Bowman Place,6,257.25
+C105,Priya,Nair,Female,ceacledb@google.it,P010,"""The Alchemist""",Books,31.04,14,5/17/2021,COD,97157 Warner Way,7,434.56
+C111,Sara,Mehta,,ccoggindc@howstuffworks.com,P034,Maxi Dress,Clothing,39.48,15,6/12/2021,COD,6327 Coolidge Crossing,6,592.2
+C107,Sophia,Singh,Female,mhullbrookdd@chicagotribune.com,P008,Women's Jacket,Clothing,3.48,6,5/13/2021,Apple Pay,72600 Butternut Alley,6,20.88
+,Noah,Shah,Male,imatthewsde@economist.com,P045,Breakfast Cereal,Grocery,52.04,5,4/30/2021,PayPal,372 Pleasure Park,6,260.2
+C113,,Desai,Female,gbundydf@miitbeian.gov.cn,P020,Face Moisturizer,Health & Personal Care,37.27,17,6/13/2021,Apple Pay,75 Fairview Place,8,633.59
+C114,Noah,Shah,Male,fdufairedg@t.co,P027,Wireless Mouse,Office Supplies,43.33,17,6/24/2021,COD,985 Helena Junction,4,736.61
+C114,Noah,Shah,Male,tbenesevichdh@bbb.org,P006,Vacuum Cleaner,Home & Kitchen,98.6,8,3/20/2021,COD,69 Huxley Court,4,788.8
+C112,Ethan,Wong,Male,wcrolldi@businessinsider.com,P011,"""Atomic Habits""",Books,41.73,16,3/22/2021,Apple Pay,55452 Stuart Circle,4,667.68
+C113,Aisha,Desai,Female,rbridgementdj@friendfeed.com,P007,Men's Running Shoes,Clothing,64.5,19,5/17/2021,Credit Card,298 Anzinger Way,6,1225.5
+C105,Priya,,Female,dmarusyakdk@mozilla.org,P049,USB Car Charger,Automotive,27.45,17,2/24/2021,Apple Pay,21317 Warbler Drive,4,466.65
+C107,Sophia,Singh,Female,mruecastledl@sakura.ne.jp,P020,,Health & Personal Care,35.59,8,4/9/2021,cash,60476 Meadow Vale Place,5,284.72
+C105,Priya,Nair,Female,npatrisksondm@chron.com,P009,Casual T-Shirt,Clothing,62.99,21,2/6/2021,COD,4 Nevada Plaza,5,1322.79
+C105,Priya,Nair,Female,ghowseleedn@phpbb.com,P022,Organic Green Tea,Grocery,72.26,25,2/1/2021,cash,6378 Bashford Parkway,7,1806.5
+C114,Noah,Shah,Male,tjehaesdo@jugem.jp,P023,Chocolate Chip Cookies,Grocery,44.78,22,,Apple Pay,1 Birchwood Trail,5,985.16
+C101,Alice,Johnson,Female,jshaxbydp@vinaora.com,P040,Resistance Bands,Sports & Outdoors,34.49,16,5/16/2021,Credit Card,,7,551.84
+C105,Priya,Nair,Female,tdebneydq@ftc.gov,P003,Bluetooth Speaker,Electronics,,16,6/7/2021,Credit Card,44 Summit Center,5,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1
+C107,Sophia,Singh,Female,,P025,Notebook (5-pack),Office Supplies,72.47,24,2/13/2021,PayPal,90 Sugar Point,7,1739.28
+C111,Sara,Mehta,Female,,P028,Car Vacuum Cleaner,Automotive,2.54,9,4/15/2021,PayPal,57 Lukken Court,8,22.86
+C107,Sophia,Singh,Female,stoffolodt@over-blog.com,P030,,Automotive,6.45,11,5/24/2021,COD,0 Helena Place,5,70.95
+C115,Isabella,Das,Female,kjacobowitsdu@mapquest.com,P011,"""Atomic Habits""",Books,74.93,12,1/3/2021,cash,300 Cody Park,4,899.16
+C109,Maya,Rodriguez,,missarddv@cnn.com,P008,Women's Jacket,Clothing,43.88,4,3/26/2021,COD,95666 Loomis Place,8,175.52
+C103,Emma,Chen,Female,pquestdw@com.com,P026,Ballpoint Pens,Office Supplies,13.38,5,3/18/2021,Credit Card,32628 Macpherson Center,6,66.9
+C103,Emma,,Female,eriggeydx@google.co.uk,P044,,Grocery,31.8,10,5/27/2021,COD,6 Morning Hill,4,318.0
+C114,Noah,Shah,,dcleefdy@prweb.com,P001,Wireless Earbuds,Electronics,,11,2/9/2021,COD,3904 Columbus Pass,7,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1
+C106,David,Kim,Male,amolinesdz@qq.com,P026,Ballpoint Pens,Office Supplies,43.57,1,2/8/2021,cash,45527 Carberry Point,8,43.57
+C114,Noah,Shah,Male,fhantusche0@harvard.edu,P004,Electric Kettle,,34.77,14,3/29/2021,Credit Card,40 Dayton Point,6,486.78
+C113,Aisha,Desai,Female,sdjordjevice1@disqus.com,P049,USB Car Charger,Automotive,79.37,18,5/31/2021,COD,4958 Delladonna Center,6,1428.66
+C111,Sara,Mehta,Female,egalliennee2@newsvine.com,P008,Women's Jacket,,17.24,21,2/17/2021,COD,2281 Hooker Circle,7,362.04
+C110,Liam,Thompson,Male,ahaynesforde3@networkadvertising.org,P020,Face Moisturizer,Health & Personal Care,70.26,25,1/25/2021,Apple Pay,20878 Chinook Circle,,1756.5
+C102,,Patel,Male,tmeneoe4@japanpost.jp,P038,,Toys & Games,6.07,16,1/29/2021,Credit Card,895 Hayes Circle,7,97.12
+C107,Sophia,Singh,Female,jilyinskie5@arizona.edu,P005,Nonstick Frying Pan,Home & Kitchen,39.49,16,3/29/2021,cash,1198 Raven Crossing,4,631.84
+,Alice,Johnson,Female,bfishbye6@creativecommons.org,P026,Ballpoint Pens,Office Supplies,17.07,11,2/10/2021,PayPal,1025 Hansons Parkway,6,187.77
+C111,Sara,Mehta,Female,tbousfielde7@baidu.com,P012,"""Deep Work""",Books,49.36,2,3/29/2021,cash,247 Glacier Hill Center,5,98.72
+C111,,Mehta,Female,stellessone8@java.com,P037,Coloring Book for Adults,Books,71.91,7,1/3/2021,COD,22081 Pepper Wood Road,4,503.37
+C115,Isabella,Das,Female,hblemingse9@csmonitor.com,P025,Notebook (5-pack),Office Supplies,53.85,2,5/15/2021,PayPal,90961 Buena Vista Pass,6,107.7
+C105,Priya,Nair,Female,djeffea@istockphoto.com,P042,First Aid Kit,Health & Personal Care,83.14,7,3/18/2021,Credit Card,5356 Oak Junction,5,581.98
+C113,Aisha,Desai,Female,aclapshaweb@dailymail.co.uk,P009,Casual T-Shirt,Clothing,22.44,3,4/26/2021,Apple Pay,50 Cottonwood Hill,4,67.32
+C111,Sara,Mehta,Female,hchaineyec@godaddy.com,P004,Electric Kettle,Home & Kitchen,16.47,,2/28/2021,Credit Card,122 Mcbride Hill,6,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1
+C107,Sophia,Singh,Female,cbuggsed@engadget.com,P042,First Aid Kit,Health & Personal Care,14.28,13,1/23/2021,COD,3958 Susan Park,8,185.64
+C113,Aisha,Desai,,sphilsonee@360.cn,,Wireless Mouse,Office Supplies,67.81,14,5/16/2021,Credit Card,73 La Follette Pass,4,949.34
+C104,,Ali,Male,hgirkinsef@china.com.cn,P030,Steering Wheel Cover,Automotive,12.17,24,2/15/2021,PayPal,084 Duke Court,5,292.08
+C115,Isabella,Das,Female,aauberyeg@netlog.com,P018,Running Shorts,Sports & Outdoors,74.04,2,2/6/2021,PayPal,8739 Towne Way,5,148.08
+C114,Noah,Shah,Male,jolyfateh@cdc.gov,P004,Electric Kettle,Home & Kitchen,46.62,6,4/26/2021,Credit Card,82215 Sommers Lane,7,279.72
+C115,Isabella,Das,Female,cbradnamei@oaic.gov.au,P027,Wireless Mouse,Office Supplies,11.33,3,6/1/2021,PayPal,1629 Dottie Crossing,4,33.99
+C107,,Singh,Female,esaurinej@cnbc.com,P018,,Sports & Outdoors,86.73,11,5/8/2021,Apple Pay,10 Main Parkway,5,954.03
+C114,Noah,Shah,Male,kdodek@mapquest.com,P047,Highlighters (6-pack),Office Supplies,17.55,25,3/1/2021,COD,80 Division Hill,5,438.75
+C106,,Kim,,ekristufekel@paypal.com,P043,Vitamin C Gummies,Health & Personal Care,,25,5/8/2021,Apple Pay,10931 Hoffman Hill,4,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1
+C111,Sara,Mehta,Female,rnorcockem@nymag.com,P021,Hair Dryer,Health & Personal Care,75.16,15,2/4/2021,cash,44 Erie Park,6,1127.4
+C101,Alice,Johnson,Female,riwanickien@nytimes.com,P035,Winter Scarf,Clothing,7.14,4,6/19/2021,cash,3653 Meadow Ridge Lane,8,28.56
+C114,Noah,Shah,Male,pchallengereo@tinyurl.com,P026,Ballpoint Pens,,58.43,7,6/15/2021,cash,01543 Brentwood Lane,8,409.01
+C102,Raj,Patel,Male,etutinep@ask.com,P017,Dumbbell Set (15lb),Sports & Outdoors,80.66,16,3/4/2021,COD,16 3rd Drive,7,1290.56
+C113,Aisha,Desai,Female,rwaythingeq@utexas.edu,P006,Vacuum Cleaner,Home & Kitchen,41.68,15,4/13/2021,PayPal,0 Corscot Drive,7,625.2
+C108,Arjun,Verma,Male,draviluser@privacy.gov.au,P013,Board Game: Codenames,Toys & Games,,7,1/1/2021,Apple Pay,009 Bobwhite Trail,4,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1
+C108,Arjun,Verma,Male,tmassenhovees@hao123.com,P012,"""Deep Work""",Books,75.65,25,2/13/2021,Credit Card,7022 Trailsway Court,7,1891.25
+C101,Alice,,Female,ccockeet@ehow.com,P011,"""Atomic Habits""",Books,5.95,14,2/5/2021,Credit Card,480 Beilfuss Terrace,6,83.3
+C106,David,Kim,,ptrenholmeu@clickbank.net,P006,Vacuum Cleaner,,62.79,14,6/6/2021,COD,1629 Everett Alley,4,879.06
+C114,Noah,Shah,Male,ncluseev@dot.gov,P027,Wireless Mouse,Office Supplies,47.66,23,2/26/2021,COD,0 Eliot Lane,5,1096.18
+C101,Alice,Johnson,Female,lvasilievew@tamu.edu,P034,Maxi Dress,Clothing,1.13,4,5/27/2021,Credit Card,769 La Follette Hill,5,4.52
+C103,Emma,Chen,Female,kouldex@wikimedia.org,P004,Electric Kettle,Home & Kitchen,53.87,2,6/9/2021,COD,4 Clyde Gallagher Circle,7,107.74
+C103,Emma,Chen,Female,areddlesdeney@dailymail.co.uk,P002,Smartwatch,Electronics,20.22,24,1/10/2021,COD,0063 Chinook Center,8,485.28
+C110,Liam,Thompson,Male,ispragueez@plala.or.jp,P032,LED Desk Lamp,Home & Kitchen,72.95,4,3/13/2021,PayPal,42317 Springview Road,,291.8
+C105,Priya,,Female,spenleyf0@phpbb.com,P010,"""The Alchemist""",Books,28.63,9,4/24/2021,COD,1300 Crowley Center,8,257.67
+C105,,Nair,Female,pkellsf1@nhs.uk,P039,,Toys & Games,54.13,1,3/19/2021,Apple Pay,7 Ilene Hill,5,54.13
+C104,Omar,Ali,Male,wpaulsonf2@epa.gov,P037,Coloring Book for Adults,Books,73.72,25,3/26/2021,COD,76251 Cottonwood Parkway,4,1843.0
+C108,,Verma,Male,ghendrixf3@google.de,P048,Car Air Freshener,Automotive,7.45,4,2/3/2021,Apple Pay,542 Cordelia Circle,5,29.8
+C102,Raj,Patel,Male,haggettf4@odnoklassniki.ru,P006,Vacuum Cleaner,Home & Kitchen,80.8,19,5/31/2021,Credit Card,76 Birchwood Street,5,1535.2
+C111,Sara,Mehta,Female,czorzinf5@bravesites.com,P017,Dumbbell Set (15lb),Sports & Outdoors,52.61,16,2/23/2021,COD,2 Larry Junction,7,841.76
+C110,Liam,Thompson,Male,dfloydf6@webmd.com,P003,Bluetooth Speaker,Electronics,47.16,14,4/29/2021,Credit Card,0806 North Avenue,8,660.24
+C105,Priya,Nair,Female,rcolquittf7@imageshack.us,P010,"""The Alchemist""",Books,82.97,11,1/23/2021,Apple Pay,880 Victoria Pass,8,912.67
+C115,Isabella,Das,Female,cpidwellf8@cnn.com,P039,Jigsaw Puzzle (1000 pcs),Toys & Games,90.33,18,3/27/2021,PayPal,75 Bluejay Center,8,1625.94
+C115,Isabella,Das,Female,mmainlandf9@imgur.com,P005,Nonstick Frying Pan,Home & Kitchen,62.77,9,3/16/2021,Credit Card,8 Golf Course Trail,6,564.93
+C107,Sophia,Singh,Female,gcrockattfa@buzzfeed.com,P043,Vitamin C Gummies,Health & Personal Care,77.04,1,5/7/2021,cash,312 Kingsford Alley,5,77.04
+C109,Maya,Rodriguez,Female,biannefb@delicious.com,P036,,Books,98.17,2,4/14/2021,Credit Card,33 Starling Pass,6,196.34
+C104,Omar,Ali,Male,tlovelockfc@sourceforge.net,P035,Winter Scarf,Clothing,8.82,1,3/19/2021,PayPal,5 Columbus Center,7,8.82
+C103,Emma,Chen,Female,mcanedofd@squidoo.com,P003,Bluetooth Speaker,Electronics,18.54,16,6/5/2021,PayPal,10208 Pennsylvania Plaza,5,296.64
+C105,Priya,Nair,Female,doboyfe@patch.com,P031,Noise Cancelling Headphones,Electronics,32.68,21,1/29/2021,Credit Card,03 Arizona Road,4,686.28
+C107,Sophia,Singh,Female,hchallenorff@ftc.gov,P041,Protein Shake Bottle,Sports & Outdoors,99.86,9,2/19/2021,cash,5249 Brentwood Junction,,
+C114,Noah,Shah,Male,jtolertonfg@lulu.com,P020,,Health & Personal Care,88.81,18,4/22/2021,COD,5 Reindahl Street,4,
+C111,Sara,Mehta,Female,ebarneyfh@google.pl,P003,,Electronics,56.33,4,1/16/2021,COD,48 Schiller Junction,7,225.32
+C110,Liam,Thompson,Male,rfraginofi@wunderground.com,P027,Wireless Mouse,,31.34,7,5/30/2021,PayPal,4870 Warrior Street,5,219.38
+C101,Alice,Johnson,Female,wmassinghamfj@livejournal.com,P034,Maxi Dress,Clothing,18.27,20,4/28/2021,Credit Card,4618 Eastlawn Place,8,365.4
+C102,Raj,Patel,Male,fbonhomefk@exblog.jp,P012,"""Deep Work""",,90.08,13,5/18/2021,COD,2820 Anthes Hill,6,1171.04
+,Maya,Rodriguez,Female,hhousenfl@wikimedia.org,P005,Nonstick Frying Pan,Home & Kitchen,34.84,19,4/6/2021,PayPal,418 Claremont Drive,6,661.96
+C107,Sophia,Singh,Female,clascellesfm@theglobeandmail.com,P021,Hair Dryer,Health & Personal Care,22.8,23,3/27/2021,Credit Card,5 Veith Park,7,524.4
+C114,Noah,Shah,,tdowsettfn@biglobe.ne.jp,P007,Men's Running Shoes,Clothing,23.27,13,1/15/2021,Credit Card,34485 Ridgeview Crossing,5,302.51
+C110,Liam,Thompson,Male,ftordofffo@illinois.edu,P009,Casual T-Shirt,Clothing,1.58,5,2/15/2021,Apple Pay,2324 Gateway Point,6,7.9
+C101,Alice,Johnson,Female,dvalafp@sohu.com,P026,Ballpoint Pens,Office Supplies,,19,5/7/2021,Apple Pay,6593 Mendota Parkway,4,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1
+C109,Maya,Rodriguez,Female,tmcclarencefq@statcounter.com,P010,"""The Alchemist""",Books,64.13,7,3/3/2021,cash,56 Warbler Trail,4,448.91
+C115,Isabella,Das,Female,wmostonfr@yellowbook.com,P035,Winter Scarf,Clothing,47.96,14,2/28/2021,cash,3044 Moulton Terrace,7,671.44
+C111,Sara,Mehta,,bbollerfs@so-net.ne.jp,P013,Board Game: Codenames,Toys & Games,45.65,18,6/8/2021,COD,6 Transport Point,5,821.7
+C109,Maya,Rodriguez,Female,dguierreft@php.net,P010,"""The Alchemist""",Books,75.08,10,6/22/2021,Credit Card,3 Grover Point,5,750.8
+C106,David,Kim,Male,rhappsfu@i2i.jp,P012,"""Deep Work""",Books,33.9,6,3/31/2021,Apple Pay,175 Bonner Pass,7,203.4
+C109,Maya,,Female,tmccartfv@mapy.cz,P036,,Books,28.96,17,2/12/2021,Credit Card,59854 Old Shore Place,7,
+C105,Priya,Nair,Female,csilbyfw@narod.ru,P003,Bluetooth Speaker,Electronics,36.1,23,1/25/2021,COD,26102 Derek Center,5,830.3
+C113,Aisha,Desai,Female,tguerrazzifx@quantcast.com,P019,Toothbrush Set,Health & Personal Care,2.0,11,1/2/2021,PayPal,1 Thompson Point,7,22.0
+C110,Liam,Thompson,Male,,P048,Car Air Freshener,Automotive,98.63,24,1/1/2021,Credit Card,3071 Petterle Court,8,2367.12
+C107,Sophia,Singh,Female,tbrecknallfz@creativecommons.org,P004,Electric Kettle,Home & Kitchen,77.59,8,5/17/2021,cash,272 Jenifer Avenue,8,620.72
+C110,Liam,Thompson,,byerbyg0@samsung.com,P001,Wireless Earbuds,Electronics,48.35,18,1/24/2021,Apple Pay,0 Sycamore Trail,7,870.3
+C104,Omar,Ali,Male,sbullockeg1@yandex.ru,P007,Men's Running Shoes,Clothing,67.81,25,5/11/2021,PayPal,20589 Independence Pass,4,1695.25
+C108,Arjun,Verma,Male,pharrigang2@parallels.com,P048,Car Air Freshener,Automotive,29.75,8,5/4/2021,Credit Card,230 Badeau Street,4,238.0
+C114,Noah,Shah,Male,cdeverockg3@accuweather.com,P030,Steering Wheel Cover,Automotive,40.98,25,,Apple Pay,6851 Melvin Junction,4,1024.5
+C108,,Verma,Male,dlundong4@mtv.com,P045,Breakfast Cereal,Grocery,51.59,10,2/7/2021,cash,25 Homewood Parkway,8,515.9
+,Raj,Patel,Male,,P012,"""Deep Work""",Books,61.47,8,2/23/2021,Apple Pay,3390 Dayton Lane,7,491.76
+C115,Isabella,Das,Female,atafanig6@ezinearticles.com,P010,"""The Alchemist""",Books,1.17,23,5/23/2021,cash,7 Lakeland Avenue,5,26.91
+C103,Emma,Chen,Female,dolyfatg7@yellowpages.com,P011,,Books,85.08,2,5/16/2021,cash,02 New Castle Court,5,170.16
+C107,Sophia,Singh,,dbengeg8@pbs.org,P031,Noise Cancelling Headphones,Electronics,,10,2/17/2021,COD,495 Bartelt Avenue,4,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1
+C106,David,Kim,,rcussinsg9@51.la,P028,Car Vacuum Cleaner,Automotive,82.14,11,5/26/2021,cash,9 Marcy Point,7,903.54
+C112,Ethan,Wong,Male,bkennadyga@ucoz.com,P030,Steering Wheel Cover,Automotive,24.64,20,5/3/2021,PayPal,2 Lotheville Way,5,492.8
+C104,Omar,Ali,,aferrerigb@mtv.com,P046,Sticky Notes (3x3),Office Supplies,,24,6/3/2021,COD,7198 Scofield Alley,,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1
+C104,,Ali,Male,hrandalgc@amazon.co.jp,P021,Hair Dryer,Health & Personal Care,65.09,23,6/14/2021,PayPal,855 Dorton Terrace,4,1497.07
+C114,Noah,Shah,Male,rdecourceygd@nydailynews.com,P001,Wireless Earbuds,,4.17,12,3/7/2021,Apple Pay,370 Blue Bill Park Center,8,50.04
+C108,Arjun,,Male,dkingstonge@delicious.com,P032,LED Desk Lamp,Home & Kitchen,5.87,19,1/26/2021,COD,7 Debs Road,6,111.53
+C103,Emma,Chen,Female,vloudyangf@rambler.ru,P002,Smartwatch,Electronics,11.19,11,1/23/2021,PayPal,7 Sunnyside Pass,4,123.09
+C105,Priya,Nair,Female,roldridgegg@mapquest.com,P012,"""Deep Work""",Books,38.58,14,4/1/2021,COD,587 Lotheville Pass,4,540.12
+C113,Aisha,Desai,,gmanjingh@xing.com,P016,Yoga Mat,Sports & Outdoors,62.0,25,6/14/2021,cash,1 Fallview Point,4,1550.0
+C110,Liam,Thompson,Male,hbeavangi@zdnet.com,P023,Chocolate Chip Cookies,Grocery,23.25,15,2/12/2021,COD,58 Mayer Hill,8,348.75
+C115,Isabella,Das,Female,amcgiffgj@surveymonkey.com,P048,Car Air Freshener,Automotive,49.88,9,5/6/2021,PayPal,998 Bowman Avenue,7,448.92
+C111,Sara,Mehta,Female,lkyndergk@mozilla.org,P013,Board Game: Codenames,Toys & Games,32.88,15,4/8/2021,PayPal,0 Riverside Way,6,493.2
+C108,Arjun,Verma,Male,cemminsgl@soup.io,P021,Hair Dryer,Health & Personal Care,10.27,19,1/17/2021,PayPal,,,195.13
+C115,Isabella,Das,Female,pvondracekgm@photobucket.com,P017,Dumbbell Set (15lb),Sports & Outdoors,43.63,16,3/7/2021,Credit Card,85095 Elmside Trail,8,698.08
+C109,Maya,Rodriguez,Female,hdavydzenkogn@github.com,P015,Plush Teddy Bear,Toys & Games,9.31,4,6/7/2021,PayPal,24149 Meadow Valley Center,4,37.24
+C111,Sara,Mehta,Female,ltolworthygo@so-net.ne.jp,P028,Car Vacuum Cleaner,Automotive,74.4,5,4/24/2021,Credit Card,8202 Londonderry Terrace,6,
+C103,Emma,Chen,Female,jjanngp@ucla.edu,P014,Lego Creator Set,Toys & Games,58.16,2,5/4/2021,cash,7 Pond Point,8,116.32
+C103,Emma,Chen,,tbeckfordgq@hibu.com,P050,Dashboard Phone Mount,Automotive,,14,5/10/2021,Apple Pay,5 Arizona Road,4,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1
+C115,Isabella,Das,Female,mpaulsongr@cisco.com,P020,Face Moisturizer,Health & Personal Care,7.48,5,1/27/2021,Credit Card,879 Haas Hill,6,37.4
+C113,Aisha,Desai,Female,jlowengs@scientificamerican.com,P016,Yoga Mat,Sports & Outdoors,20.08,21,4/10/2021,COD,87 Reinke Avenue,6,
+C109,,Rodriguez,,hbeardsallgt@shinystat.com,P028,Car Vacuum Cleaner,Automotive,75.84,15,5/1/2021,Credit Card,82 Riverside Point,6,1137.6
+C108,Arjun,Verma,Male,mstarrgu@mit.edu,P012,"""Deep Work""",Books,67.66,16,5/16/2021,PayPal,71726 Holmberg Court,4,1082.56
+C105,Priya,Nair,Female,szellickgv@people.com.cn,P025,Notebook (5-pack),Office Supplies,72.47,25,4/22/2021,Apple Pay,62332 Nevada Court,8,1811.75
+C110,Liam,Thompson,Male,sbaylegw@theglobeandmail.com,P010,"""The Alchemist""",Books,88.72,10,1/5/2021,COD,859 Utah Parkway,4,887.2
+C108,,Verma,Male,jchiezegx@webeden.co.uk,P006,Vacuum Cleaner,Home & Kitchen,79.15,1,6/11/2021,PayPal,874 Bashford Pass,6,79.15
+C107,Sophia,Singh,Female,jingledowgy@list-manage.com,P018,Running Shorts,Sports & Outdoors,3.69,12,5/16/2021,Credit Card,4 Crescent Oaks Avenue,6,44.28
+C114,Noah,Shah,Male,gmcentagartgz@nba.com,P042,First Aid Kit,Health & Personal Care,73.09,4,5/2/2021,PayPal,82984 American Drive,5,292.36
+C105,Priya,Nair,Female,kfleuryh0@state.gov,P016,Yoga Mat,Sports & Outdoors,77.58,18,1/18/2021,cash,259 Carey Junction,7,1396.44
+C102,Raj,Patel,Male,tecclesallh1@house.gov,P018,,Sports & Outdoors,90.21,5,2/10/2021,cash,92251 8th Point,7,451.05
+C113,Aisha,Desai,Female,mhalwellh2@ihg.com,P010,"""The Alchemist""",Books,62.26,12,5/15/2021,Apple Pay,5825 Glacier Hill Circle,6,747.12
+C110,Liam,Thompson,Male,ktheurerh3@state.tx.us,P049,USB Car Charger,Automotive,90.48,20,2/18/2021,PayPal,72 Clemons Court,6,1809.6
+C105,Priya,Nair,Female,dwitchh4@google.com.hk,P050,Dashboard Phone Mount,Automotive,76.65,25,3/26/2021,Apple Pay,310 David Terrace,7,1916.25
+C102,Raj,,Male,rfowleyh5@so-net.ne.jp,P028,Car Vacuum Cleaner,,56.98,10,4/6/2021,cash,5147 Maywood Junction,6,569.8
+C114,Noah,Shah,Male,kpilburyh6@businessinsider.com,P001,Wireless Earbuds,Electronics,76.3,7,5/15/2021,Credit Card,675 Beilfuss Terrace,,534.1
+C102,Raj,Patel,Male,lgossageh7@google.cn,P046,,Office Supplies,,10,6/17/2021,cash,978 Packers Court,5,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1
+C114,Noah,,Male,ddevonishh8@bloglines.com,P028,,Automotive,52.87,5,6/3/2021,PayPal,4790 New Castle Court,4,264.35
+C108,Arjun,Verma,Male,sbravingtonh9@tumblr.com,P025,Notebook (5-pack),,58.12,17,2/3/2021,Apple Pay,3714 Bobwhite Avenue,6,988.04
+C108,Arjun,Verma,,vdominkaha@etsy.com,P050,Dashboard Phone Mount,Automotive,95.88,19,6/24/2021,Credit Card,784 Crest Line Junction,7,1821.72
+C112,Ethan,Wong,Male,mcartledgehb@csmonitor.com,P029,Windshield Sun Shade,Automotive,6.77,9,1/11/2021,COD,2 Jackson Drive,4,60.93
+C102,Raj,Patel,Male,javannhc@mlb.com,P024,Almond Butter,,95.13,15,2/2/2021,PayPal,184 Walton Junction,8,1426.95
+C103,Emma,Chen,Female,gsteuhlmeyerhd@soundcloud.com,P003,Bluetooth Speaker,Electronics,30.03,,4/27/2021,Credit Card,1530 Kensington Trail,8,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1
+C105,Priya,Nair,Female,erappaporthe@ezinearticles.com,P003,Bluetooth Speaker,Electronics,80.83,6,5/26/2021,COD,95 Village Green Terrace,8,
+C102,Raj,Patel,Male,lzanottihf@domainmarket.com,P028,Car Vacuum Cleaner,Automotive,86.8,21,5/13/2021,PayPal,53663 Saint Paul Court,4,1822.8
+C115,Isabella,,Female,mlamonthg@infoseek.co.jp,P032,LED Desk Lamp,Home & Kitchen,59.45,18,2/3/2021,PayPal,3 Jackson Circle,7,1070.1
+C103,Emma,Chen,Female,vosseltonhh@elpais.com,P014,Lego Creator Set,Toys & Games,,6,1/19/2021,Apple Pay,343 Chinook Alley,7,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1
+C109,Maya,Rodriguez,Female,mfrickeyhi@nbcnews.com,P001,Wireless Earbuds,Electronics,16.85,14,3/26/2021,PayPal,08098 Granby Drive,6,235.9
+C109,Maya,Rodriguez,Female,aribeirohj@cpanel.net,P018,Running Shorts,Sports & Outdoors,87.55,6,5/12/2021,Credit Card,08 Declaration Street,5,525.3
+C102,Raj,Patel,,arevenhk@addtoany.com,P038,Rubik’s Cube,Toys & Games,24.29,4,2/9/2021,COD,69506 Crowley Place,8,97.16
+C111,Sara,Mehta,,fblankenshiphl@hud.gov,P008,Women's Jacket,Clothing,85.34,21,4/5/2021,cash,27 Talmadge Point,8,1792.14
+C115,Isabella,Das,Female,ealwayhm@icio.us,P007,Men's Running Shoes,Clothing,,2,3/4/2021,Credit Card,42802 Ridgeview Way,5,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1
+C114,Noah,Shah,Male,fkonradhn@msu.edu,P050,,Automotive,14.9,25,5/6/2021,cash,0 Lighthouse Bay Alley,5,372.5
+C107,Sophia,Singh,Female,jpriddeyho@sbwire.com,P043,Vitamin C Gummies,Health & Personal Care,46.25,13,3/7/2021,Credit Card,792 Farragut Crossing,8,601.25
+C104,Omar,Ali,Male,ehunnamhp@newyorker.com,P037,Coloring Book for Adults,Books,61.13,14,,PayPal,64 Longview Avenue,5,855.82
+C103,Emma,Chen,Female,asingyardhq@typepad.com,P002,Smartwatch,,53.72,23,6/16/2021,cash,4 Bunting Terrace,6,1235.56
+C101,Alice,Johnson,Female,ikynclhr@photobucket.com,P010,"""The Alchemist""",Books,74.65,21,4/2/2021,Credit Card,3 Mccormick Place,6,1567.65
+C112,Ethan,Wong,Male,brallinhs@yandex.ru,P004,Electric Kettle,Home & Kitchen,23.95,6,6/25/2021,Apple Pay,042 Hayes Way,5,143.7
+C111,Sara,Mehta,Female,thowerdht@mit.edu,P015,Plush Teddy Bear,Toys & Games,30.38,5,6/6/2021,PayPal,851 Merry Pass,5,151.9
+C115,Isabella,Das,Female,vbartloszhu@guardian.co.uk,P040,Resistance Bands,Sports & Outdoors,46.25,15,4/18/2021,cash,525 Village Green Alley,6,693.75
+C111,Sara,Mehta,Female,rellinghamhv@vinaora.com,P018,Running Shorts,Sports & Outdoors,85.06,14,1/29/2021,Credit Card,76 Garrison Circle,7,1190.84
+C112,Ethan,Wong,Male,mtifthw@tiny.cc,P025,Notebook (5-pack),Office Supplies,6.91,20,2/11/2021,Credit Card,33495 Springs Pass,5,138.2
+C104,,Ali,Male,nlissandrihx@ameblo.jp,P023,Chocolate Chip Cookies,,88.28,10,6/27/2021,cash,5988 Debra Lane,6,882.8
+C112,Ethan,Wong,Male,bchamberlaynehy@ehow.com,P042,,Health & Personal Care,58.9,2,2/12/2021,COD,21941 Mitchell Parkway,5,117.8
+C114,Noah,Shah,Male,serikssonhz@nps.gov,,Car Vacuum Cleaner,Automotive,32.07,21,6/8/2021,Apple Pay,47 Springview Way,7,673.47
+C110,Liam,Thompson,Male,klethlayi0@fema.gov,P017,Dumbbell Set (15lb),Sports & Outdoors,18.85,17,6/13/2021,Credit Card,862 Carioca Junction,6,320.45
+C107,Sophia,Singh,Female,cmeryetti1@bbc.co.uk,P003,Bluetooth Speaker,Electronics,50.96,11,4/26/2021,PayPal,221 Colorado Hill,5,560.56
+C101,Alice,Johnson,Female,dsperretti2@merriam-webster.com,P049,USB Car Charger,Automotive,35.05,25,6/11/2021,COD,4466 Trailsway Point,4,876.25
+C103,Emma,Chen,Female,eyerrelli3@goo.ne.jp,P022,Organic Green Tea,Grocery,18.03,6,1/26/2021,Apple Pay,3819 Dakota Alley,7,108.18
+C113,Aisha,Desai,Female,learpei4@nifty.com,P004,Electric Kettle,Home & Kitchen,11.7,22,4/15/2021,Credit Card,,5,257.4
+C111,Sara,Mehta,Female,pwansburyi5@zdnet.com,P017,Dumbbell Set (15lb),Sports & Outdoors,16.76,5,4/4/2021,COD,95 Dixon Pass,4,83.8
+C103,Emma,Chen,Female,athainei6@ebay.co.uk,P003,Bluetooth Speaker,Electronics,1.34,19,3/22/2021,COD,0 Meadow Ridge Road,5,25.46
+C104,Omar,,Male,bablotti7@ezinearticles.com,P043,Vitamin C Gummies,Health & Personal Care,88.73,21,3/24/2021,COD,38543 Surrey Court,,1863.33
+C113,Aisha,Desai,Female,gsimonoti8@answers.com,P003,Bluetooth Speaker,Electronics,,,5/22/2021,PayPal,68 1st Drive,8,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1
+C107,Sophia,Singh,Female,thedgecocki9@pen.io,P036,"""Can't Hurt Me""",,58.31,25,4/16/2021,Credit Card,278 Manley Drive,8,1457.75
+C112,Ethan,Wong,Male,tdawberia@4shared.com,P030,,Automotive,95.96,10,5/24/2021,Apple Pay,8815 East Circle,6,959.6
+C115,Isabella,Das,Female,esarathib@berkeley.edu,P002,Smartwatch,Electronics,37.43,16,4/28/2021,Credit Card,751 Springview Circle,7,598.88
+C111,Sara,,,rlotzeic@histats.com,P009,,Clothing,90.69,14,4/30/2021,COD,650 Holy Cross Place,6,1269.66
+C103,Emma,Chen,Female,wfilipovicid@cocolog-nifty.com,P002,Smartwatch,Electronics,96.73,2,4/13/2021,cash,6655 Doe Crossing Court,4,193.46
+C104,Omar,Ali,Male,mdaldryie@bbc.co.uk,P011,,Books,51.04,10,2/25/2021,Apple Pay,73777 5th Avenue,4,510.4
+C107,Sophia,Singh,Female,njershif@bloomberg.com,P001,Wireless Earbuds,Electronics,64.33,13,5/28/2021,PayPal,390 Randy Center,8,836.29
+C106,David,Kim,Male,amalecig@pagesperso-orange.fr,P034,Maxi Dress,Clothing,59.45,16,1/24/2021,Apple Pay,85 Anhalt Court,7,951.2
+C104,Omar,Ali,Male,efeirnih@utexas.edu,P005,Nonstick Frying Pan,Home & Kitchen,56.96,15,2/3/2021,Apple Pay,86 Moose Way,8,854.4
+C105,,Nair,Female,lferresii@webs.com,P043,Vitamin C Gummies,Health & Personal Care,71.77,8,6/21/2021,Credit Card,6677 Drewry Center,8,574.16
+C103,Emma,Chen,Female,djosselij@hugedomains.com,P047,Highlighters (6-pack),Office Supplies,47.93,12,5/16/2021,COD,55578 Summit Street,7,575.16
+C109,Maya,Rodriguez,Female,msouthwoodik@umn.edu,P036,,Books,9.56,5,4/26/2021,COD,817 Center Plaza,4,47.8
+C107,Sophia,Singh,Female,jfordeil@sciencedaily.com,P010,"""The Alchemist""",Books,90.41,12,,Apple Pay,,,1084.92
+C115,Isabella,Das,Female,ebraidmanim@cbsnews.com,P002,Smartwatch,Electronics,85.61,12,4/11/2021,cash,2 Summer Ridge Pass,5,1027.32
+C111,Sara,Mehta,Female,wyanshinovin@bbb.org,P017,Dumbbell Set (15lb),Sports & Outdoors,31.63,22,4/26/2021,PayPal,99072 Dahle Place,8,695.86
+C108,Arjun,Verma,Male,kcurrerio@craigslist.org,P020,Face Moisturizer,Health & Personal Care,29.11,20,2/26/2021,Apple Pay,983 Union Place,6,582.2
+C111,Sara,Mehta,Female,kwarstallip@elegantthemes.com,P029,Windshield Sun Shade,Automotive,17.22,25,2/15/2021,COD,5 Mandrake Circle,4,
+C105,Priya,Nair,Female,lattewiq@nymag.com,P010,"""The Alchemist""",Books,50.24,,6/28/2021,COD,6637 Arkansas Point,4,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1
+C115,Isabella,Das,,mmcginnellir@drupal.org,P016,Yoga Mat,Sports & Outdoors,7.47,12,1/31/2021,COD,77 Bobwhite Pass,7,89.64
+C104,Omar,Ali,Male,ogrebbinis@timesonline.co.uk,P006,Vacuum Cleaner,Home & Kitchen,54.21,3,3/11/2021,COD,6 Brentwood Junction,,162.63
+C101,Alice,Johnson,Female,tgilesit@t.co,P031,Noise Cancelling Headphones,Electronics,,9,4/15/2021,PayPal,0 Almo Plaza,7,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1
+C106,David,Kim,Male,dfeigeiu@guardian.co.uk,P012,"""Deep Work""",Books,45.77,23,6/16/2021,COD,31 Mitchell Lane,,1052.71
+C107,,Singh,,nmccaghaniv@bizjournals.com,P020,Face Moisturizer,Health & Personal Care,82.57,11,1/31/2021,cash,4181 Corry Park,8,908.27
+C107,Sophia,Singh,Female,yhanwayiw@canalblog.com,P006,Vacuum Cleaner,Home & Kitchen,26.92,21,2/11/2021,COD,33 Gale Park,5,565.32
+C112,Ethan,Wong,Male,scarnelleyix@ucoz.ru,P015,Plush Teddy Bear,Toys & Games,45.37,4,5/18/2021,PayPal,8 Kinsman Place,7,181.48
+C107,Sophia,Singh,Female,ghasselliy@privacy.gov.au,P022,Organic Green Tea,Grocery,17.47,10,5/15/2021,COD,8 Raven Pass,4,174.7
+C112,Ethan,Wong,Male,hpuesiz@meetup.com,P040,Resistance Bands,Sports & Outdoors,36.35,1,4/1/2021,cash,7 Becker Trail,4,
+C115,Isabella,,Female,bmaphamj0@webmd.com,P045,Breakfast Cereal,Grocery,,10,2/6/2021,cash,73953 Weeping Birch Alley,6,
+C101,Alice,Johnson,,bollerheadj1@elegantthemes.com,,Sticky Notes (3x3),Office Supplies,93.87,5,5/31/2021,COD,9533 Schlimgen Crossing,5,469.35
+C102,Raj,Patel,,dduffreej2@google.cn,P020,Face Moisturizer,Health & Personal Care,85.59,13,2/25/2021,Credit Card,33 Del Sol Park,7,1112.67
+C104,Omar,Ali,Male,bbournerj3@addthis.com,P035,Winter Scarf,Clothing,46.41,19,3/30/2021,PayPal,8086 Erie Place,4,881.79
+C105,Priya,,Female,jkubelkaj4@is.gd,P029,Windshield Sun Shade,Automotive,14.16,8,4/12/2021,Apple Pay,26 Oakridge Plaza,8,113.28
+C111,Sara,Mehta,Female,mgildingj5@nyu.edu,P047,Highlighters (6-pack),,39.07,6,4/14/2021,Credit Card,10 Del Mar Junction,7,234.42
+C115,Isabella,Das,Female,mforsythej6@eventbrite.com,P044,Pasta Sauce,Grocery,26.85,13,3/16/2021,cash,4919 Lindbergh Point,6,
+C110,Liam,Thompson,Male,mwoosnamj7@rambler.ru,P046,Sticky Notes (3x3),Office Supplies,8.13,8,1/15/2021,PayPal,7085 Loftsgordon Drive,4,65.04
+C101,Alice,Johnson,Female,blecontej8@ftc.gov,P030,Steering Wheel Cover,Automotive,10.51,25,3/18/2021,Credit Card,4684 Cottonwood Trail,7,262.75
+,Noah,Shah,Male,lcurmij9@sun.com,P003,Bluetooth Speaker,Electronics,64.41,7,3/24/2021,Credit Card,80733 Mifflin Court,7,450.87
+C114,Noah,Shah,Male,ilehrerja@theglobeandmail.com,P039,Jigsaw Puzzle (1000 pcs),Toys & Games,30.0,10,5/22/2021,cash,23 Sloan Crossing,6,300.0
+C109,Maya,Rodriguez,Female,rdohertyjb@bbb.org,P024,Almond Butter,Grocery,53.74,21,4/3/2021,Apple Pay,3327 Coolidge Crossing,6,1128.54
+C106,David,Kim,Male,wbowcockjc@un.org,P036,"""Can't Hurt Me""",Books,51.6,22,3/17/2021,PayPal,2 Mcguire Place,8,1135.2
+C104,Omar,Ali,Male,dkingejd@home.pl,P028,Car Vacuum Cleaner,Automotive,93.35,8,4/12/2021,Apple Pay,232 Waxwing Parkway,7,746.8
+C104,Omar,Ali,,fsiveyerje@ox.ac.uk,P050,Dashboard Phone Mount,Automotive,31.66,19,4/29/2021,Apple Pay,8845 La Follette Plaza,5,601.54
+C101,Alice,Johnson,Female,jlackjf@google.co.jp,P002,Smartwatch,Electronics,,3,2/12/2021,cash,6552 Erie Point,5,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1
+C106,David,Kim,Male,jmoresidejg@is.gd,P032,LED Desk Lamp,Home & Kitchen,22.26,1,1/25/2021,cash,066 Oak Valley Terrace,4,22.26
+C107,Sophia,Singh,Female,rkryszkieciczjh@studiopress.com,P032,LED Desk Lamp,,6.62,3,2/14/2021,Credit Card,1213 Hanson Alley,4,
+C104,Omar,Ali,Male,ggregrji@spiegel.de,,Nonstick Frying Pan,Home & Kitchen,22.97,16,1/5/2021,COD,11 Sundown Terrace,4,367.52
+C110,Liam,Thompson,Male,malamjj@webs.com,P009,Casual T-Shirt,Clothing,75.39,24,6/23/2021,COD,49914 Warner Street,4,1809.36
+C107,Sophia,Singh,Female,amahyjk@springer.com,P010,,Books,66.38,13,3/25/2021,Credit Card,2 Stephen Park,8,862.94
+C106,David,Kim,Male,ystonejl@dot.gov,P010,"""The Alchemist""",Books,17.68,23,3/14/2021,cash,93756 Fairview Crossing,5,406.64
+C101,Alice,Johnson,Female,lpingstonjm@google.com.hk,P007,Men's Running Shoes,Clothing,57.74,10,6/15/2021,Credit Card,7053 Fairfield Road,4,577.4
+C108,Arjun,Verma,Male,,P043,Vitamin C Gummies,Health & Personal Care,3.78,3,4/10/2021,COD,0843 School Trail,7,11.34
+,Emma,Chen,Female,,P033,Coffee Mug Set,Home & Kitchen,41.22,8,6/25/2021,COD,43 Almo Plaza,4,329.76
+,Emma,Chen,Female,mcaulfieldjp@google.it,P030,Steering Wheel Cover,,60.57,23,3/10/2021,COD,31038 Golf Course Lane,6,1393.11
+C103,Emma,Chen,Female,gstoffeljq@nifty.com,P034,Maxi Dress,Clothing,61.61,6,6/8/2021,Credit Card,75 Ridgeway Place,5,
+C104,Omar,Ali,Male,ncouthjr@theguardian.com,P027,Wireless Mouse,Office Supplies,40.47,23,3/26/2021,Apple Pay,7332 Sundown Trail,7,930.81
+C115,Isabella,Das,Female,lhardisonjs@usgs.gov,P022,Organic Green Tea,Grocery,41.2,12,6/8/2021,Apple Pay,199 Fieldstone Street,5,494.4
+,Raj,Patel,Male,ademeadjt@bravesites.com,P011,"""Atomic Habits""",Books,42.68,17,2/2/2021,Apple Pay,54 Vahlen Street,5,725.56
+C102,Raj,Patel,Male,clawlerju@webnode.com,P021,Hair Dryer,Health & Personal Care,8.59,13,5/20/2021,Apple Pay,4 Mendota Crossing,4,
+C102,Raj,Patel,Male,,P017,Dumbbell Set (15lb),Sports & Outdoors,60.88,20,1/17/2021,cash,0 Erie Way,4,1217.6
+C108,Arjun,Verma,Male,acarlinjw@sphinn.com,P005,Nonstick Frying Pan,Home & Kitchen,51.4,1,5/25/2021,cash,,8,51.4
+C106,David,Kim,Male,ybonsuljx@apple.com,P047,,Office Supplies,55.55,5,4/27/2021,Apple Pay,61 Sullivan Park,8,
+C111,Sara,Mehta,Female,sfilasovjy@nih.gov,P019,,Health & Personal Care,91.53,18,4/25/2021,PayPal,4 Graedel Drive,7,1647.54
+C106,David,Kim,Male,babbattjz@umich.edu,P009,,Clothing,27.72,14,6/11/2021,cash,99846 Delaware Way,7,388.08
+C111,Sara,Mehta,Female,bbillingsleyk0@boston.com,P012,"""Deep Work""",Books,19.04,25,4/30/2021,cash,3 Amoth Terrace,4,476.0
+C104,Omar,Ali,,drodnightk1@slideshare.net,P005,Nonstick Frying Pan,Home & Kitchen,40.94,5,6/13/2021,PayPal,394 Straubel Road,6,204.7
+C115,Isabella,Das,Female,mmorriesonk2@bing.com,P047,Highlighters (6-pack),Office Supplies,14.35,18,3/19/2021,COD,9 Carberry Road,7,258.3
+C113,Aisha,Desai,Female,dfeveryeark3@walmart.com,P011,"""Atomic Habits""",Books,39.6,20,5/9/2021,cash,3794 Spaight Drive,4,792.0
+C110,Liam,Thompson,Male,npercevalk4@com.com,P011,,Books,2.85,20,6/16/2021,cash,633 Troy Junction,5,57.0
+C113,Aisha,Desai,Female,,P001,,,69.79,2,1/18/2021,cash,8837 Springview Way,8,139.58
+C111,Sara,Mehta,Female,nkitchinghank6@comcast.net,P011,"""Atomic Habits""",Books,92.9,11,2/1/2021,PayPal,93 Fieldstone Pass,8,1021.9
+C104,Omar,Ali,Male,ksomervillek7@vkontakte.ru,P031,Noise Cancelling Headphones,Electronics,85.46,14,6/3/2021,PayPal,0 Goodland Parkway,8,1196.44
+C108,,Verma,,heasterbyk8@wunderground.com,P007,Men's Running Shoes,Clothing,26.28,25,6/16/2021,cash,28 Arkansas Way,7,657.0
+C108,Arjun,Verma,Male,dcalveleyk9@independent.co.uk,P025,Notebook (5-pack),Office Supplies,4.0,4,3/15/2021,COD,783 3rd Alley,8,16.0
+C102,Raj,Patel,Male,cdonisthorpeka@ox.ac.uk,P001,Wireless Earbuds,Electronics,11.52,22,2/2/2021,Credit Card,20409 Golf Course Alley,8,253.44
+C112,Ethan,Wong,Male,meppskb@wix.com,P003,Bluetooth Speaker,Electronics,94.05,3,4/23/2021,cash,58947 Debs Lane,5,282.15
+C102,Raj,Patel,Male,idanglkc@kickstarter.com,P046,Sticky Notes (3x3),Office Supplies,46.93,21,2/4/2021,COD,0 Mcbride Street,4,985.53
+C112,Ethan,Wong,Male,aitzcovichkd@utexas.edu,P018,Running Shorts,Sports & Outdoors,36.91,14,1/18/2021,COD,0 Mockingbird Court,6,516.74
+C111,Sara,Mehta,Female,ubotcherbyke@eventbrite.com,P042,First Aid Kit,Health & Personal Care,97.26,4,5/8/2021,Credit Card,7083 Gulseth Drive,6,389.04
+C108,Arjun,Verma,Male,kreddecliffekf@goo.gl,P005,Nonstick Frying Pan,Home & Kitchen,82.64,12,2/21/2021,Credit Card,2 Redwing Lane,6,991.68
+C114,Noah,Shah,Male,gsladerkg@mlb.com,P008,Women's Jacket,Clothing,32.74,7,4/14/2021,Credit Card,3158 Swallow Avenue,6,229.18
+C110,Liam,Thompson,,sblakekh@homestead.com,P003,Bluetooth Speaker,Electronics,96.28,15,5/6/2021,Credit Card,,4,1444.2
+C104,Omar,Ali,Male,mbrantzenki@berkeley.edu,P002,Smartwatch,Electronics,21.88,16,1/6/2021,COD,6939 Harbort Parkway,6,350.08
+C108,Arjun,Verma,Male,cstudkj@hud.gov,P040,,Sports & Outdoors,40.35,22,2/6/2021,PayPal,78 Dorton Parkway,,887.7
+C110,Liam,Thompson,Male,skeasleykk@technorati.com,P042,First Aid Kit,Health & Personal Care,11.53,23,3/1/2021,Apple Pay,165 Katie Drive,5,265.19
+C114,Noah,Shah,Male,olichtfothkl@gravatar.com,P016,Yoga Mat,Sports & Outdoors,80.68,25,6/8/2021,COD,56 Upham Plaza,8,2017.0
+C109,Maya,Rodriguez,,cinglefieldkm@themeforest.net,P003,Bluetooth Speaker,Electronics,31.05,11,4/18/2021,PayPal,88263 Fisk Lane,6,341.55
+C113,Aisha,Desai,Female,,P026,Ballpoint Pens,Office Supplies,83.49,5,4/10/2021,Apple Pay,2 Marquette Pass,7,417.45
+C111,Sara,Mehta,Female,wlangstrathko@gmpg.org,P016,Yoga Mat,Sports & Outdoors,50.14,3,5/9/2021,cash,151 Linden Drive,5,150.42
+C109,Maya,Rodriguez,Female,htrowsdallkp@shutterfly.com,P039,,Toys & Games,85.38,14,1/2/2021,Credit Card,15 Little Fleur Avenue,8,1195.32
+C105,Priya,Nair,Female,lquinkq@1688.com,P011,"""Atomic Habits""",Books,11.17,14,3/24/2021,COD,85372 Southridge Place,5,156.38
+C101,Alice,Johnson,Female,fbilliekr@cdc.gov,P028,Car Vacuum Cleaner,Automotive,,15,4/29/2021,Apple Pay,997 Bartillon Pass,5,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1
+C114,Noah,Shah,Male,hwibrowks@wordpress.org,P044,Pasta Sauce,,88.94,16,2/12/2021,PayPal,26 Grover Plaza,7,1423.04
+C107,Sophia,Singh,Female,rprestnerkt@netscape.com,P010,"""The Alchemist""",Books,15.76,4,5/14/2021,cash,62 Dennis Junction,,
+C109,Maya,Rodriguez,Female,evandaalenku@phpbb.com,P050,Dashboard Phone Mount,Automotive,85.02,5,4/11/2021,Apple Pay,4076 Kropf Plaza,,425.1
+C106,David,Kim,Male,oarnaudonkv@marriott.com,P041,Protein Shake Bottle,Sports & Outdoors,61.75,24,2/8/2021,PayPal,490 Westend Avenue,4,1482.0
+C105,Priya,Nair,Female,mhutchcraftkw@indiegogo.com,P016,Yoga Mat,Sports & Outdoors,2.4,9,6/15/2021,COD,44 Bonner Avenue,7,21.6
+C112,Ethan,Wong,Male,zstickleskx@nymag.com,P025,Notebook (5-pack),,62.55,19,3/23/2021,COD,5 Almo Plaza,8,1188.45
+C113,Aisha,Desai,Female,hpetersenky@china.com.cn,P047,Highlighters (6-pack),Office Supplies,91.84,17,1/22/2021,cash,42691 Macpherson Hill,5,1561.28
+,,Verma,Male,dnassykz@narod.ru,P022,Organic Green Tea,Grocery,,7,6/27/2021,Apple Pay,2 Lotheville Lane,8,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1
+C103,Emma,Chen,Female,ytroupl0@census.gov,P021,Hair Dryer,Health & Personal Care,99.94,10,3/19/2021,cash,788 Loftsgordon Avenue,5,999.4
+,Noah,Shah,Male,gslymanl1@topsy.com,P008,Women's Jacket,Clothing,37.29,15,5/5/2021,Credit Card,53813 Lotheville Avenue,4,559.35
+C101,Alice,Johnson,Female,mspinol2@ihg.com,P007,Men's Running Shoes,Clothing,31.87,22,3/4/2021,Apple Pay,44521 Nevada Circle,8,701.14
+C107,Sophia,Singh,Female,kfeuelll3@list-manage.com,P017,Dumbbell Set (15lb),Sports & Outdoors,38.37,17,5/23/2021,cash,3513 6th Park,6,652.29
+C115,Isabella,Das,Female,adeshonl4@irs.gov,P003,Bluetooth Speaker,Electronics,47.58,12,4/1/2021,cash,71 Service Park,6,570.96
+C112,Ethan,Wong,Male,tbaylel5@bandcamp.com,P038,Rubik’s Cube,Toys & Games,23.54,21,2/22/2021,Apple Pay,,,494.34
+,Arjun,Verma,Male,flaurentl6@cloudflare.com,P011,"""Atomic Habits""",Books,88.46,9,3/31/2021,PayPal,8 Brickson Park Point,6,796.14
+C103,Emma,Chen,Female,acrokerl7@sogou.com,P039,,Toys & Games,53.55,22,3/1/2021,Apple Pay,1 Anzinger Road,8,1178.1
+C110,Liam,Thompson,,gswepsonl8@digg.com,P035,Winter Scarf,Clothing,18.14,14,1/13/2021,cash,982 Monterey Point,5,253.96
+C109,Maya,Rodriguez,Female,thalwardl9@businessinsider.com,P016,Yoga Mat,Sports & Outdoors,73.32,6,5/31/2021,PayPal,40 Old Shore Lane,4,439.92
+C115,Isabella,Das,Female,nbothamla@salon.com,P004,Electric Kettle,Home & Kitchen,92.66,12,1/13/2021,PayPal,4 Spenser Drive,5,
+C111,Sara,,Female,gillsleylb@360.cn,P024,Almond Butter,Grocery,,8,2/25/2021,PayPal,6017 Hovde Point,5,
+C109,Maya,Rodriguez,Female,pweddelllc@hugedomains.com,P024,Almond Butter,Grocery,17.07,11,5/3/2021,COD,,6,187.77
+C107,Sophia,Singh,Female,cmonahanld@hao123.com,P007,Men's Running Shoes,Clothing,80.43,1,5/23/2021,cash,8 Fremont Court,7,80.43
+C102,Raj,Patel,Male,kquilliamle@yolasite.com,P037,,,83.47,7,1/25/2021,Apple Pay,2 Anniversary Park,8,584.29
+C105,Priya,Nair,Female,aghestlf@theatlantic.com,P028,Car Vacuum Cleaner,Automotive,19.45,18,4/19/2021,Credit Card,94 Summerview Parkway,4,350.1
+C112,Ethan,Wong,Male,apawlatalg@ted.com,P003,,Electronics,56.09,2,2/2/2021,Credit Card,,8,112.18
+C115,Isabella,,Female,fdraayerlh@biblegateway.com,P043,Vitamin C Gummies,Health & Personal Care,19.17,11,6/9/2021,Credit Card,66025 Mesta Park,6,210.87
+C110,Liam,Thompson,,gminetli@gizmodo.com,P049,USB Car Charger,Automotive,35.22,5,6/14/2021,Apple Pay,350 Emmet Junction,8,176.1
+C112,Ethan,,Male,nweetchlj@irs.gov,P033,,Home & Kitchen,88.77,3,2/10/2021,COD,05635 Del Sol Pass,4,266.31
+C115,Isabella,Das,Female,rcostinlk@hatena.ne.jp,P015,Plush Teddy Bear,Toys & Games,52.37,20,2/13/2021,Apple Pay,2308 Alpine Junction,7,1047.4
+C115,Isabella,Das,Female,rhopkynsll@blogtalkradio.com,P048,,Automotive,50.0,9,2/22/2021,Apple Pay,6 Almo Parkway,7,450.0
+C105,Priya,Nair,Female,vfishleylm@wp.com,P034,Maxi Dress,Clothing,60.62,12,1/20/2021,PayPal,18328 Spaight Parkway,6,727.44
+C102,Raj,Patel,Male,lpalialn@wix.com,P016,Yoga Mat,Sports & Outdoors,55.25,14,2/11/2021,COD,455 Sunnyside Court,7,773.5
+C108,Arjun,Verma,Male,rdeaconlo@salon.com,,Maxi Dress,Clothing,25.05,12,4/16/2021,Apple Pay,,5,300.6
+C104,,,Male,,P015,Plush Teddy Bear,Toys & Games,41.31,7,6/10/2021,cash,94 Dahle Road,5,289.17
+C110,Liam,Thompson,Male,efouchlq@example.com,P002,Smartwatch,Electronics,3.2,22,2/5/2021,cash,88799 Packers Road,7,70.4
+C112,Ethan,Wong,Male,cdegenhardtlr@example.com,P027,Wireless Mouse,Office Supplies,86.56,14,4/7/2021,PayPal,707 Browning Circle,7,
+C102,Raj,Patel,Male,kbiddlecombels@angelfire.com,P037,Coloring Book for Adults,Books,87.76,21,1/9/2021,PayPal,7 Summit Place,7,1842.96
+C106,David,Kim,,dferreraslt@comsenz.com,P016,Yoga Mat,Sports & Outdoors,49.64,21,6/9/2021,Apple Pay,1357 American Ash Court,7,1042.44
+C101,Alice,Johnson,Female,fcowanslu@independent.co.uk,P022,Organic Green Tea,Grocery,37.05,19,1/13/2021,Credit Card,9594 Armistice Street,5,703.95
+C102,Raj,Patel,Male,bmarkslv@webs.com,P029,,Automotive,68.61,8,1/21/2021,Credit Card,164 Quincy Court,8,
+C101,Alice,Johnson,Female,kdelucelw@nsw.gov.au,P032,LED Desk Lamp,Home & Kitchen,22.71,3,5/6/2021,COD,82205 Larry Terrace,8,68.13
+C110,Liam,Thompson,Male,ndibbinlx@people.com.cn,P027,Wireless Mouse,Office Supplies,78.87,15,6/27/2021,COD,7628 Orin Drive,8,1183.05
+C111,Sara,Mehta,Female,dcotteyly@surveymonkey.com,P030,Steering Wheel Cover,Automotive,58.66,21,2/1/2021,Apple Pay,519 Red Cloud Terrace,8,1231.86
+C104,Omar,Ali,Male,sricciardiellolz@livejournal.com,P008,Women's Jacket,Clothing,20.57,11,5/2/2021,Credit Card,5184 Reindahl Way,5,226.27
+C110,Liam,Thompson,Male,,P045,Breakfast Cereal,Grocery,98.03,11,3/15/2021,Credit Card,04618 North Crossing,4,1078.33
+C103,Emma,Chen,Female,aquirkm1@nydailynews.com,P028,Car Vacuum Cleaner,Automotive,59.62,8,4/2/2021,Credit Card,0 Merrick Place,,476.96
+C102,Raj,Patel,Male,ktimmesm2@bbb.org,P021,Hair Dryer,Health & Personal Care,36.13,12,6/2/2021,cash,120 Badeau Court,5,433.56
+C114,Noah,Shah,Male,gsifflettm3@nature.com,P020,,Health & Personal Care,38.18,17,6/5/2021,Credit Card,6165 Meadow Vale Point,4,649.06
+C109,Maya,Rodriguez,Female,mdorseym4@networkadvertising.org,P006,Vacuum Cleaner,Home & Kitchen,61.02,24,2/3/2021,PayPal,6 Fulton Center,7,1464.48
+C109,Maya,Rodriguez,Female,mnichollm5@columbia.edu,P030,Steering Wheel Cover,Automotive,43.13,23,4/28/2021,Credit Card,5710 Mitchell Point,7,991.99
+C115,Isabella,Das,Female,tstopfordm6@goodreads.com,P043,Vitamin C Gummies,Health & Personal Care,45.57,20,4/10/2021,COD,93 Grim Lane,,
+C103,,,Female,etissierm7@topsy.com,P023,,Grocery,48.69,11,4/26/2021,Credit Card,92421 Pine View Alley,6,535.59
+C105,Priya,Nair,Female,jciepluchm8@va.gov,P018,Running Shorts,Sports & Outdoors,67.08,14,4/18/2021,Apple Pay,17655 Killdeer Pass,8,939.12
+C104,Omar,Ali,Male,cbuckthorpm9@fema.gov,P010,"""The Alchemist""",Books,68.25,20,6/5/2021,cash,35 Sheridan Park,6,1365.0
+C109,Maya,Rodriguez,Female,ldemariama@bloglovin.com,P035,Winter Scarf,Clothing,84.5,13,3/28/2021,PayPal,10 Green Point,6,1098.5
+C103,Emma,Chen,Female,cstilgomb@instagram.com,P049,USB Car Charger,Automotive,58.4,23,5/23/2021,Apple Pay,,5,1343.2
+C106,David,Kim,Male,bmcwilliamsmc@wp.com,P012,,Books,33.89,2,2/21/2021,Apple Pay,96 Reinke Crossing,6,67.78
+C105,,Nair,Female,erollingmd@feedburner.com,P047,Highlighters (6-pack),Office Supplies,42.09,5,5/22/2021,Credit Card,4 Rockefeller Center,7,210.45
+C106,David,Kim,Male,gmcclaurieme@sogou.com,P017,Dumbbell Set (15lb),Sports & Outdoors,46.11,13,2/10/2021,COD,5 Golf View Alley,6,599.43
+C103,Emma,Chen,,ceuesdenmf@booking.com,P012,,Books,42.46,10,3/6/2021,cash,022 Stuart Junction,6,424.6
+C102,Raj,Patel,Male,,P003,Bluetooth Speaker,Electronics,78.95,3,1/24/2021,Credit Card,9660 Tomscot Crossing,6,236.85
+C102,Raj,Patel,Male,jsemeniukmh@uol.com.br,P020,Face Moisturizer,Health & Personal Care,33.49,15,4/5/2021,PayPal,8360 Blackbird Road,4,502.35
+C104,Omar,Ali,Male,awoolliamsmi@squidoo.com,P042,First Aid Kit,Health & Personal Care,88.6,17,3/30/2021,PayPal,21 American Way,8,1506.2
+C107,Sophia,Singh,Female,jludronmj@state.tx.us,P013,Board Game: Codenames,Toys & Games,6.93,21,4/17/2021,cash,69 Meadow Vale Court,8,145.53
+C110,Liam,Thompson,Male,hdeamayamk@spotify.com,P032,LED Desk Lamp,Home & Kitchen,1.96,19,2/3/2021,COD,4621 Sullivan Alley,6,37.24
+C104,Omar,Ali,,lgilleyml@deliciousdays.com,P014,Lego Creator Set,Toys & Games,90.2,23,5/5/2021,cash,1353 Commercial Drive,5,2074.6
+C102,,Patel,,ezaniolomm@booking.com,P032,LED Desk Lamp,Home & Kitchen,79.52,23,5/31/2021,COD,6032 Ruskin Hill,4,1828.96
+C105,Priya,Nair,Female,mriccionemn@yellowpages.com,P024,Almond Butter,Grocery,98.02,11,1/16/2021,COD,5585 Northridge Plaza,8,1078.22
+C104,Omar,Ali,Male,asommerledmo@walmart.com,P026,Ballpoint Pens,Office Supplies,17.52,22,4/17/2021,PayPal,07 Brown Park,8,385.44
+C104,Omar,Ali,,,P035,,Clothing,29.92,8,5/28/2021,Apple Pay,687 Forest Center,7,239.36
+C104,Omar,Ali,Male,cfoystonmq@geocities.jp,P037,Coloring Book for Adults,Books,2.2,6,4/24/2021,cash,7515 Delaware Drive,8,13.2
+C107,Sophia,Singh,Female,omaroneymr@spiegel.de,P037,Coloring Book for Adults,Books,83.64,11,1/26/2021,PayPal,858 Loomis Avenue,8,920.04
+C111,Sara,Mehta,Female,skavanaghms@comsenz.com,P005,Nonstick Frying Pan,Home & Kitchen,89.73,21,5/10/2021,PayPal,20093 Di Loreto Junction,4,1884.33
+C102,Raj,Patel,Male,pvasnevmt@naver.com,P019,Toothbrush Set,Health & Personal Care,70.73,6,4/29/2021,Credit Card,0 Mcguire Junction,4,424.38
+C104,Omar,Ali,Male,wsesonmu@livejournal.com,P003,Bluetooth Speaker,Electronics,65.54,16,6/10/2021,Credit Card,,5,1048.64
+C105,Priya,Nair,Female,mtidboldmv@bravesites.com,P012,"""Deep Work""",Books,66.02,14,6/12/2021,Apple Pay,130 Green Ridge Trail,8,924.28
+,Alice,Johnson,Female,ieburahmw@bing.com,P048,Car Air Freshener,,5.86,21,4/5/2021,PayPal,4 Troy Park,5,123.06
+C105,Priya,Nair,Female,hadamemx@pbs.org,P041,Protein Shake Bottle,Sports & Outdoors,19.96,12,2/11/2021,Apple Pay,14360 Sycamore Road,7,
+C104,Omar,Ali,Male,bkaasmy@youku.com,P018,,Sports & Outdoors,75.17,17,1/25/2021,PayPal,69377 Morning Crossing,7,1277.89
+C112,Ethan,Wong,Male,fcornfieldmz@i2i.jp,P002,Smartwatch,Electronics,,14,5/8/2021,Credit Card,4 Sherman Center,6,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1
+C101,Alice,Johnson,Female,vklebesn0@hibu.com,P020,Face Moisturizer,Health & Personal Care,45.17,12,3/14/2021,cash,56 Old Shore Place,7,542.04
+C110,Liam,Thompson,Male,dplastern1@nymag.com,P002,Smartwatch,Electronics,7.17,17,1/15/2021,Credit Card,513 Hanson Parkway,5,121.89
+C108,Arjun,,Male,dbourhilln2@blogs.com,P032,LED Desk Lamp,Home & Kitchen,79.53,6,5/14/2021,COD,844 Lake View Place,8,477.18
+C110,Liam,Thompson,Male,,P038,Rubik’s Cube,Toys & Games,92.53,20,1/25/2021,Apple Pay,87774 Mockingbird Park,8,1850.6
+C104,Omar,Ali,,idavenhalln4@woothemes.com,P047,Highlighters (6-pack),Office Supplies,32.84,17,2/8/2021,COD,,,558.28
+C107,Sophia,Singh,Female,dscholeyn5@ning.com,P015,Plush Teddy Bear,Toys & Games,46.44,5,2/7/2021,cash,28 Homewood Avenue,5,232.2
+C105,Priya,Nair,Female,evaudn6@csmonitor.com,,"""The Alchemist""",Books,90.59,5,4/26/2021,Credit Card,1892 Farwell Street,6,452.95
+C104,Omar,Ali,Male,edisdeln7@i2i.jp,P028,,Automotive,27.06,8,1/25/2021,Apple Pay,3 Nobel Road,6,216.48
+C110,Liam,Thompson,Male,lmalann8@adobe.com,P048,Car Air Freshener,Automotive,75.85,21,6/21/2021,PayPal,35 Corscot Crossing,4,1592.85
+C103,Emma,Chen,,rlevensn9@dell.com,P046,Sticky Notes (3x3),Office Supplies,91.53,1,6/22/2021,cash,509 Dottie Circle,4,91.53
+C111,Sara,Mehta,Female,plinklaterna@wikimedia.org,P034,Maxi Dress,Clothing,83.49,3,1/22/2021,COD,0 Stephen Place,5,250.47
+C112,Ethan,Wong,Male,logeneaynb@newsvine.com,P044,Pasta Sauce,Grocery,60.91,2,,Credit Card,0525 David Parkway,6,121.82
+C114,Noah,Shah,Male,aauchterlonync@blogtalkradio.com,P044,Pasta Sauce,Grocery,98.87,1,2/6/2021,COD,846 Burning Wood Way,5,98.87
+C107,Sophia,Singh,Female,,P026,Ballpoint Pens,Office Supplies,1.56,17,2/26/2021,cash,9 Butterfield Terrace,5,26.52
+C107,Sophia,Singh,Female,mmiddiffne@pinterest.com,P035,Winter Scarf,,54.32,2,3/8/2021,cash,37 Veith Pass,8,108.64
+C104,,Ali,Male,nmealiffenf@wired.com,P033,Coffee Mug Set,Home & Kitchen,,15,1/27/2021,Apple Pay,4542 Farragut Plaza,8,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1
+C106,David,Kim,Male,rmillamng@thetimes.co.uk,P020,Face Moisturizer,Health & Personal Care,92.1,8,5/6/2021,PayPal,1 Thackeray Pass,8,736.8
+C115,Isabella,Das,Female,dnaerupnh@huffingtonpost.com,P020,Face Moisturizer,Health & Personal Care,4.87,1,6/28/2021,Credit Card,5095 Mcguire Plaza,5,4.87
+C105,Priya,Nair,Female,adykinsni@stanford.edu,,Organic Green Tea,Grocery,70.38,12,6/14/2021,cash,47 2nd Point,6,844.56
+C112,Ethan,Wong,Male,aanthesnj@prnewswire.com,P004,Electric Kettle,Home & Kitchen,40.51,21,2/7/2021,Credit Card,566 Ohio Parkway,5,850.71
+C108,Arjun,,Male,cdullingnk@cnn.com,P046,Sticky Notes (3x3),Office Supplies,27.77,10,2/17/2021,COD,8766 Ridge Oak Street,7,
+C101,,Johnson,Female,smishnl@cornell.edu,P033,Coffee Mug Set,Home & Kitchen,,18,3/2/2021,PayPal,4 Pleasure Road,6,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1
+C115,Isabella,Das,,cchessornm@constantcontact.com,P021,Hair Dryer,Health & Personal Care,4.67,23,4/20/2021,Credit Card,67400 Sullivan Road,5,107.41
+C109,Maya,Rodriguez,Female,tmacelroynn@about.com,P011,"""Atomic Habits""",Books,52.51,9,5/8/2021,Apple Pay,3965 Center Hill,7,
+C101,Alice,Johnson,Female,bbyfordno@whitehouse.gov,P040,Resistance Bands,Sports & Outdoors,28.89,15,3/9/2021,PayPal,99172 Pond Lane,4,433.35
+C111,Sara,Mehta,Female,ebrightynp@odnoklassniki.ru,P031,Noise Cancelling Headphones,,93.75,23,4/23/2021,Credit Card,1 Lyons Junction,6,2156.25
+C111,Sara,Mehta,Female,awoolensnq@google.com.br,P002,,Electronics,28.0,,4/25/2021,Apple Pay,377 Truax Court,4,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1
+C110,Liam,Thompson,Male,aglendzernr@joomla.org,P020,Face Moisturizer,Health & Personal Care,88.5,11,3/19/2021,Credit Card,1230 Fair Oaks Center,6,973.5
+C108,Arjun,Verma,Male,mchurchesns@linkedin.com,P016,Yoga Mat,Sports & Outdoors,27.8,15,4/7/2021,COD,83 Clarendon Hill,7,417.0
+C114,Noah,Shah,Male,fringent@stumbleupon.com,P032,LED Desk Lamp,Home & Kitchen,88.69,20,5/11/2021,Credit Card,9 Graceland Alley,8,1773.8
+C110,,Thompson,Male,mcridlannu@livejournal.com,P016,Yoga Mat,Sports & Outdoors,71.04,6,5/13/2021,cash,2908 Raven Street,4,426.24
+C113,Aisha,Desai,Female,mbugbynv@apache.org,P042,,Health & Personal Care,78.5,13,3/1/2021,COD,77196 Sloan Circle,6,1020.5
+C105,Priya,Nair,Female,bkernesnw@blogs.com,P048,Car Air Freshener,Automotive,89.68,4,4/28/2021,PayPal,30 Hoffman Place,8,
+C114,Noah,Shah,Male,lnattnx@vistaprint.com,P019,Toothbrush Set,Health & Personal Care,40.43,21,5/20/2021,PayPal,66 Orin Plaza,4,849.03
+C107,Sophia,Singh,Female,pkermathny@samsung.com,P013,Board Game: Codenames,Toys & Games,16.9,9,1/29/2021,Credit Card,50335 Rowland Alley,7,152.1
+C108,Arjun,Verma,Male,mreesonnz@constantcontact.com,P035,Winter Scarf,Clothing,81.29,21,1/26/2021,Apple Pay,0 Shelley Court,,1707.09
+C109,Maya,Rodriguez,Female,sblytheo0@slate.com,P002,Smartwatch,,2.98,17,6/22/2021,PayPal,7720 Pawling Court,7,50.66
+C115,Isabella,,,padamowitzo1@about.me,P044,Pasta Sauce,Grocery,39.17,8,5/20/2021,Apple Pay,8 Lakewood Park,6,313.36
+C102,Raj,Patel,Male,rdaleso2@webmd.com,P035,,Clothing,96.61,2,5/16/2021,COD,84455 Lunder Trail,7,
+C109,Maya,Rodriguez,Female,bpymmo3@webnode.com,P020,Face Moisturizer,Health & Personal Care,60.88,23,3/27/2021,COD,5 Algoma Way,4,
+C103,Emma,Chen,Female,zbarruso4@japanpost.jp,P003,Bluetooth Speaker,Electronics,88.47,19,,PayPal,,5,1680.93
+C106,David,Kim,Male,mandriuzzio5@theatlantic.com,P009,Casual T-Shirt,Clothing,88.34,14,2/13/2021,COD,73 Union Point,6,
+C114,Noah,Shah,Male,gcouzenso6@irs.gov,P022,Organic Green Tea,Grocery,84.37,12,4/7/2021,cash,9651 Prairie Rose Alley,7,1012.44
+C112,Ethan,Wong,,tloosemoreo7@google.com.au,P038,,Toys & Games,72.02,15,2/1/2021,Credit Card,89256 Roxbury Pass,4,1080.3
+C105,Priya,Nair,Female,scorballiso8@dmoz.org,P038,Rubik’s Cube,,74.19,13,1/29/2021,PayPal,69605 Talisman Parkway,8,964.47
+C107,,Singh,Female,,P028,Car Vacuum Cleaner,Automotive,57.91,8,1/29/2021,COD,10 Sutherland Drive,8,463.28
+C104,Omar,Ali,Male,eborneoa@geocities.com,P019,Toothbrush Set,Health & Personal Care,34.33,19,5/14/2021,Credit Card,416 International Avenue,5,652.27
+C102,Raj,Patel,Male,cagentob@washington.edu,P022,,Grocery,28.29,22,5/24/2021,Apple Pay,6649 Merry Junction,7,622.38
+C107,Sophia,Singh,Female,blacroceoc@google.cn,P015,Plush Teddy Bear,Toys & Games,2.34,11,3/26/2021,PayPal,2 Sheridan Trail,8,25.74
+C105,Priya,Nair,Female,cbailissod@bluehost.com,P048,Car Air Freshener,Automotive,25.07,24,2/21/2021,PayPal,9082 Shopko Crossing,5,601.68
+C103,Emma,Chen,Female,fapplegateoe@gnu.org,P027,Wireless Mouse,Office Supplies,27.82,19,4/4/2021,PayPal,300 Starling Center,6,528.58
+C107,Sophia,Singh,Female,fblockleyof@cbsnews.com,P024,,Grocery,11.06,23,4/15/2021,cash,53 Blaine Avenue,8,254.38
+C106,David,Kim,,aiamittiiog@telegraph.co.uk,P021,Hair Dryer,Health & Personal Care,76.41,14,3/31/2021,COD,,8,1069.74
+C107,Sophia,Singh,Female,cpinckneyoh@utexas.edu,P050,Dashboard Phone Mount,Automotive,78.17,10,6/15/2021,Apple Pay,6 Arrowood Terrace,5,781.7
+C113,Aisha,Desai,Female,rklaessenoi@google.de,P011,"""Atomic Habits""",Books,,20,3/23/2021,Apple Pay,34429 Boyd Drive,6,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1
+C111,Sara,Mehta,Female,,P043,Vitamin C Gummies,Health & Personal Care,29.71,10,1/13/2021,Credit Card,,4,
+C104,,Ali,Male,sfurberok@comcast.net,P014,Lego Creator Set,Toys & Games,66.88,17,2/12/2021,PayPal,9129 International Place,6,1136.96
+C108,Arjun,Verma,Male,bfilanol@creativecommons.org,P006,Vacuum Cleaner,Home & Kitchen,91.4,12,2/25/2021,Credit Card,67017 Messerschmidt Pass,7,1096.8
+C101,Alice,Johnson,Female,nvaenom@baidu.com,P043,Vitamin C Gummies,Health & Personal Care,,22,3/31/2021,Apple Pay,75037 Barby Court,5,
+C105,Priya,Nair,Female,dwyllcockon@miitbeian.gov.cn,P048,Car Air Freshener,Automotive,95.39,17,5/30/2021,Credit Card,605 Meadow Valley Plaza,4,1621.63
+C109,Maya,Rodriguez,Female,ldinseoo@techcrunch.com,P026,Ballpoint Pens,Office Supplies,75.3,11,5/14/2021,Credit Card,,5,828.3
+C108,,Verma,Male,,P046,Sticky Notes (3x3),Office Supplies,88.32,22,4/10/2021,Credit Card,2154 Coolidge Drive,4,1943.04
+C104,Omar,Ali,Male,nmacshirieoq@mac.com,P025,Notebook (5-pack),Office Supplies,1.53,17,5/20/2021,PayPal,354 Buena Vista Lane,6,26.01
+C115,Isabella,Das,Female,bpaleyor@hibu.com,P043,Vitamin C Gummies,Health & Personal Care,39.96,15,3/19/2021,cash,19816 Sunbrook Center,8,599.4
+C113,Aisha,,Female,gseggeos@cbsnews.com,P003,Bluetooth Speaker,Electronics,85.88,1,3/16/2021,COD,03096 Towne Circle,7,85.88
+C107,Sophia,Singh,Female,vflaubertot@wikipedia.org,P037,Coloring Book for Adults,Books,20.05,4,6/14/2021,cash,40889 Sugar Road,4,80.2
+C112,Ethan,Wong,Male,wclawsleyou@imgur.com,P012,"""Deep Work""",Books,55.92,24,3/23/2021,COD,3274 Northridge Circle,4,1342.08
+C115,Isabella,Das,,aflyeov@odnoklassniki.ru,P028,Car Vacuum Cleaner,Automotive,36.67,20,1/19/2021,Credit Card,14352 Lindbergh Point,6,733.4
+C101,Alice,Johnson,Female,amckerrowow@istockphoto.com,P021,Hair Dryer,Health & Personal Care,26.42,10,4/13/2021,cash,591 Sullivan Road,7,264.2
+C104,Omar,Ali,Male,bgumbox@nydailynews.com,P031,Noise Cancelling Headphones,Electronics,6.41,18,5/22/2021,Credit Card,5090 Manitowish Point,5,115.38
+C115,Isabella,Das,Female,,P034,Maxi Dress,Clothing,90.34,14,3/30/2021,COD,56427 Cambridge Park,5,1264.76
+C103,Emma,,,gbillingeoz@wordpress.org,P034,Maxi Dress,Clothing,83.71,6,1/9/2021,Apple Pay,4050 Utah Drive,7,502.26
+C110,,Thompson,Male,ltunstallp0@intel.com,P037,Coloring Book for Adults,Books,18.23,22,6/28/2021,PayPal,36 Carpenter Lane,7,
+C114,Noah,Shah,,,P039,Jigsaw Puzzle (1000 pcs),Toys & Games,90.34,18,4/21/2021,cash,173 Banding Hill,5,1626.12
+C114,Noah,Shah,Male,lmarchp2@indiegogo.com,P047,Highlighters (6-pack),Office Supplies,20.56,24,,PayPal,60 Hoffman Crossing,6,493.44
+C104,Omar,Ali,Male,tlevinsp3@live.com,P012,"""Deep Work""",Books,60.59,7,3/22/2021,COD,531 Lillian Alley,5,424.13
+C101,Alice,Johnson,Female,elyttonp4@acquirethisname.com,P009,Casual T-Shirt,Clothing,7.36,22,2/9/2021,cash,7784 Mockingbird Junction,7,161.92
+C101,Alice,Johnson,Female,ggoodenoughp5@friendfeed.com,P010,"""The Alchemist""",,73.7,10,3/14/2021,Apple Pay,6764 International Terrace,5,737.0
+C108,Arjun,Verma,Male,kkettonp6@ezinearticles.com,P034,Maxi Dress,Clothing,97.52,15,3/22/2021,cash,5 Pennsylvania Plaza,4,1462.8
+C103,Emma,Chen,Female,ltrobridgep7@issuu.com,P024,Almond Butter,Grocery,25.27,2,4/4/2021,cash,29423 Monument Park,6,50.54
+,Sophia,Singh,Female,vnewhousep8@mail.ru,P041,Protein Shake Bottle,,52.27,4,6/9/2021,COD,764 Rieder Street,4,209.08
+C115,,Das,Female,tfrankenp9@prnewswire.com,P041,Protein Shake Bottle,Sports & Outdoors,89.14,18,6/17/2021,Apple Pay,80 Washington Drive,5,1604.52
+C111,Sara,Mehta,Female,,P009,Casual T-Shirt,Clothing,17.55,15,1/7/2021,COD,7628 Cambridge Way,8,263.25
+C113,Aisha,Desai,,,P015,Plush Teddy Bear,Toys & Games,21.93,,5/3/2021,Apple Pay,35138 Calypso Hill,8,
+C112,Ethan,Wong,Male,owalasikpc@xing.com,P006,Vacuum Cleaner,Home & Kitchen,54.52,15,4/26/2021,PayPal,6 Eastlawn Drive,4,817.8
+C113,Aisha,Desai,Female,afitzsimmonspd@slashdot.org,P034,Maxi Dress,Clothing,89.08,8,2/10/2021,Credit Card,59528 Jenna Hill,4,712.64
+C109,Maya,Rodriguez,Female,rthurbype@privacy.gov.au,P048,Car Air Freshener,Automotive,43.88,,4/14/2021,PayPal,29024 Mccormick Road,,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1
+C114,Noah,Shah,Male,hunsworthpf@gravatar.com,P042,First Aid Kit,Health & Personal Care,53.18,21,4/23/2021,cash,4 Fair Oaks Junction,6,
+C104,Omar,Ali,Male,kmacardpg@smugmug.com,P011,"""Atomic Habits""",Books,53.94,4,1/31/2021,Credit Card,3 High Crossing Crossing,4,215.76
+C113,Aisha,,Female,odominicoph@yale.edu,P015,Plush Teddy Bear,Toys & Games,3.93,12,4/26/2021,cash,020 Badeau Parkway,8,47.16
+C106,David,Kim,Male,bbortoluttipi@pagesperso-orange.fr,P045,Breakfast Cereal,Grocery,81.21,13,1/22/2021,PayPal,536 Dixon Hill,7,1055.73
+C108,Arjun,Verma,Male,hscrymgeourpj@indiegogo.com,P038,Rubik’s Cube,Toys & Games,45.63,3,1/19/2021,PayPal,85238 Vera Hill,8,136.89
+C102,Raj,Patel,,sjancypk@squidoo.com,P030,Steering Wheel Cover,Automotive,54.31,6,1/1/2021,PayPal,499 Brickson Park Point,7,325.86
+C112,Ethan,Wong,Male,spinkiepl@yahoo.com,P039,Jigsaw Puzzle (1000 pcs),Toys & Games,79.38,21,4/17/2021,Credit Card,98118 David Terrace,6,1666.98
+C102,Raj,Patel,,mbreacherpm@joomla.org,P030,Steering Wheel Cover,Automotive,68.07,9,4/18/2021,COD,6 Manitowish Road,6,612.63
+C105,Priya,Nair,Female,cpietzkepn@meetup.com,P036,"""Can't Hurt Me""",Books,98.61,21,2/6/2021,cash,6 Algoma Place,8,2070.81
+C113,,Desai,Female,gtonkinsonpo@spiegel.de,P015,Plush Teddy Bear,Toys & Games,6.3,22,5/11/2021,Apple Pay,7879 Blue Bill Park Junction,5,138.6
+C114,Noah,Shah,Male,dreadiepp@thetimes.co.uk,P001,Wireless Earbuds,Electronics,78.21,,4/30/2021,PayPal,6 Sullivan Street,7,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1
+C109,Maya,Rodriguez,Female,dwithullpq@unicef.org,P016,Yoga Mat,,90.9,2,1/8/2021,COD,620 Northwestern Junction,4,181.8
+C108,Arjun,Verma,Male,kdudderidgepr@booking.com,P041,Protein Shake Bottle,Sports & Outdoors,4.59,3,1/26/2021,COD,5064 Chinook Center,4,13.77
+C109,Maya,Rodriguez,Female,fkaszperps@sourceforge.net,P036,"""Can't Hurt Me""",Books,,7,1/9/2021,cash,9804 Muir Park,7,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1
+C106,David,Kim,Male,uguerrypt@furl.net,P047,Highlighters (6-pack),Office Supplies,4.34,19,5/26/2021,PayPal,07472 Sullivan Alley,8,82.46
+C106,David,Kim,Male,jmarneypu@princeton.edu,P012,"""Deep Work""",,61.77,4,6/18/2021,COD,86286 Barnett Alley,5,247.08
+C110,Liam,Thompson,,emcbreartypv@bloglovin.com,P036,"""Can't Hurt Me""",Books,88.18,12,5/28/2021,Apple Pay,2869 Fair Oaks Drive,7,1058.16
+C101,Alice,Johnson,Female,kgarbuttpw@twitter.com,P047,Highlighters (6-pack),Office Supplies,64.6,8,5/16/2021,Credit Card,8 Maple Wood Park,8,516.8
+C107,Sophia,Singh,Female,xmorgonpx@discuz.net,P013,Board Game: Codenames,Toys & Games,70.12,13,1/6/2021,Credit Card,6934 Comanche Hill,8,911.56
+C107,Sophia,Singh,Female,lwehnerpy@tuttocitta.it,P002,Smartwatch,Electronics,93.52,3,1/20/2021,PayPal,38 Northwestern Road,8,280.56
+C111,Sara,Mehta,Female,cnequestpz@dailymail.co.uk,P041,Protein Shake Bottle,Sports & Outdoors,19.74,16,,cash,588 Trailsway Parkway,8,315.84
+,Priya,Nair,Female,mprobateq0@4shared.com,P041,Protein Shake Bottle,Sports & Outdoors,4.25,21,1/30/2021,Apple Pay,7713 Myrtle Parkway,7,89.25
+C110,,Thompson,,bgullaneq1@ocn.ne.jp,P023,Chocolate Chip Cookies,Grocery,1.95,5,4/12/2021,cash,16 Mariners Cove Hill,5,9.75
+C101,Alice,,Female,jbougourdq2@squarespace.com,P008,Women's Jacket,Clothing,86.22,22,3/26/2021,Credit Card,6476 Rusk Street,4,1896.84
+C105,Priya,Nair,Female,comalleyq3@sourceforge.net,P039,Jigsaw Puzzle (1000 pcs),Toys & Games,99.8,23,1/3/2021,PayPal,2294 Sheridan Avenue,6,2295.4
+C112,Ethan,Wong,Male,rlandaq4@macromedia.com,P014,Lego Creator Set,Toys & Games,14.41,23,4/9/2021,cash,6 Pearson Crossing,5,331.43
+C113,Aisha,Desai,Female,hdumphyq5@imgur.com,P045,Breakfast Cereal,Grocery,65.52,14,1/22/2021,COD,910 Glacier Hill Road,7,917.28
+C103,Emma,,Female,ryakubovq6@cpanel.net,P007,Men's Running Shoes,Clothing,74.47,13,6/17/2021,COD,61 Talisman Trail,8,968.11
+C114,Noah,Shah,Male,xpikenq7@archive.org,P027,Wireless Mouse,Office Supplies,41.23,24,3/17/2021,PayPal,94 Westerfield Drive,7,989.52
+C104,Omar,Ali,Male,fhammondq8@bing.com,P029,Windshield Sun Shade,Automotive,88.95,20,6/7/2021,cash,5863 Reindahl Center,,1779.0
+C101,Alice,Johnson,Female,mdodleq9@angelfire.com,P037,,Books,20.7,3,3/13/2021,PayPal,27 Kedzie Alley,6,62.1
+C108,Arjun,,Male,eswaleqa@discuz.net,P002,Smartwatch,Electronics,47.16,17,5/3/2021,cash,265 Schurz Lane,8,801.72
+C101,Alice,Johnson,Female,tcampkinqb@g.co,P041,Protein Shake Bottle,Sports & Outdoors,,25,5/7/2021,PayPal,45 Memorial Lane,5,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1
+C105,Priya,Nair,Female,vdorkensqc@youku.com,P001,Wireless Earbuds,Electronics,29.54,1,4/27/2021,Credit Card,76 Red Cloud Street,8,29.54
+C108,Arjun,Verma,,belfeqd@washingtonpost.com,P025,,,84.87,11,4/25/2021,COD,15 Brown Place,5,933.57
+C103,Emma,Chen,Female,tfeareyqe@irs.gov,P047,,Office Supplies,96.02,25,2/18/2021,PayPal,5 Sachtjen Point,5,2400.5
+C101,Alice,Johnson,Female,bmesshamqf@mozilla.com,P010,"""The Alchemist""",Books,57.88,8,4/28/2021,Credit Card,54 Crest Line Crossing,5,
+C109,Maya,Rodriguez,Female,rtironqg@nature.com,P025,,Office Supplies,96.64,25,6/3/2021,PayPal,39 Thierer Plaza,8,2416.0
+C109,Maya,Rodriguez,Female,lgabelqh@washington.edu,P033,Coffee Mug Set,Home & Kitchen,69.85,18,5/26/2021,Credit Card,76 Londonderry Court,4,1257.3
+C115,Isabella,Das,Female,ebewickqi@flickr.com,P048,Car Air Freshener,Automotive,62.12,10,4/21/2021,cash,4 Village Green Park,7,621.2
+C106,David,Kim,Male,dbaggaleyqj@youku.com,P019,Toothbrush Set,Health & Personal Care,85.57,4,1/26/2021,PayPal,3 Roxbury Parkway,6,342.28
+C111,Sara,Mehta,Female,kdartanqk@google.it,P005,Nonstick Frying Pan,Home & Kitchen,72.19,21,1/11/2021,COD,1378 Ludington Center,6,1515.99
+C106,David,Kim,Male,,P021,Hair Dryer,Health & Personal Care,7.16,4,5/17/2021,cash,79 Manley Place,4,28.64
+,Noah,Shah,Male,arosewellqm@un.org,P039,Jigsaw Puzzle (1000 pcs),Toys & Games,35.55,18,2/10/2021,PayPal,0 Jay Road,4,639.9
+C101,Alice,Johnson,,hmcnaeqn@pinterest.com,,Breakfast Cereal,Grocery,63.69,20,4/3/2021,COD,2147 Fair Oaks Alley,7,1273.8
+C112,Ethan,Wong,Male,lmoreingqo@omniture.com,P005,Nonstick Frying Pan,Home & Kitchen,65.93,16,4/11/2021,COD,1461 Sunnyside Point,6,1054.88
+C110,Liam,Thompson,Male,drowlandqp@bravesites.com,P046,Sticky Notes (3x3),Office Supplies,64.93,15,5/26/2021,COD,33 Vidon Terrace,8,973.95
+C104,Omar,Ali,Male,ngilfordqq@ovh.net,P040,Resistance Bands,Sports & Outdoors,37.98,14,5/15/2021,PayPal,325 Village Green Street,4,531.72
+C113,Aisha,Desai,Female,shercockqr@army.mil,P018,Running Shorts,Sports & Outdoors,93.85,9,2/20/2021,Apple Pay,69 Chive Park,5,844.65
+C115,Isabella,Das,Female,,P010,"""The Alchemist""",Books,66.87,11,6/21/2021,cash,0672 Sunfield Plaza,5,735.57
+C110,Liam,Thompson,Male,klemarieqt@istockphoto.com,P002,Smartwatch,Electronics,25.99,10,5/28/2021,COD,41 Springs Trail,8,259.9
+C112,Ethan,Wong,Male,,P013,Board Game: Codenames,Toys & Games,59.59,25,5/20/2021,Credit Card,78272 Merry Lane,,1489.75
+C109,Maya,Rodriguez,Female,nknowlingqv@utexas.edu,P023,Chocolate Chip Cookies,Grocery,86.76,7,1/13/2021,PayPal,,5,607.32
+C101,Alice,Johnson,Female,plutherqw@ox.ac.uk,P008,Women's Jacket,Clothing,10.48,25,3/12/2021,cash,895 Upham Junction,6,262.0
+C110,Liam,Thompson,Male,bbaythropqx@forbes.com,P028,Car Vacuum Cleaner,Automotive,83.7,24,2/25/2021,Credit Card,3145 Green Ridge Plaza,5,2008.8
+C115,Isabella,Das,Female,krosoneqy@epa.gov,P017,Dumbbell Set (15lb),Sports & Outdoors,83.44,24,4/4/2021,Apple Pay,43679 Warbler Center,7,2002.56
+C115,Isabella,Das,Female,,,Steering Wheel Cover,Automotive,80.12,22,4/15/2021,Credit Card,5999 Pennsylvania Junction,5,1762.64
+C112,Ethan,Wong,Male,jnairer0@wordpress.com,P015,Plush Teddy Bear,Toys & Games,4.45,3,,COD,4337 Sheridan Trail,7,13.35
+C101,Alice,Johnson,Female,eglawsopr1@alibaba.com,P011,"""Atomic Habits""",Books,48.36,8,6/14/2021,COD,11541 Coolidge Alley,4,386.88
+C106,David,Kim,Male,mlearmouthr2@hibu.com,P009,Casual T-Shirt,Clothing,8.44,8,1/20/2021,cash,5 Ilene Hill,8,67.52
+C115,Isabella,Das,,escorerr3@usa.gov,P005,Nonstick Frying Pan,Home & Kitchen,72.95,19,3/23/2021,COD,61788 Superior Way,8,1386.05
+C112,Ethan,Wong,Male,vlindstromr4@google.es,P011,"""Atomic Habits""",Books,98.76,19,1/8/2021,Apple Pay,04 Shelley Way,5,1876.44
+C110,Liam,Thompson,Male,srosindillr5@hostgator.com,P018,Running Shorts,,,20,5/31/2021,PayPal,9090 Rieder Way,4,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1
+C107,Sophia,Singh,,cjouannissonr6@prweb.com,P010,"""The Alchemist""",Books,30.67,2,3/21/2021,Apple Pay,97 Reindahl Court,8,61.34
+C110,Liam,,Male,sfawkesr7@goo.gl,P012,"""Deep Work""",Books,86.72,18,3/12/2021,Credit Card,,8,1560.96
+C104,Omar,Ali,Male,aradbournr8@e-recht24.de,P010,"""The Alchemist""",Books,86.2,9,1/15/2021,COD,4 Colorado Place,5,775.8
+C110,Liam,Thompson,Male,mduchesner9@people.com.cn,P005,Nonstick Frying Pan,Home & Kitchen,90.77,21,3/13/2021,PayPal,6446 Towne Park,5,1906.17
+C115,Isabella,Das,Female,ktebbittra@google.com.hk,P022,Organic Green Tea,Grocery,46.37,20,1/21/2021,cash,8 Welch Street,5,927.4
+C101,Alice,Johnson,Female,fjillionsrb@spiegel.de,P014,Lego Creator Set,Toys & Games,,10,6/27/2021,COD,160 Dovetail Court,6,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1
+C104,Omar,Ali,Male,wwidgerrc@shutterfly.com,P047,Highlighters (6-pack),Office Supplies,16.15,6,1/31/2021,Apple Pay,62 Towne Alley,,
+C102,Raj,Patel,Male,wlundrd@freewebs.com,P022,Organic Green Tea,Grocery,8.35,14,4/23/2021,Credit Card,808 Anzinger Alley,5,116.9
+C104,Omar,Ali,,fgowre@chronoengine.com,P026,Ballpoint Pens,Office Supplies,29.58,12,5/1/2021,PayPal,315 Eggendart Point,6,354.96
+C108,Arjun,Verma,,kcrowerf@free.fr,P041,Protein Shake Bottle,Sports & Outdoors,5.58,18,6/13/2021,cash,9 Nobel Road,4,100.44
+C101,Alice,Johnson,Female,gwhilesrg@noaa.gov,P040,Resistance Bands,Sports & Outdoors,,20,6/17/2021,COD,0 Homewood Way,7,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1
+C102,Raj,Patel,Male,chuggensrh@edublogs.org,P006,Vacuum Cleaner,Home & Kitchen,26.79,20,4/4/2021,cash,90611 Summit Circle,5,
+C105,Priya,Nair,Female,sdeversri@fotki.com,P018,Running Shorts,Sports & Outdoors,69.72,8,6/1/2021,COD,503 Cody Parkway,7,557.76
+C106,David,Kim,Male,lwestburyrj@fc2.com,P022,Organic Green Tea,Grocery,63.92,8,2/24/2021,cash,32579 Shopko Avenue,5,511.36
+C115,Isabella,Das,Female,pbrimnerrk@amazonaws.com,P023,Chocolate Chip Cookies,Grocery,15.11,14,2/6/2021,PayPal,7293 Pankratz Hill,6,211.54
+C106,David,Kim,Male,ysparshottrl@1688.com,P045,Breakfast Cereal,Grocery,65.23,19,6/10/2021,cash,48958 Fair Oaks Parkway,6,1239.37
+C106,David,Kim,Male,atattersallrm@alibaba.com,P018,Running Shorts,Sports & Outdoors,25.81,6,5/1/2021,Apple Pay,47308 Hoepker Circle,7,154.86
+C102,,Patel,Male,pbewliern@ibm.com,P050,Dashboard Phone Mount,Automotive,,2,1/4/2021,COD,72515 Fremont Plaza,8,error: Could not access blank value: Use || to provide a default value for blank fields.  Example: (my_field || 0) + 1
+C104,Omar,Ali,Male,,P020,Face Moisturizer,Health & Personal Care,3.4,17,1/27/2021,cash,95636 Jay Parkway,5,57.8
+C110,Liam,Thompson,,cjertzrp@yahoo.com,P006,Vacuum Cleaner,,27.07,14,3/9/2021,Apple Pay,89000 Elka Drive,5,378.98
+C101,Alice,,Female,rbradickrq@nymag.com,P047,Highlighters (6-pack),Office Supplies,21.96,16,4/27/2021,cash,018 Fulton Court,5,351.36
+C110,Liam,Thompson,,tgirvinrr@webs.com,P039,Jigsaw Puzzle (1000 pcs),Toys & Games,90.37,6,6/1/2021,Apple Pay,6050 Toban Avenue,8,542.22
